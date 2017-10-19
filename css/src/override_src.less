@@ -1,0 +1,274 @@
+//out: ../override.css, compress: false, strictMath: true
+body,html{
+    
+    
+    font-family: 'EB Garamond 08';
+    font-size: 14px;
+    
+    backrground: url("../images/tile.png");
+    
+}
+
+@media (min-width: 500px){
+    
+    body,html{
+    
+    font-family: 'EB Garamond 08';
+    font-size: 10px;
+    
+}
+/***********************/
+/**-BASIC TEXT STYLES-**/
+/***********************/
+p{
+    
+    text-align: justify;
+    font-size: 2.4rem;
+    
+}
+
+    a{
+        
+        color: #b8a366;
+        
+        
+    }
+    
+h1,h2,h3,h4{
+    
+    font-family:  'EB Garamond SC 08';
+    
+}
+
+h1{
+	font-size: 6.4rem;
+	}
+h2{
+	font-size: 5.6rem;
+    margin: .8rem 0;
+	}
+h3{
+	margin: 1.3rem 0;
+    	font-size: 3.6rem;
+       	}
+h4{
+    
+    font-size: 3.2rem;
+}
+
+
+    #main-wrap{
+        
+        font-size: 20px;
+        
+    }
+
+/**********************/
+/*******-LAYOUT-*******/
+/**********************/
+
+header.subsection-header{
+    
+    background: red;
+    padding: 1rem;
+    
+}
+
+#page-content-wrap{
+    
+    box-sizing: border-box;
+    
+}
+
+@media (min-width: 1000px){
+    #page-content-wrap{
+    margin-left: -10%;
+    padding-right: 5%;
+    }
+    
+}
+
+@media (min-width: 1400px){
+    #page-content-wrap{
+    padding: 0;
+    margin: 0;
+    }
+    
+}
+/**********************/
+/********-MENU-********/
+/**********************/
+
+#main-menu{
+    display: none;
+    
+}
+
+@media (min-width: 750px){
+#main-menu{
+    display: block;
+    margin-top: 20px;
+    
+}
+
+
+#main-menu nav{
+display: block; 
+padding: 10px 50px 10px 20px;
+border: 4px dashed #ffda61;
+margin: 6px;
+    width: 100%;
+    text-align: center;
+}
+#main-menu nav li:last-of-type{
+margin-bottom: -40px;
+}
+nav>ul{
+    
+    list-style: none;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav>ul>li{
+    display: inline;
+    font-family: 'EB Garamond 08';
+    font-weight: normal;
+    font-style: italic;
+    list-style: none;
+    list-style-type: none;
+    text-align: center;
+        margin: 0 2rem;
+    
+}
+nav>ul>li>a{
+    
+    font-size: 38px;
+    text-decoration: none;
+    border-bottom: 4px solid;/*#8f1346;*/
+    display: inline-block;
+	line-height: 28px;   
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    color: #000;
+    transition-property: color, text-shadow, border-bottom, margin, mix-blend-mode;
+    transition-timing-function: linear;
+    transition-duration: .2s;
+    box-sizing: border-box;
+}
+
+nav>ul>li>a:hover{
+    color: #ffff8b;
+
+    text-shadow: 0px 0px 1px;
+
+    transition-property: color, text-shadow, border-bottom, margin;
+    transition-timing-function: linear;
+    transition-duration: .2s;    
+}
+nav a{
+    
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+@media (min-width: 1000px) { /*the computadores*/
+    
+    #main-menu{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 999; //largest possible
+    }
+    
+    nav>ul>li{
+    display: block;
+    line-height: 80px;
+        margin: 0;
+    
+}
+    nav>ul{
+        text-align: left;
+    }
+}
+}
+
+/**********************/
+/****-END*MENU-********/
+/**********************/
+
+.inserted_lines{ //javascript created descriptor lines
+    
+    display: none;
+    
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+    
+    .inserted_line{
+        
+        display: block;
+        position: absolute;
+        transition: transform, top, left, border .05s linear;
+        
+    }
+    
+    
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+/**********************/
+/****-COOL*STUFF-******/
+/**********************/
+
+/**********************/
+/****-END*COOL STUFF-**/
+/**********************/
+
+
+
+
+/***********************/
+/*-CONDITIONAL*QUERIES-*/
+/***********************/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    
+    .mobile-only{
+        
+        display: initial;
+        
+    }
+    
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    
+    .mobile-only{
+        
+        display: none;
+        
+    }
+    
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

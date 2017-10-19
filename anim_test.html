@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animation test</title>
+
+	<style>
+
+	@keyframes heightify{
+
+	0%{
+	height: 1%;
+	}
+	
+	100%{
+	height: 100%;
+	}
+	}	
+	#body{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	position: relative;
+	}
+	#body>img{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-image: url('images/contours.png');
+		}
+	#body>div{
+	content: '';
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	left: 0;
+	width: 100%;
+	height: 1%;
+	background: url('images/telo_rw.png');
+	}
+	#body:hover>div{
+
+	animation: heightify 5s ease-in-out forwards;
+	}	
+	
+	#body>div>img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0;
+	top: 0px;
+	}
+	</style>
+</head>
+<body>
+		<div id="body">
+			<img src="images/contours.png" id = "body" alt="telo">
+			<div><img src="images/telo_rw.png" alt=""></div>
+		</div>
+</body>
+</html>
