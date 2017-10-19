@@ -378,7 +378,7 @@ function handleScroll(transitions){
                 //console.log('alt: ', alt.getBoundingClientRect().top );
         
         //if (!_scrolledPast) {
-            var scrollOffset = 100 * (countup++ + .85) - 300;
+            var scrollOffset = 100 * (countup++ + .85) - 220;
         //console.log('countup:', scrollOffset);
             if (document.getElementById(pointersRef[0].alt).getBoundingClientRect().top < scrollOffset) {//temporary
                 _scrolledPast = true;
@@ -421,11 +421,11 @@ function handleScroll(transitions){
 	    'disableUnlessPerformant': _scrolledPast,
         });
     });
-   if(_scrolledPast){
+  /* if(_scrolledPast){
 	document.body.classList.add('no-lines');
 	}else if(document.body.classList.contains('no-lines')){
 	document.body.classList.remove('no-lines');
-	}
+	}*/
     function pointersDelegate(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
         updatePointers(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink);
     }
