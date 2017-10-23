@@ -185,6 +185,8 @@ var getOffset = function (object) {
 
 }
 
+var performanceTempString = "";
+
 function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
     //query lines -- make them if not made, init SVG if not inited (or call as prerequisitei)
     ////console.log(points);
@@ -193,8 +195,10 @@ function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bu
     
 
 if(performance.now() - then < 128){
-    
-     performanceAverageator+=(performance.now() - then);
+   var diff = performance.now() - then; 
+     performanceAverageator+=diff;
+	performanceTempString += (diff + ",");
+	console.log(performanceTempString);	
         then = performance.now();
         performanceAverageator/=(++performanceCountator);
     console.log("Time difference in scrolling",performanceAverageator, performanceCountator);	}
@@ -293,12 +297,12 @@ if(performance.now() - then < 128){
 
 }
 
-var pointersRef = [/*{
-        anchor: 'program-link',
-        alt: 'program',
+var pointersRef = [{
+        anchor: 'harmonogram-link',
+        alt: 'harmonogram',
         x: 0.39,
         y: 0.09
-    },*/
+    },
     {
         anchor: 'o-akci-link',
         alt: 'o-akci',

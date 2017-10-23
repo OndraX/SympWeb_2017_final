@@ -35,7 +35,7 @@ p,span {
 p{
     margin-bottom: 1.1rem;    
 }
-a {
+a, .notice{
     color: #9e1010;
     text-decoration: none;
 }
