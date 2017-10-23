@@ -387,7 +387,7 @@ function handleScroll(transitions){
                 //console.log('alt: ', alt.getBoundingClientRect().top );
         
         //if (!_scrolledPast) {
-            var scrollOffset = 100 * (countup++ + .85) - 220;
+            var scrollOffset = 60 * (countup++ + .85) - 100;
         //console.log('countup:', scrollOffset);
             if (document.getElementById(pointersRef[0].alt).getBoundingClientRect().top < scrollOffset) {//temporary
                 _scrolledPast = true;
