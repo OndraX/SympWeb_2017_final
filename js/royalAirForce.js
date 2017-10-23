@@ -197,7 +197,7 @@ function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bu
 if(performance.now() - then < 128){
    var diff = performance.now() - then; 
      performanceAverageator+=diff;
-	performanceTempString += (diff + ",");
+	performanceTempString = diff + "," + performanceTempString;
 	console.log(performanceTempString);	
         then = performance.now();
         performanceAverageator/=(++performanceCountator);
@@ -387,7 +387,7 @@ function handleScroll(transitions){
                 //console.log('alt: ', alt.getBoundingClientRect().top );
         
         //if (!_scrolledPast) {
-            var scrollOffset = 60 * (countup++ + .85) - 100;
+            var scrollOffset = 60 * (countup++ + .85) - 10;
         //console.log('countup:', scrollOffset);
             if (document.getElementById(pointersRef[0].alt).getBoundingClientRect().top < scrollOffset) {//temporary
                 _scrolledPast = true;
