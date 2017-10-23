@@ -300,7 +300,7 @@ if(performance.now() - then < 128){
 var pointersRef = [{
         anchor: 'harmonogram-link',
         alt: 'harmonogram',
-        x: 0.39,
+        x: 0.58,
         y: 0.09
     },
     {
@@ -352,6 +352,11 @@ window.addEventListener('onmousewheel', function(){
 window.addEventListener('DOMContentLoaded', function(){console.log("loaded");
                                            handleScroll();});
 
+document.body.addEventListener('DOMContentLoaded', function(){console.log("loaded");
+                                           handleScroll();});
+
+window.addEventListener('load', function(){console.log("loaded");
+                                           handleScroll();});
 window.addEventListener('resize', handleScroll);
 
 
