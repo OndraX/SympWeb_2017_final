@@ -37,7 +37,11 @@ p{
 }
 a, .notice{
     color: #9e1010;
+}
+.notice{
     text-decoration: none;
+    text-transform: initial !important;
+    font-family: 'EB Garamond 08';
 }
 h1,
 h2,

@@ -157,7 +157,7 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
         }else{
             
             main.style.display = "none";
-            console.log(main);
+            //console.log(main);
         }
 
 	}
@@ -366,7 +366,7 @@ window.addEventListener('onmousewheel', handleScroll);
 window.addEventListener('touchmove', handleScroll);
 
 function handleScroll(transitions){
-    console.log("scrolling");
+    //console.log("scrolling");
     var countup = 0;
     var setCurrentLink = null;
     //console.log('handling that scroll');
