@@ -2,11 +2,14 @@
 document.body.classList.remove('scrolled-past-menu');
 document.body.classList.remove('noscript');
 function getCookie(cname) {
+
+
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
     var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
+    for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
+	console.log("cookie:",c);
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
         }
@@ -27,6 +30,8 @@ function setCookie(cname, cvalue, exdays) {
 	
 var fps = 0;
 var then = 0;
+var _stopLines = false,
+    _removeLines = false;
 var deviceFPSCounter = document.createElement('div');
 document.body.appendChild(deviceFPSCounter);
 deviceFPSCounter.style.position = 'fixed';
@@ -43,8 +48,9 @@ var performanceAverageator = 0, performanceCountator = 0;
 var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,scrolledTo, figureHeight, bufferHeight, elementTop,disable){
 	    var main, ab, bc, cd;
 	    var offsetRight = (figureHeight - scrolledTo) / 12 + oright;
-       
-	//Temp: performance detection
+      
+
+ 
     if(elementTop < bufferHeight){
             offsetRight =  Math.max( figureHeight/6 + (oright - scrolledTo)/6, 25); //TODO: equations for correct alignment
         }
@@ -89,8 +95,10 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
 	        bc = document.getElementById(key + '_bc');
 	        cd = document.getElementById(key + '_cd');
 
+
 	        main.classList.add("animate-transform");
-	    }
+	  
+  }
         if(!disable){
         var degree;
     
@@ -157,8 +165,14 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
         }else{
             
             main.style.display = "none";
-            //console.log(main);
-        }
+          
+		 //console.log(main);
+        
+		if(_removeLines){
+		main.parentNode.removeChild(main);
+		_stopLines = true;
+		}
+		}
 
 	}
 
@@ -185,7 +199,7 @@ var getOffset = function (object) {
 
 }
 
-var performanceTempString = "";
+var performanceTempString = "",performanceAverageator = 0,performanceFinal = 0;
 
 function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
     //query lines -- make them if not made, init SVG if not inited (or call as prerequisitei)
@@ -193,15 +207,17 @@ function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bu
     
     
     
+//BEGIN PERFORMANCE DETECTION
 
-if(performance.now() - then < 128){
    var diff = performance.now() - then; 
+
+if(diff < 128){ //if you have actually scrolled
      performanceAverageator+=diff;
 	performanceTempString = diff + "," + performanceTempString;
-	console.log(performanceTempString);	
+	console.log("s: ",performanceTempString);	
         then = performance.now();
-        performanceAverageator/=(++performanceCountator);
-    console.log("Time difference in scrolling",performanceAverageator, performanceCountator);	}
+        performanceFinal=performanceAverageator/(++performanceCountator);
+    console.log("Time difference in scrolling: f:",performanceFinal,", a:",performanceAverageator,", c:",performanceCountator);	}
     
     then = performance.now();
     var first =  document.getElementById('first-heading') || document.getElementsByTagName('h2')[0];
@@ -215,15 +231,24 @@ if(performance.now() - then < 128){
     
     if(eltop < 250){
         
-        if(performanceAverageator > 50){ //less than 20fps @ 60Hz        
+        if(performanceFinal > 50){ //less than 20fps @ 60Hz        
             
             console.log("BEEP BEEP! You appear to have a really awfully slow device." ,performanceAverageator, performanceCountator);	
+            if(performanceCountator > 3){
+		if(_scrolledPast || performanceCountator > 9){
+		document.body.classList.add('no-lines');
+		}
+		console.log('delinificating');
+		}
+	}
+        }else if((performanceFinal > 60) && performanceCountator > 24){ //more than half a second of awful performance
             
+
+ 	setCookie('COOKIE_SLOW_DEVICE','TRUE');
+		_removeLines = true;
+	console.log('')
         }
-        }else{
-            
-        }
-    
+    //END TEMP PERFORMANCE DETECTION
     
     
     points.forEach(function (element, index, object) {
@@ -245,7 +270,7 @@ if(performance.now() - then < 128){
         }
         }
 	/*if(!disableUnlessPerformant || performantDevice || true){*/
-        rightAngledLines(e['parent'], e['dx'],e['dy'], id, offsetLeft,offsetRight,e['parentHeight'],e['parentWidth'],scrolledTo,figureHeight,bufferHeight,eltop,e['disableUnlessPerformant']);
+        rightAngledLines(e['parent'], e['dx'],e['dy'], id, offsetLeft,offsetRight,e['parentHeight'],e['parentWidth'],scrolledTo,figureHeight,bufferHeight,eltop,e['disableUnlessPerformant'] | _removeLines);
         /*}else{
         var tempElem = document.getElementById(id);
         //console.log('tempElem:', tempElem)
@@ -349,7 +374,14 @@ window.addEventListener('onmousewheel', function(){
         wheelJaggednessTimer = setTimeout(function(){window.scrollTo(window.scrollX, window.scrollY);}, 500)});
 */
 
-window.addEventListener('DOMContentLoaded', function(){console.log("loaded");
+window.addEventListener('DOMContentLoaded', function(){
+						
+
+					  	var stopLines = getCookie('COOKIE_SLOW_DEVICE');
+
+if(stopLines === "TRUE")
+	_stopLines = true;
+					   console.log("loaded");
                                            handleScroll();});
 
 document.body.addEventListener('DOMContentLoaded', function(){console.log("loaded");
@@ -438,10 +470,12 @@ function handleScroll(transitions){
     function pointersDelegate(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
         updatePointers(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink);
     }
+
+if(!_stopLines){
     requestAnimationFrame(function () {
         pointersDelegate(parameters,20,20,window.scrollY,document.getElementById("figura").offsetHeight,300,setCurrentLink);
     });
-    
+    }
 }
 
 function browserIsJankException() {

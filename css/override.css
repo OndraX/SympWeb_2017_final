@@ -1081,5 +1081,5 @@ text-align: left;
             /*font-size: 1.5em;*/
         }
     .no-lines .overlay-line{
-        display: none;
+        display: none !important;
     }
