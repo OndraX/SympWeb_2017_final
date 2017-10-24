@@ -239,9 +239,9 @@ if(diff < 128){ //if you have actually scrolled
 		document.body.classList.add('no-lines');
 		}
 	    }
-	}
+	
         }else{
-	if(startedScrollingAboveThing && performanceCountator < 5 && _scrolledPast){
+	if(startedScrollingAboveThing && (performanceCountator < 5 || performanceFinal > 80) && _scrolledPast){
 		document.body.classList.add('transparent-lines'); //detect devices so slow they slip through standard scroll end threshold
 	}
 	 if((performanceFinal > 60) && performanceCountator > 24){ //more than half a second of awful performance
