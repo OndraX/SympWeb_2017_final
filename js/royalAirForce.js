@@ -31,7 +31,8 @@ function setCookie(cname, cvalue, exdays) {
 var fps = 0;
 var then = 0;
 var _stopLines = false,
-    _removeLines = false;
+    _removeLines = false,
+    startedScrollingAboveThing = false;
 var deviceFPSCounter = document.createElement('div');
 document.body.appendChild(deviceFPSCounter);
 deviceFPSCounter.style.position = 'fixed';
@@ -201,7 +202,7 @@ var getOffset = function (object) {
 
 var performanceTempString = "",performanceAverageator = 0,performanceFinal = 0;
 
-function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
+function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink,enable) {
     //query lines -- make them if not made, init SVG if not inited (or call as prerequisitei)
     ////console.log(points);
     
@@ -234,20 +235,23 @@ if(diff < 128){ //if you have actually scrolled
         if(performanceFinal > 50){ //less than 20fps @ 60Hz        
             
             console.log("BEEP BEEP! You appear to have a really awfully slow device." ,performanceAverageator, performanceCountator);	
-            if(performanceCountator > 3){
-		if(_scrolledPast || performanceCountator > 9){
+           	if(_scrolledPast || performanceCountator > 6){
 		document.body.classList.add('no-lines');
 		}
-		console.log('delinificating');
-		}
+	    }
 	}
-        }else if((performanceFinal > 60) && performanceCountator > 24){ //more than half a second of awful performance
+        }else{
+	if(startedScrollingAboveThing && performanceCountator < 5 && _scrolledPast){
+		document.body.classList.add('transparent-lines'); //detect devices so slow they slip through standard scroll end threshold
+	}
+	 if((performanceFinal > 60) && performanceCountator > 24){ //more than half a second of awful performance
             
 
  	setCookie('COOKIE_SLOW_DEVICE','TRUE');
 		_removeLines = true;
 	console.log('')
         }
+	}
     //END TEMP PERFORMANCE DETECTION
     
     
@@ -270,8 +274,10 @@ if(diff < 128){ //if you have actually scrolled
         }
         }
 	/*if(!disableUnlessPerformant || performantDevice || true){*/
+
+	if(enable){
         rightAngledLines(e['parent'], e['dx'],e['dy'], id, offsetLeft,offsetRight,e['parentHeight'],e['parentWidth'],scrolledTo,figureHeight,bufferHeight,eltop,e['disableUnlessPerformant'] | _removeLines);
-        /*}else{
+        }/*else{
         var tempElem = document.getElementById(id);
         //console.log('tempElem:', tempElem)
         if (tempElem == null) {
@@ -379,8 +385,10 @@ window.addEventListener('DOMContentLoaded', function(){
 
 					  	var stopLines = getCookie('COOKIE_SLOW_DEVICE');
 
-if(stopLines === "TRUE")
+if(stopLines === "TRUE"){
 	_stopLines = true;
+	document.body.classList.add('no-lines');
+	}
 					   console.log("loaded");
                                            handleScroll();});
 
@@ -391,6 +399,13 @@ window.addEventListener('load', function(){console.log("loaded");
                                            handleScroll();});
 window.addEventListener('resize', handleScroll);
 
+var delayedExec = function(after, fn) {
+    var timer;
+    return function() {
+        timer && clearTimeout(timer);
+        timer = setTimeout(fn, after);
+    };
+};
 
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('mousewheel', handleScroll);
@@ -425,6 +440,7 @@ function handleScroll(transitions){
                 _scrolledPast = true;
             }else{
                 _scrolledPast = false;
+		 startedScrollingAboveThing = true;
             }
         //}
            // _scrolledPast = false; //*cri everitiem*
@@ -467,15 +483,13 @@ function handleScroll(transitions){
 	}else if(document.body.classList.contains('no-lines')){
 	document.body.classList.remove('no-lines');
 	}*/
-    function pointersDelegate(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink) {
-        updatePointers(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink);
+    function pointersDelegate(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink,enable) {
+        updatePointers(array,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink,enable);
     }
 
-if(!_stopLines){
     requestAnimationFrame(function () {
-        pointersDelegate(parameters,20,20,window.scrollY,document.getElementById("figura").offsetHeight,300,setCurrentLink);
+        pointersDelegate(parameters,20,20,window.scrollY,document.getElementById("figura").offsetHeight,300,setCurrentLink,!_stopLines);
     });
-    }
 }
 
 function browserIsJankException() {

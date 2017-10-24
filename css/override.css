@@ -36,10 +36,10 @@ p{
     margin-bottom: 1.1rem;    
 }
 a, .notice{
-    color: #9e1010;
+    color: #9e1010; 
+    text-decoration: none;
 }
 .notice{
-    text-decoration: none;
     text-transform: initial !important;
     font-family: 'EB Garamond 08';
 }
@@ -1080,6 +1080,10 @@ text-align: left;
             margin-left: 2%;
             /*font-size: 1.5em;*/
         }
+    .transparent-lines .overlay-line{
+        opacity: .01;
+	filter: alpha(opacity=1);
+    }
     .no-lines .overlay-line{
         display: none !important;
     }
