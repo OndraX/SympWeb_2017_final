@@ -114,7 +114,7 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
         
         //parent.innerText = _wasPositive;
     
-        
+       degree = Math.min(degree, dx); 
         var over = 3;
         
 	    parent.appendChild(main); // must be appended before styling takes place
@@ -159,9 +159,9 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
 	    ab.style.right = (width + 0) + "px";
 	    //bc.style.right = (width + offsetRight + degree) + 'px';
 	    bc.style.right = (width + offsetRight + degree) + 'px';
-	    cd.style.right = (width + offsetRight + degree) + 1 + 'px';
+	    cd.style.right = (width + offsetRight + degree) +  1 + 'px';
 	    //cd.style.right = (width + dx - oleft + degree) + 1 + 'px';
-	    cd.style.width = (dx - (width + offsetRight + degree)) + 'px';
+	    cd.style.width = Math.abs(dx - (width + offsetRight + degree)) + 'px';
             main.style.display = "block";
         }else{
             
@@ -344,8 +344,8 @@ var pointersRef = [{
     {
         anchor: 'kontakt-link',
         alt: 'kontakt',
-        x: 0.595,
-        y: 0.5
+        x: 0.16,
+        y: 0.56
     },
     {
         anchor: 'cesta-link',
