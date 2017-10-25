@@ -212,6 +212,7 @@ img.logo {
     height: auto;
     max-width: 500px;
     z-index: 900;
+    background: red;
 }
 
 @media (max-width: 1000px) {
