@@ -93,7 +93,6 @@ img.intext-illustration {
 
 #phone-menu{
     opacity: 0;
-    float: right;
     font-size: 36px;
     width: 100%;
     transition: opacity .4s ease-in-out;
@@ -212,7 +211,6 @@ img.logo {
     height: auto;
     max-width: 500px;
     z-index: 900;
-    background: red;
 }
 
 @media (max-width: 1000px) {
@@ -416,7 +414,6 @@ height: 100%;
 .drawn-out #drawer {
     width: 100%;
     height: 100%;
-    position: absolute;
     background-size: contain;
     display: block;
 }
@@ -474,7 +471,6 @@ height: 100%;
     filter: alpha(opacity=45);
     opacity: 0.45;
     transition: opacity .2s ease-in-out, transform .2s ease-in-out
-    display: none;
 }
 
 @keyframes beating{
