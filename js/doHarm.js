@@ -1,5 +1,5 @@
 var _doTituly = false;
-var _itIsAlive = true;
+var _itIsAlive = false;
 var fallback = document.getElementById("harmonogram-fallback");
 var harmonogram = document.getElementById("harmonogram");
 if(!_doTituly){
