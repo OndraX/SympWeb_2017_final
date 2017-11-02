@@ -1,7 +1,7 @@
-var _doTituly = false;
+var _doTituly = true;
 var _itIsAlive = false;
 var fallback = document.getElementById("harmonogram-fallback");
-var harmonogram = document.getElementById("harmonogram");
+var harmonogram = document.getElementById("harmonogram-wrap");
 if(!_doTituly){
     
     var tituly = document.getElementsByClassName('tituly');

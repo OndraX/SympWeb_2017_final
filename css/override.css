@@ -39,6 +39,12 @@ a, .notice{
     color: #9e1010; 
     text-decoration: none;
 }
+span.tituly{
+font-size: .8em;
+}
+span.accent{
+color: #5a5a5a;
+}
 .notice{
     text-transform: initial !important;
     font-family: 'EB Garamond 08';
