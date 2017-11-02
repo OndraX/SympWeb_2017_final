@@ -9,7 +9,7 @@ function getCookie(cname) {
     var ca = decodedCookie.split(';');
     for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
-	console.log("cookie:",c);
+	 //console.log("cookie:",c);
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
         }
@@ -126,7 +126,7 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
 	    bc.style.top = Math.min(height - dy, height) + 1 + 'px';
 	    cd.style.top = height - dy + 'px';
 
-            ////console.log(dy);
+            //// //console.log(dy);
         
 	    bc.style.height = Math.abs(dy) + over - 1+ 'px';
 	    bc.style.width = "0px";
@@ -167,7 +167,7 @@ var rightAngledLines = function(parent, dx,dy, key, oleft,oright,height,width,sc
             
             main.style.display = "none";
           
-		 //console.log(main);
+		 // //console.log(main);
         
 		if(_removeLines){
 		main.parentNode.removeChild(main);
@@ -204,7 +204,7 @@ var performanceTempString = "",performanceAverageator = 0,performanceFinal = 0;
 
 function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bufferHeight,currentLink,enable) {
     //query lines -- make them if not made, init SVG if not inited (or call as prerequisitei)
-    ////console.log(points);
+    //// //console.log(points);
     
     
     
@@ -215,10 +215,10 @@ function updatePointers(points,offsetLeft,offsetRight,scrolledTo,figureHeight,bu
 if(diff < 128){ //if you have actually scrolled
      performanceAverageator+=diff;
 	performanceTempString = diff + "," + performanceTempString;
-	console.log("s: ",performanceTempString);	
+	 //console.log("s: ",performanceTempString);	
         then = performance.now();
         performanceFinal=performanceAverageator/(++performanceCountator);
-    console.log("Time difference in scrolling: f:",performanceFinal,", a:",performanceAverageator,", c:",performanceCountator);	}
+     //console.log("Time difference in scrolling: f:",performanceFinal,", a:",performanceAverageator,", c:",performanceCountator);	}
     
     then = performance.now();
     var first =  document.getElementById('first-heading') || document.getElementsByTagName('h2')[0];
@@ -234,7 +234,7 @@ if(diff < 128){ //if you have actually scrolled
         
         if(performanceFinal > 50){ //less than 20fps @ 60Hz        
             
-            console.log("BEEP BEEP! You appear to have a really awfully slow device." ,performanceAverageator, performanceCountator);	
+             //console.log("BEEP BEEP! You appear to have a really awfully slow device." ,performanceAverageator, performanceCountator);	
            	if(_scrolledPast || performanceCountator > 6){
 		document.body.classList.add('no-lines');
 		}
@@ -249,7 +249,7 @@ if(diff < 128){ //if you have actually scrolled
 
  	setCookie('COOKIE_SLOW_DEVICE','TRUE');
 		_removeLines = true;
-	console.log('')
+	 //console.log('')
         }
 	}
     //END TEMP PERFORMANCE DETECTION
@@ -264,7 +264,7 @@ if(diff < 128){ //if you have actually scrolled
         id = 'point_' + e['key'];
 	//var disableUnlessPerformant = e['disableUnlessPerformant'];    
        //also pass id and keyed element
-        //console.log(e.parent,currentLink);
+        // //console.log(e.parent,currentLink);
         if(e.parent.classList){
         if(e.parent !== currentLink){
         e.parent.classList.remove('current-link');
@@ -279,7 +279,7 @@ if(diff < 128){ //if you have actually scrolled
         rightAngledLines(e['parent'], e['dx'],e['dy'], id, offsetLeft,offsetRight,e['parentHeight'],e['parentWidth'],scrolledTo,figureHeight,bufferHeight,eltop,e['disableUnlessPerformant'] | _removeLines);
         }/*else{
         var tempElem = document.getElementById(id);
-        //console.log('tempElem:', tempElem)
+        // //console.log('tempElem:', tempElem)
         if (tempElem == null) {
             tempElem = document.createElement('div');
 
@@ -389,13 +389,13 @@ if(stopLines === "TRUE"){
 	_stopLines = true;
 	document.body.classList.add('no-lines');
 	}
-					   console.log("loaded");
+					    //console.log("loaded");
                                            handleScroll();});
 
-document.body.addEventListener('DOMContentLoaded', function(){console.log("loaded");
+document.body.addEventListener('DOMContentLoaded', function(){ //console.log("loaded");
                                            handleScroll();});
 
-window.addEventListener('load', function(){console.log("loaded");
+window.addEventListener('load', function(){ //console.log("loaded");
                                            handleScroll();});
 window.addEventListener('resize', handleScroll);
 
@@ -413,10 +413,10 @@ window.addEventListener('onmousewheel', handleScroll);
 window.addEventListener('touchmove', handleScroll);
 
 function handleScroll(transitions){
-    //console.log("scrolling");
+    // //console.log("scrolling");
     var countup = 0;
     var setCurrentLink = null;
-    //console.log('handling that scroll');
+    // //console.log('handling that scroll');
     var parameters = [];
     
     // check if alts ha	ve been scrolled past 
@@ -431,11 +431,11 @@ function handleScroll(transitions){
             alt = document.getElementById('page-foot');
         }
         
-                //console.log('alt: ', alt.getBoundingClientRect().top );
+                // //console.log('alt: ', alt.getBoundingClientRect().top );
         
         //if (!_scrolledPast) {
             var scrollOffset = 60 * (countup++ + .85) - 10;
-        //console.log('countup:', scrollOffset);
+        // //console.log('countup:', scrollOffset);
             if (document.getElementById(pointersRef[0].alt).getBoundingClientRect().top < scrollOffset) {//temporary
                 _scrolledPast = true;
             }else{
@@ -466,7 +466,7 @@ function handleScroll(transitions){
         var dx = pos2.x - pos1.x;
         var dy = pos2.y - pos1.y;
 		
-        //	//console.log('pos1:',pos1,'pos2:',pos2);	
+        //	// //console.log('pos1:',pos1,'pos2:',pos2);	
         //var parent = initSVG();
         parameters.push({
             'key': line.anchor,
@@ -493,7 +493,7 @@ function handleScroll(transitions){
 }
 
 function browserIsJankException() {
-    //console.log("Your browser does not seem to support functionality which is key for a cosmetic feature of this website. So no biggie.");
+    // //console.log("Your browser does not seem to support functionality which is key for a cosmetic feature of this website. So no biggie.");
     return 0;
 }
 
