@@ -156,7 +156,7 @@ var build = function(data,parent){
 
     data.forEach(function(day){
         createDOM('h2',day['den'],{class:'headingClass',},parent);
-        var table = createDOM('table','',{'class':'tableClass u-full-width u-max-full-width standard','id':'tableId'},parent);
+        var table = createDOM('table','',{'class':'harm-table u-full-width u-max-full-width standard','id':'tableId'},parent);
         var th = createDOM('tr','',{'class':'thClass','id':'thId'},createDOM('thead','',{'class':'theadClass','id':'tableHeadId'},table));
         
         for(var i in day['header']){
