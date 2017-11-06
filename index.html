@@ -38,12 +38,13 @@
 
    <script src = "js/src/jquery-3.2.1.min.js"></script>
    <script src = "js/utils.min.js"></script>
+   <script src = "js/bootbox.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109133395-1"></script>
 
 <script>
 window.dataLayer = window.dataLayer || [];
 
-functiong gtag(){dataLayer.push(arguments);}
+function gtag(){dataLayer.push(arguments);}
 
 gtag('js', new Date());
 
@@ -105,7 +106,7 @@ gtag('config','UA-109133385-1');
     <source type="image/svg+xml" srcset="font-awesome-reduced/facebook.svg">
     <img src="font-awesome-reduced/facebook.png" alt="Facebook">
 </picture></td>
-                        <td><a href="https://facebook.com/SymposionGjk"> /SymposionGjk</a></tr>
+                        <td><a href="https://facebook.com/SymposionGjk">fb.me/SymposionGjk</a></tr>
                        <tr> <td><picture class = "social-icon">
     <source type="image/svg+xml" srcset="font-awesome-reduced/envelope.svg">
     <img src="font-awesome-reduced/envelope.png" alt="e-mail">
@@ -148,24 +149,7 @@ gtag('config','UA-109133385-1');
 <h4 class = "large notice"> Časový plán akce zveřejníme, jakmile se domluvíme se všemi přednášejícími.  </h4>
     <p id="harmonogram-fallback">Již teď se ale můžete těšit např. na <span class="tituly">Ing.</span> Danu Drábovou, <span class="tituly">Ph.D.,</span> <span class="tituly">Prof. RnDR. Ing.</span> Jana Royta, <span class="tituly">PhD.,</span> <span class="tituly">Doc. PhDr.</span> Martina Soukupa,<span class="tituly"> Ph.D.</span> <!--<span class="tituly">Prof. RNDr. </span>Petra Kulhánka<span class="tituly">, CSc</span>.--> nebo také debatu o žurnalistice s Petrem Kamberským, Apolenou Rychlíkovou a Sašou Uhlovou.</p>
 <div id ="harmonogram-wrap">
-    <p id="harmonogram-fallback">Již teď se ale můžete těšit např. na tyto přednášky.</p>
-    <table id = "harmonogram-fill">
-        <!--<thead>
-            
-            <tr><td></td></tr>
-            
-        </thead>-->
-        <tbody>
-            
-            <tr>
-                
-                <td> </td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
+
     
     </div>
 
@@ -236,7 +220,7 @@ Na nikoho ne&shy;hledíme přes prsty, vítáme děti i&nbsp;zvířenu, do&shy;k
     <source type="image/svg+xml" srcset="font-awesome-reduced/facebook.svg">
     <img src="font-awesome-reduced/facebook.png" alt="Facebook:">
 </picture></td>
-				<td><a href="https://facebook.com/SymposionGjk"> /SymposionGjk</a></td>
+				<td><a href="https://facebook.com/SymposionGjk">fb.me/SymposionGjk</a></td>
 			</tr><tr>	<td><picture class = "social-icon">
 	    <source type="image/svg+xml" srcset="font-awesome-reduced/envelope.svg">
 	  <img src="font-awesome-reduced/envelope.png" alt="E-mail:">
@@ -275,7 +259,7 @@ Na nikoho ne&shy;hledíme přes prsty, vítáme děti i&nbsp;zvířenu, do&shy;k
       <p class = "full-width large-screen-third"><em>
 
 			
-Náš duše- a&nbsp;tělovýchovný ústav se nachází v&nbsp;Gym&shy;náziu Jana Kepl&shy;era na adrese Parléřova 2, hned ved&shy;le v kovu zvěčněných těl veli&shy;kánů Tycha Braha a Jana Keplera, jeho epo&shy;nyma. Kdo by chtěl k&nbsp;naší líto&shy;sti ne&shy;chat svoje tě&shy;lo zahnívat a&nbsp;namísto pro&shy;tažení kon&shy;četin svi&shy;žným během chřad&shy;nout v&nbsp;dopravním pro&shy;středku, může využít tram&shy;vajových linek 22 <strong> na Pohořelec</strong> nebo 25 <strong>na Hládkov</strong>.  </em></p>
+Náš duše- a&nbsp;tělovýchovný ústav se nachází v&nbsp;Gym&shy;náziu Jana Kepl&shy;era na adrese Parléřova 2, hned ved&shy;le v kovu zvěčněných těl veli&shy;kánů Tycha Braha a Jana Keplera, svého epo&shy;nyma. Kdo by chtěl k&nbsp;naší líto&shy;sti ne&shy;chat svoje tě&shy;lo zahnívat a&nbsp;namísto pro&shy;tažení kon&shy;četin svi&shy;žným během chřad&shy;nout v&nbsp;dopravním pro&shy;středku, může využít tram&shy;vajových linek 22 <strong> na Pohořelec</strong> nebo 25 <strong>na Hládkov</strong>.  </em></p>
 </section>
 <div id ="map-wrap">
 <h3>Mapa</h3>
@@ -297,8 +281,17 @@ Náš duše- a&nbsp;tělovýchovný ústav se nachází v&nbsp;Gym&shy;náziu Ja
 	    Vrchní slouha: <a href="#">Tomáš Musil</a><br>
 	</footer>
 	
+	<div class="modal">
+  <div class="modal-inner"> <a rel="modal:close">&times;</a>
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+	
 	<script src = "js/smoothAF.js"></script>
+	<script src = "js/json/harm.js"></script>
 	<script src = "js/doHarm.js"></script>
+	
 		<script src = "js/royalAirForce.min.js"></script>
     <!- ----------------------
     ------MAP SECTION-------

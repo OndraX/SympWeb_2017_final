@@ -43,6 +43,16 @@ deviceFPSCounter.style.fontSize = "36px";
 var performanceAverageator = 0, performanceCountator = 0;
 	var _recentlyFired = false;
 	var performantDevice = true;
+
+var ua = navigator.userAgent.toLowerCase(); 
+console.log('User Agent',ua);
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+    alert("1") // Chrome
+  } else {
+    alert("2") // Safari
+  }
+}
 	var _degree = 0, _wasPositive = 0;
 
 
@@ -397,7 +407,7 @@ document.body.addEventListener('DOMContentLoaded', function(){ //console.log("lo
 
 window.addEventListener('load', function(){ //console.log("loaded");
                                            handleScroll();});
-window.addEventListener('resize', handleScroll);
+window.addEventListener('resize', handleScroll,{passive:true});
 
 var delayedExec = function(after, fn) {
     var timer;
@@ -407,10 +417,10 @@ var delayedExec = function(after, fn) {
     };
 };
 
-window.addEventListener('scroll', handleScroll);
-window.addEventListener('mousewheel', handleScroll);
-window.addEventListener('onmousewheel', handleScroll);
-window.addEventListener('touchmove', handleScroll);
+window.addEventListener('scroll', handleScroll,{passive:true});
+window.addEventListener('mousewheel', handleScroll,{passive:true});
+window.addEventListener('onmousewheel', handleScroll,{passive:true});
+window.addEventListener('touchmove', handleScroll,{passive:true});
 
 function handleScroll(transitions){
     // //console.log("scrolling");
