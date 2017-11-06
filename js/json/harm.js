@@ -127,7 +127,7 @@ var data = [
             "ref": "PetrVyletal"
           },
           {
-            "jmeno": "Jan Kozak",
+            "jmeno": "Jan Kozák",
             "isEmpty": true, "nazev":""
           }
         ]
