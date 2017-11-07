@@ -150,13 +150,15 @@ String.prototype.toBactrianCamelCase = function(str){//capitalise even the begin
     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
   }).join('');
 }
-
+String.prototype.titlify = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
 
 var build = function(data,parent){
 
     data.forEach(function(day){
         createDOM('h2',day['den'],{class:'headingClass',},parent);
-        var table = createDOM('table','',{'class':'harm-table u-full-width u-max-full-width standard','id':'tableId'},parent);
+        var table = createDOM('table','',{'class':'table-harm u-full-width u-max-full-width standard','id':'tableId'},parent);
         var th = createDOM('tr','',{'class':'thClass','id':'thId'},createDOM('thead','',{'class':'theadClass','id':'tableHeadId'},table));
         
         for(var i in day['header']){
@@ -166,10 +168,10 @@ var build = function(data,parent){
             
             var row = createDOM('tr','',{'class':'rowClass'},table);
             
-            createDOM('td',list['cas'],{'class':'cellClass'},row);
+            createDOM('td',list['cas'],{'class':'harm_cas',},row);
             list['prednasky'].forEach(function(prednaska){
                 
-                var props = {'class':'cellClass',};
+                var props = {'class':'cellClass','id':prednaska['ref']};
                 console.log(prednaska["spans"], prednaska.hasOwnProperty("spans"));
                 if(prednaska.hasOwnProperty("spans")){
                     
@@ -178,12 +180,40 @@ var build = function(data,parent){
                     
                 }
                var item = createDOM('td','',props,row);  
-               var text = '<strong>' + prednaska['jmeno'] + '</strong> ' + prednaska['nazev'];
-               
+                var nazev = '</strong> ';
+                if(prednaska['nazev'].length>0){
+                    nazev = ':' + '</strong> ' + prednaska['nazev'].titlify();
+                }
+               var text = '<strong>' + prednaska['jmeno']  + nazev;
+               //pra sááár na
                    
-               if(!(prednaska['isEmpty'] || true)){
-                   var link = createDOM('a',text,{'class':'linkClass default','href':'#'+prednaska['ref']},item);
-                   //link.addEventListener('click',function(){modal.alert(prednaska['nazev'])},false)
+               if(!(prednaska['isEmpty'] )  && doLinks){
+                   var link = createDOM('span',text,{'class':'pointable default'/*,'href':'#'+prednaska['ref']*/},item);
+                   var pred = function(prednaska){
+                       
+                       var popup = vex.open({
+                       content: '',
+                       buttons: null,
+
+                        });
+                           createDOM('h2',prednaska['nazev'].titlify(),{class:'popupHeading'},popup.contentEl);  
+                          if(prednaska['anotace'].length > 0)
+                                createDOM('p',prednaska['anotace'],{},popup.contentEl);
+                           createDOM('h2',(typeof prednaska['jmenoTituly'] !== 'undefined')?prednaska['jmenoTituly']:prednaska['jmeno'],{class:'popupHeading'},popup.contentEl);
+                           createDOM('p',prednaska['medailon'],{},popup.contentEl);
+                       if(history.pushState) {
+                           history.pushState(null, null, '#'+ prednaska['ref']);
+                       }
+                       else {
+                           location.hash = '#' + prednaska['ref'];
+                       }
+                    
+                    };
+                   
+                   link.addEventListener('click',function(e){e.preventDefault(); pred(prednaska)},false);
+                   
+                   
+                   
                    
                }else{
                    createDOM('span',text,{'class':'textClass default'},item); 
