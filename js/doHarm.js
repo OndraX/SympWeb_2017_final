@@ -187,7 +187,7 @@ var build = function(data,parent){
                var text = '<strong>' + prednaska['jmeno']  + nazev;
                //pra sááár na
                    
-               if(!(prednaska['isEmpty'] )  && doLinks){
+               if(!(prednaska['isEmpty'] )  && ((typeof doLinks === 'undefined') | doLinks)){
                    var link = createDOM('span',text,{'class':'pointable default'/*,'href':'#'+prednaska['ref']*/},item);
                    var pred = function(prednaska){
                        

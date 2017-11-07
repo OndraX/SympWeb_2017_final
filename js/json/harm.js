@@ -153,7 +153,7 @@ var data = [
           {
             "jmeno": "Karel Thein",
             "cas": "17.11. 13:00-15:00",
-            "nazev": "Hlavou ke hvězdám: lidské tělo v&nbsp;antické filosofii",
+            "nazev": "Hlavou ke hvězdám: lidské tělo v antické filosofii",
             "anotace": "Vzpřímený postoj a&nbsp;jím uvolněné ruce jsou tím prvním, čím se na vnímatelné rovině liší lidské tělo od těla jiných živých bytostí:\nZatím co ostatní tvorstvo je schýleno, k zemi se dívá,\nčlověku vztyčenou tvář on [Prométheus] poskytl, k nebi mu kázal\nhledět a&nbsp;vzpřímený zrak vždy k hvězdám do výše zdvíhat. (Ovidius Proměny I, 84-86).\nZajímavost některých způsobů, jimiž jedinečný lidský postoj vysvětlují antičtí myslitelé včetně Platóna i&nbsp;Aristotela, spočívá v tom, že dokáže sloučit naturalistickou fyziologii na straně jedné (vliv srdce a&nbsp;krve) a&nbsp;silně intelektuální představu o&nbsp;smyslu lidské existence na straně druhé: vnitřní fyziologie a&nbsp;na ni vázaná anatomie vzpřímený postoj umožňuje, rozumová činnost je pak tím, čemu tento postoj slouží. Podrobnější pohled na vysvětlení tohoto typu rovněž ukáže, proč jeho stopy nečekaně nacházíme i&nbsp;v moderních teoriích, a&nbsp;to včetně teorie evoluční.",
             "medailon": "Karel Thein (1961) studoval knihovnictví na FF UK a&nbsp;filosofii na École des Hautes Études en Sciences Sociales ve Francii. Přepracovaná disertační práce byla publikována pod názvem Le lien intraitable. Enquete sur le temps dans la République et le Timée de Platon. Věnuje se především dějinám antické a&nbsp;ranně moderní filosofie a&nbsp;filosofii umění. V&nbsp;dnešní době je profesorem v&nbsp;Ústavu filosofie a&nbsp;religionistiky FF UK. Píše jako externí spolupracovník například pro Respekt, časopis Aluze či Host.",
             "reklama": "",
@@ -257,15 +257,14 @@ var data = [
             "jmeno": "Vít Dvořák",
             "isEmpty": true, "nazev":""
           },
-          {
-            "jmeno": "Lukáš Černý",
-            "cas": "16.11. 18:45&#8209;19:30",
-            "nazev": "příliš pevné, příliš křehké\ntragické tělo",
-            "anotace": "Tragédie jakožto dramatický žánr osciluje mezi jazykem a&nbsp;tělem. V&nbsp;tom prvním přetrvává, v&nbsp;tom druhém se rodí a&nbsp;umírá. Nebo naopak. V&nbsp;každém případě hraje tělesnost v&nbsp;tragédii zásadní roli. Podívame se tedy pod kůži tomu tragickému hrdinovi, který je svojí kůží i&nbsp;svojí rolí přímo posedlý: náhledneme pod černý plášť Hamleta, principála všech šmíráků. Právě ten totiž vlastní tělesnost neustále reflektuje, nahlíží ji jako bytostně divadelní, a&nbsp;možná tak i&nbsp;nepřímo pojmenovává funkci těla v&nbsp;tragédii vůbec - nebo se o&nbsp;to alespoň snaží. Otázka je, nakolik jeho slovům můžeme věřit...",
-            "medailon": "Lukáš Černý studuje čtvrtým rokem Divadelní vědu na Filozofické fakultě Univerzity Karlovy. V&nbsp;rámci studia inklinuje k&nbsp;tragičnu, někdy až k&nbsp;absurdnu, tj. zabývá se především teorií a&nbsp;dějinami tragédie, od vzniku až po její rezidua v&nbsp;moderní dramatice. S&nbsp;tímto úsilím započal už na Gymnáziu Jana Keplera, kde absolvoval v&nbsp;roce 2014. Mimo to se od svého krátkého působení na Freie Universität v&nbsp;Berlíně zabývá také současným německým divadlem a&nbsp;teorií performance. Příležitostně působí v&nbsp;redakcích zpravodajů při festivalech amatérského divadla.",
-            "reklama": "",
-            "ref": "LukasCerny"
-          },
+          {"jmeno":"Jan Černý",
+		  "jmenoTituly":"Prof. RNDr. Jan Černý PhD.",
+		  "cas":"17.11. 15:00",
+		  "nazev":"Mikrochimerismus",
+		  "anotace":"",
+		  "medailon":"Prof. RNDr. Jan Černý, PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v&#8288;Praze obor molekulární biologie a&#8288;genetika, dále pak na PřF UK studoval obor imunologie v&#8288;rámci doktorského studia. V&#8288;dnešní době se věnuje studiu molekul a&#8288;jejich spojení s&#8288;membrány leukocytů (bílých krvinek), ale také studiu biologických aktiviti sekundárních metabolitů bakterií a&#8288;hub. Získal mnoho ocenění, naposledy v&#8288;roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o&#8288;adaptorových proteinech lidských leukocytů.",
+		  "ref":"JanCerny"},
+,
           {
             "jmeno": "Ondřej Beran",
             "cas": "",
