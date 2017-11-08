@@ -172,17 +172,22 @@ var build = function(data,parent){
             list['prednasky'].forEach(function(prednaska){
                 
                 var props = {'class':'cellClass','id':prednaska['ref']};
-                console.log(prednaska["spans"], prednaska.hasOwnProperty("spans"));
+            
                 if(prednaska.hasOwnProperty("spans")){
                     
                     props["colspan"] = prednaska["spans"];
                     props["class"] = "cellClass center";
                     
                 }
+                if(prednaska.hasOwnProperty("spansRows")){
+                    
+                    props["rowspan"] = prednaska["spansRows"];
+                    
+                }
                var item = createDOM('td','',props,row);  
                 var nazev = '</strong> ';
                 if(prednaska['nazev'].length>0){
-                    nazev = ':' + '</strong> ' + prednaska['nazev'].titlify();
+                    nazev = ':<br>' + '</strong> ' + prednaska['nazev'].titlify();
                 }
                var text = '<strong>' + prednaska['jmeno']  + nazev;
                //pra sááár na
@@ -201,6 +206,20 @@ var build = function(data,parent){
                                 createDOM('p',prednaska['anotace'],{},popup.contentEl);
                            createDOM('h2',(typeof prednaska['jmenoTituly'] !== 'undefined')?prednaska['jmenoTituly']:prednaska['jmeno'],{class:'popupHeading'},popup.contentEl);
                            createDOM('p',prednaska['medailon'],{},popup.contentEl);
+                       if(prednaska.hasOwnProperty("lide")){
+                           
+                           prednaska["lide"].forEach(function(e){
+                               
+                               if(typeof e['anotace'] !== 'undefined'){createDOM('p',e['anotace'],{},popup.contentEl);
+                                                                      }
+                           createDOM('h2',(typeof e['jmenoTituly'] !== 'undefined')?e['jmenoTituly']:e['jmeno'],{class:'popupHeading'},popup.contentEl);
+                           if(typeof e['medailon'] !== 'undefined'){createDOM('p',e['medailon'],{},popup.contentEl);
+                                                                      }
+                               
+                           })
+                           
+                       }
+                       
                        if(history.pushState) {
                            history.pushState(null, null, '#'+ prednaska['ref']);
                        }

@@ -34,12 +34,12 @@ var _stopLines = false,
     _removeLines = false,
     startedScrollingAboveThing = false;
 var deviceFPSCounter = document.createElement('div');
-document.body.appendChild(deviceFPSCounter);
+/*document.body.appendChild(deviceFPSCounter);
 deviceFPSCounter.style.position = 'fixed';
 deviceFPSCounter.style.top = '0px';
 deviceFPSCounter.style.left = '0px';
 deviceFPSCounter.innerHTML = "&nbsp;";
-deviceFPSCounter.style.fontSize = "36px";
+deviceFPSCounter.style.fontSize = "36px";*/
 var performanceAverageator = 0, performanceCountator = 0;
 	var _recentlyFired = false;
 	var performantDevice = true;
@@ -48,9 +48,10 @@ var ua = navigator.userAgent.toLowerCase();
 console.log('User Agent',ua);
 if (ua.indexOf('safari') != -1) { 
   if (ua.indexOf('chrome') > -1) {
-    alert("1") // Chrome
   } else {
-    alert("2") // Safari
+_removeLines = true;
+_stopLines = true;
+document.body.classList.add('no-lines');
   }
 }
 	var _degree = 0, _wasPositive = 0;
@@ -519,5 +520,5 @@ function makeDistantRelative(hoveree,distantRelative,classes){//TODO: adjust for
     
 }
 
-
+}
 makeDistantRelative(document.querySelector('#o-akci-link'),document.querySelector('#heart'),'hovered');

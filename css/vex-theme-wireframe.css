@@ -117,7 +117,11 @@
     
     .vex.vex-theme-wireframe .vex-content {
                background: url('../images/tile.png');
-        min-height: 400px;    
+        min-height: 400px;   
+        width: 94%;
+
+             max-width:1350px;
+        margin: 0 auto;
     }
     .vex-overlay {
             background: rgba(0,0,0,0.6);
@@ -131,15 +135,10 @@
         transform: rotate(45deg);
         
     }
-    .vex.vex-theme-wireframe{
-             max-width:1350px;
-         width:96%;
+            .vex.vex-theme-wireframe{
         margin: 0 auto;
 
         padding: 16px;
-        box-sizing: border-box;
-        overflow: initial;
-        width: initial;/*Why do tears suddenly appear every time style cancelling are here?*/
         padding-top: 160px;
           padding-bottom: 160px;   
         
