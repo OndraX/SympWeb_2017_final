@@ -201,7 +201,12 @@ var build = function(data,parent){
                        buttons: null,
 
                         });
-                           createDOM('h2',prednaska['nazev'].titlify(),{class:'popupHeading'},popup.contentEl);  
+						var nazev;
+						if(prednaska.hasOwnProperty['nazevLong']){
+						nazev = prednaska['nazevLong'].titlify()}else{
+							nazev = prednaska['nazev'].titlify();
+						}
+                           createDOM('h2',nazev,{class:'popupHeading'},popup.contentEl);  
                           if(prednaska['anotace'].length > 0)
                                 createDOM('p',prednaska['anotace'],{},popup.contentEl);
                            createDOM('h2',(typeof prednaska['jmenoTituly'] !== 'undefined')?prednaska['jmenoTituly']:prednaska['jmeno'],{class:'popupHeading'},popup.contentEl);

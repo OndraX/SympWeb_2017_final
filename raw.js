@@ -811,6 +811,73 @@ var rozvrhToFull = function (rozvrh, data) {
 
 }
 
+var hybridUpdate = function (hybrid, data) {
+	
+	var unappended = [];
+    hybrid.forEach(function (den) {
+        if (den['program'])
+            den['program'].forEach(function (blok) {
+                if (blok['prednasky'])
+                    blok['prednasky'].forEach(function (mluvci, index, object) {
+						
+                        //console.log("mluvčí:", mluvci);
+                        if(mluvci.hasOwnProperty("lide")){
+							
+							mluvci['lide'].forEach( function(e,i,o){
+							console.log(e['jmeno'],e['ref']);
+								
+								
+								if(e.hasOwnProperty('ref')){
+									ref = e['ref'];
+								}else{
+								ref = fix(e['jmeno']).toBactrianCamelCase();
+								}
+	
+							if (data.hasOwnProperty(ref)) {
+	
+								o[i] = data[ref];
+								data[ref]["appended"] = true;
+	
+							} else {
+								console.log('couldn\'t find:', e);
+								}
+								
+							
+						});
+						}
+						
+						
+                        var ref;
+							if(mluvci.hasOwnProperty('ref')){
+								ref = mluvci['ref'];
+							}else{
+                            ref = fix(mluvci['jmeno']).toBactrianCamelCase();
+							}
+
+                        if (data.hasOwnProperty(ref)) {
+
+                            object[index] = data[ref];
+							data[ref]["appended"] = true;
+
+                        } else {
+                            console.log('couldn\'t find:', mluvci);
+							}
+							
+                    });
+            });
+			
+	});
+			for (var el in data) {
+				if (data.hasOwnProperty(el)) {
+					if(!data[el].hasOwnProperty("appended")){
+						unappended.push(data[el]);
+					}
+				}
+			}
+				
+			console.log("unappended", unappended);
+
+}
 
 var dataToUsable = function (data) {
     var temp = {};
@@ -822,5 +889,7 @@ var dataToUsable = function (data) {
     });
     return temp;
 }
-rozvrhToFull(rozvrh, data)
-console.log(rozvrh);
+
+hybridUpdate(hybrid,rawDataRefed);
+
+console.log(hybrid);
