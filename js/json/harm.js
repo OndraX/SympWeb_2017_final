@@ -207,9 +207,9 @@ var data = [
           {
             "jmeno": "Iva Baslarová",
             "cas": "17.11. 13-15",
-            "nazev": "Gender, média a&nbsp;popkultura",
+            "nazev": "Od princezny ke kyborgyni -&nbsp;tělo v&nbsp;populární kultuře feministickou perspektivou",
             "anotace": "Přednáška bude zaměřena na základní tematické okruhy, které se vztahují k&nbsp;úloze a&nbsp;funkci médií v&nbsp;populární kultuře v&nbsp;souvislosti s&nbsp;kategorií gender. Představí historický vývoj feministického zájmu o&nbsp;média, stereotypní a&nbsp;inovativní utváření ženských a&nbsp;mužských postav ve filmu a&nbsp;televizi, možnosti recepce mediálních obsahů publikem včetně subverzivního (především queer) čtení. Specifickou část bude tvořit působení mýtu krásy a&nbsp;romantické lásky v&nbsp;populární kultuře s&nbsp;ohledem na proměnu žánrů horor, sci-fi a&nbsp;fantasy. Přednášku doplní empirická data a&nbsp;četné příklady a&nbsp;ukázky z&nbsp;mediální praxe, které budou vhodně ilustrovat danou tematiku.",
-            "medailon": "Iva Baslarová je socioložka a&nbsp;genderoložka vyučujucí na katedře genderových studií FHS. Zabývá se především otázkami feminismu a&nbsp;jeho vnímání a&nbsp;znázornění v&nbsp;popkultuře a&nbsp;médiích. Je externí spolupracovnicí portálu A2larm. cz a&nbsp;webového magazínu femag.cz",
+            "medailon": "Iva Baslarová je socioložka vyučujucí na katedře genderových studií FHS. Zabývá se především otázkami feminismu a&nbsp;jeho vnímání a&nbsp;znázornění v&nbsp;popkultuře a&nbsp;médiích. Je externí spolupracovnicí portálu A2larm. cz a&nbsp;webového magazínu femag.cz",
             "jmenoTituly": "Mgr. Iva Baslarová, Ph.D.",
             "appended": true
           },
@@ -406,8 +406,8 @@ var data = [
             "nazev": "",
             "ref": "DebataTranshumanismus",
             "anotace":"",
-            "medailon": "Věda, kultura i&nbsp;veškeré vnímání světa kolem nás se zakládá na naší vlastní tělesnosti – tělo je nástrojem míry, stejně jako prostředkem vnímání emocí, které dodávají lidské existenci smysl. Transhumanismus znamená snahu překonat omezení naší přirozenosti – jde o&nbsp;smrtící tendenci, přirozenou cestu zpestřování našich životů, nebo začátek konce společnosti, jak jí známe dnes?Co se v&nbsp;současnosti zdá jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití.Na otázky toho, čeho již lze dosáhnout, jaké to může mít důsledky, kam se to může vyvíjet nebo co si pod tím představit v&nbsp;praxi, bude odpovídat neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a&nbsp;transhumanista Dalibor Šrámek.",
-            "lide": [
+            "medailon": "Věda, kultura i veškeré vnímání světa kolem nás se odvíjí z povahy našeho těla – to je pro nás nástrojem míry, stejně jako prostředkem vnímání emocí. Tělesná schránka výrazně omezuje naše schopnosti a možnosti, zároveň ale poskytuje organické spojení s okolním prostředím. Je tělesná forma života pouze jednou z mnoha a lze jí překonat, nebo snahou dostat se za hranice člověka pohřbíme kořeny naší přirozenosti ztratíme to, co nás definuje a je určující pro smysl života, alespoň jak ho známe. Co se může zdát jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití. Diskuzi o transhumanismu – čeho již věda dosáhne, kam se budou technologie vyvíjet a jaké to bude mít důsledky – se bude účastnit neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a transhumanista Dalibor Šrámek.",
+"lide": [
               {
                 "jmeno": "Vladimír Beneš",
                 "cas": "",
