@@ -209,7 +209,13 @@ var build = function(data,parent){
                            createDOM('h2',nazev,{class:'popupHeading'},popup.contentEl);  
                           if(prednaska['anotace'].length > 0)
                                 createDOM('p',prednaska['anotace'],{},popup.contentEl);
-                           createDOM('h2',(typeof prednaska['jmenoTituly'] !== 'undefined')?prednaska['jmenoTituly']:prednaska['jmeno'],{class:'popupHeading'},popup.contentEl);
+                       var displayJmeno = prednaska['jmeno'];
+                       if(prednaska.hasOwnProperty('jmenoTituly'))
+{
+    if(prednaska['jmenoTituly'].length > prednaska['jmeno'].length){
+        displayJmeno = prednaska['jmenoTituly'];
+    }
+}                           createDOM('h2',displayJmeno,{class:'popupHeading'},popup.contentEl);
                            createDOM('p',prednaska['medailon'],{},popup.contentEl);
                        if(prednaska.hasOwnProperty("lide")){
                            

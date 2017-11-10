@@ -855,9 +855,17 @@ var hybridUpdate = function (hybrid, data) {
 							}
 
                         if (data.hasOwnProperty(ref)) {
-
+                            if(mluvci.hasOwnProperty('jmenoTituly')){
+                              var tituly = mluvci['jmenoTituly'];  
+                            
+                            object[index] = data[ref];
+                            object[index]['jmenoTituly'] = tituly;
+							data[ref]["appended"] = true;
+                                }else{
                             object[index] = data[ref];
 							data[ref]["appended"] = true;
+                                }
+                            
 
                         } else {
                             console.log('couldn\'t find:', mluvci);
@@ -893,3 +901,4 @@ var dataToUsable = function (data) {
 hybridUpdate(hybrid,rawDataRefed);
 
 console.log(hybrid);
+
