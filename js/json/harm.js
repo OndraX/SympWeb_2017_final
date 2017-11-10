@@ -548,7 +548,7 @@ var data = [
           {
             "jmeno": "Martin Šuk",
             "cas": "předběžně 18.11. 13-15",
-            "nazev": "Stavba kytar",
+            "nazev": "Od hlavy po korpus aneb Kytara jako tělo hudby",
             "anotace": "Zastává-li hudebník při produkci hudby intelektuální roli, pak je to právě hudební nástroj, který zastupuje rovinu čistě fyzickou a&nbsp;stává se tak „tělem hudby“. Přednáška se zaměří na úlohu hudebního nástroje v&nbsp;hudbě a&nbsp;jejich vzájemný vliv. Představí světy, ze kterých k&nbsp;nám kytara přišla a&nbsp;uvede vás do míst, kde má své neodmyslitelné místo. Ukáže rozdílné typy kytar, které se používají pro různé hudební slohy a&nbsp;styly. Posluchači se seznámí také s&nbsp;procesem stavby kytary, s&nbsp;možnostmi jejího konstrukčního řešení či s&nbsp;důsledky, které má na zvuk nástroje výběr dřeva, a&nbsp;dozví se také mnoho dalších zajímavostí o&nbsp;kytaře.",
             "medailon": "Martin Šuk, kytarář, po studiu uměleckořemeslné stavby kytar v&nbsp;Lubech u&nbsp;Chebu a&nbsp;uměleckého zpracování dřeva v&nbsp;Hradci Králové zakládá v&nbsp;roce 2007 vlastní kytarářskou dílnu v&nbsp;Poděbradech, kde staví klasické kytary tradiční španělskou metodou. Byl několik let lektorem stavby hudebních nástrojů na Střední uměleckoprůmyslové škole v&nbsp;Hradci Králové. Díky konzultacím s&nbsp;profesory a&nbsp;hudebními profesionály v&nbsp;Praze, Brně, Berlíně, Vídni a&nbsp;Kroměříži staví koncertní nástroje pro profesionální kytaristy a&nbsp;studenty akademií a&nbsp;konzervatoří v&nbsp;Čechách i&nbsp;ve světě.",
             "jmenoTituly": "",
