@@ -211,10 +211,10 @@ var data = [
             "ref": "MichalHanus"
           },
           {
-            "jmeno": "LukasCerny",
+            "jmeno": "JanCerny",
             "nazev": "",
             "isEmpty": true,
-            "ref": "Lukascerny"
+            "ref": "JanCerny"
           },
           {
             "jmeno": "OndrejBeran",
@@ -236,8 +236,13 @@ var data = [
           {
             "jmeno": "FILMOVÁ NOC",
             "nazev": "",
-            "isEmpty": true,
-            "ref": "FilmovaNoc"
+            "lide":[
+		{"jmeno":,
+		"nazev":,
+		"medailon:",
+		"anotace"}
+		],
+		"ref": "FilmovaNoc"
           },
           {
             "jmeno": "",

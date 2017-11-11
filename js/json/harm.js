@@ -218,7 +218,6 @@ var data = [
             "cas": "17.11. 13-15",
             "nazev": "Československá sexuologie a&nbsp;tělo: předpis, norma, nezbadatelnost",
             "anotace": "„K vrcholné něžnosti je třeba jemné pleti, měkkosti pohybu, jemnosti skladby těla, obecné citovosti a&nbsp;vláčnosti. Tyto vlastnosti jsou biologickými vlastnostmi ženy, nikoliv muže. Je velikou chybou, že se ženy při emancipaci, ve snaze napodobovat muže, něžnosti zbavují nebo na ni zapomínají.“ Takové i&nbsp;jiné výroky zaznívaly během 20. století z&nbsp;úst vážených pánů v&nbsp;bílých pláštích a&nbsp;s tituly, mužů, kteří měli moc nad lidským (duševním) zdravím a&nbsp;kteří rozhodovali, co je ještě normální, a&nbsp;co už ne. Opravdu si dívky píšou deníky s&nbsp;milostnými básněmi, zatímco se chlapci otužují? Je skupinový sex v&nbsp;pořádku, pokud se ho pár dopouští pro záchranu manželství? A&nbsp;když se někomu líbí jedinec stejného pohlaví, má pro to nutně sklony k&nbsp;umění? To jsou jen některé z&nbsp;otázek, jaké si kladli českoslovenští a&nbsp;čeští sexuologové a&nbsp;sexuoložky. My se potom budeme ptát, co je k&nbsp;jejich tázání vlastně vedlo – opravdu naše těla a&nbsp;touhy tolik vypovídají o&nbsp;tom, kým jsme? Anebo jsou sexuologické pojmy naší tělesnosti přeci jen příliš těsné?",
-            "medailon": "Josef Řídký po dokončení studia na Gymnáziu Jana Keplera vystudoval historii a&nbsp;komparatistiku na FF UK. Věnuje se vztahu genderu a&nbsp;ideologie, především za doby normalizace. V&nbsp;současné době také spolupracuje se serverem A2larm.cz a&nbsp;kulturním čtrnáctideníkem A2.",
             "jmenoTituly": "Mgr. Josef Řídký",
             "appended": true
           }
@@ -278,15 +277,6 @@ var data = [
         "cas": "17:00 - 19:00",
         "prednasky": [
           {
-            "jmeno": "Monika Švec Sybolová",
-            "cas": "17.11. 17-19",
-            "nazev": "Erotické signály ve výtvarném umění 19. století",
-            "anotace": "Přednáška se zaměří na fenomén, jak do vysokého umění 19. století postupně proniká erotično jako osvěžující, moderní a&nbsp;samozřejmě lehce skandální motiv. Podíváme se na to, čím se ve vizuálním umění vysílají erotické signály. Je to jenom ženské tělo v&nbsp;různém odhalení a&nbsp;natočení? Nebo je to ještě něco dalšího? Porovnáme erotično v&nbsp;obraze a&nbsp;v textu, budeme sledovat souboj erotična s&nbsp;duchovnem a&nbsp;nakonec se uvidíme, co se s&nbsp;erotickou tělesností stane ve 20. století. Přednáška bude pracovat hlavně s&nbsp;díly Josefa Mánesa a&nbsp;Maxe Švabinského.",
-            "medailon": "Monika Sybolová vystudovala estetiku a&nbsp;dějiny umění na FF UK. Od roku 1993 je externí lektorkou Sbírky umění 19. století Národní galerie v&nbsp;Praze a&nbsp;od roku 2000 kurátorkou pro edukační činnost tamtéž. V&nbsp;současnosti organizje doprovodné a&nbsp;vzdělávací programy k&nbsp;výstavám NG jako Tajemné dálky či Celník Rousseau. Dále se podílí na programech pro školy v&nbsp;Anežském klášteře či Salmovském paláci. Organizuje a&nbsp;připravuje s&nbsp;kolegy Kurzy dějin umění, Letní krajinářské dílny pro studenty a&nbsp;dospělé, Jednodenní dramaticko-výtvarné plenéry a&nbsp;soutěž pro studenty středních škol Máš umělecké střevo?. Je také spoluautorkou knih pro děti Deník Jakuba S. nebo Čapek a&nbsp;Čapek. Spolupracovala na tanečních představeních Sen všech žen pro festival Habrovka a&nbsp;Den a&nbsp;noc a&nbsp;noc a&nbsp;den skupiny NANOHACH a&nbsp;na performancích reagující na výtvarné umění v&nbsp;galeriích.",
-            "jmenoTituly": "",
-            "appended": true
-          },
-          {
             "jmeno": "Michal Hanus",
             "nazev": "",
             "isEmpty": true,
@@ -295,10 +285,19 @@ var data = [
           {
             "jmeno": "Jan Černý ",
             "cas": "17.11. 15-17",
-            "nazev": "Chimérismus a&nbsp;mikrochimérismus - krize identity.",
+            "nazev": "Chimérismus a&nbsp;mikrochimérismus - krize identity",
             "anotace": "Nové objevy ukazaly, že naše těla mohou být geneticky mnohem komplikovanější, než jsme si kdy dokázali představit. Jsme spíš společenství buněk různého původu, z&nbsp;nichž jen část (i když samozřejmě podstatná) je potomstvem buňky vzniklé setkáním otcovy spermie a&nbsp;matčina vajíčka – tedy tím, co jsme považovali za své niterné já. Fenomén chimérismu a&nbsp;mikrochimérismu bude diskutován z&nbsp;obecně biologického hlediska, ale i&nbsp;ve vztahu k&nbsp;medicíně.\n",
             "medailon": "Prof. RNDr. Jan Černý PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v&nbsp;Praze obor molekulární biologie a&nbsp;genetika, dále pak na PřF UK studoval obor imunologie v&nbsp;rámci doktorského studia. V&nbsp;dnešní době se věnuje studiu molekul a&nbsp;jejich spojení s&nbsp;membránami leukocytů (bílých krvinek), ale také studiu biologických aktiviti sekundárních metabolitů bakterií a&nbsp;hub. Získal mnoho ocenění, naposledy v&nbsp;roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o&nbsp;adaptorových proteinech lidských leukocytů.",
             "jmenoTituly": "Prof. RNDr. Jan Černý PhD.",
+            "appended": true
+          },
+          {
+            "jmeno": "Monika Švec Sybolová",
+            "cas": "17.11. 17-19",
+            "nazev": "Erotické signály ve výtvarném umění 19. století",
+            "anotace": "Přednáška se zaměří na fenomén, jak do vysokého umění 19. století postupně proniká erotično jako osvěžující, moderní a&nbsp;samozřejmě lehce skandální motiv. Podíváme se na to, čím se ve vizuálním umění vysílají erotické signály. Je to jenom ženské tělo v&nbsp;různém odhalení a&nbsp;natočení? Nebo je to ještě něco dalšího? Porovnáme erotično v&nbsp;obraze a&nbsp;v textu, budeme sledovat souboj erotična s&nbsp;duchovnem a&nbsp;nakonec se uvidíme, co se s&nbsp;erotickou tělesností stane ve 20. století. Přednáška bude pracovat hlavně s&nbsp;díly Josefa Mánesa a&nbsp;Maxe Švabinského.",
+            "medailon": "Monika Sybolová vystudovala estetiku a&nbsp;dějiny umění na FF UK. Od roku 1993 je externí lektorkou Sbírky umění 19. století Národní galerie v&nbsp;Praze a&nbsp;od roku 2000 kurátorkou pro edukační činnost tamtéž. V&nbsp;současnosti organizje doprovodné a&nbsp;vzdělávací programy k&nbsp;výstavám NG jako Tajemné dálky či Celník Rousseau. Dále se podílí na programech pro školy v&nbsp;Anežském klášteře či Salmovském paláci. Organizuje a&nbsp;připravuje s&nbsp;kolegy Kurzy dějin umění, Letní krajinářské dílny pro studenty a&nbsp;dospělé, Jednodenní dramaticko-výtvarné plenéry a&nbsp;soutěž pro studenty středních škol Máš umělecké střevo?. Je také spoluautorkou knih pro děti Deník Jakuba S. nebo Čapek a&nbsp;Čapek. Spolupracovala na tanečních představeních Sen všech žen pro festival Habrovka a&nbsp;Den a&nbsp;noc a&nbsp;noc a&nbsp;den skupiny NANOHACH a&nbsp;na performancích reagující na výtvarné umění v&nbsp;galeriích.",
+            "jmenoTituly": "",
             "appended": true
           },
           {
@@ -435,6 +434,24 @@ var data = [
             ]
           },
           {
+            "jmeno": "Marie Salomonová",
+            "cas": "18.11. 10-12",
+            "nazev": "Jak by na tom bylo tělo bez duše?",
+            "anotace": "Proč je potřeba se kromě fyzického zdraví starat i&nbsp;o to duševní? A&nbsp;jak to vypadá, když se psychická stránka zanedbává? Z pohledu neurověd, psychologie, psychiatrie a&nbsp;sociologie se zaměříme na to, co je to duševní zdraví a&nbsp;nemoc, jaké jsou nejčastější mýty, které panují o&nbsp;psychiatrických onemocněních, co je to stigma a&nbsp;jakou roli hraje nejen v prevenci a&nbsp;včasné intervenci při psychických obtížích. Přednáška je z dílny neziskové organizace Nevypusť duši, za kterou stojí tým mladých psychologů, neurovědců a&nbsp;studentů těchto oborů. Zároveň ji tvoří i&nbsp;psychiatričtí pacienti a&nbsp;lidé se zkušeností s duševním onemocněním v&nbsp;mladém věku.\n,,Šíříme fakta, boříme mýty, vzděláváme a&nbsp;pomáháme v&nbsp;oblasti duševního zdraví a&nbsp;psychických onemocnění. Vedeme úspěšnou kampaň na sociálních sítích, pořádáme workshopy a&nbsp;přednášky. Našim cílem je zlepšení informovanosti Česka o&nbsp;duševním zdraví. Zdůrazňujeme důležitost prevence, sdílíme osobní příběhy a&nbsp;podporujeme včasné vyhledání odborné pomoci při duševních obtížích. Našimi projekty mimo jiné usilujeme o&nbsp;duševní zdravovědu ve školách, tedy aby se studenti stejně jako o&nbsp;fyzickou stránku učili starat o&nbsp;zdraví psychické,'' tvrdí o&nbsp;sobě.",
+            "medailon": "Marie Salomonová je spoluzakladatelkou kampaně Nevypusť duši. Studovala neurovědy na univerzitě v Nottinghamu a&nbsp;kromě vedení Nevypusť duši se věnuje i&nbsp;projektům v rámci reformy psychiatrie a&nbsp;zapojení pacientů do péče a&nbsp;rozhodovacích procesů na Ministerstvu zdravotnictví ČR.",
+            "jmenoTituly": "Marie Salomonová, MSci",
+            "appended": true
+          },
+          {
+            "jmeno": "Pavel Klusák",
+            "cas": "18.11. 10-12",
+            "nazev": "Rituál se vrací: Tělo v&nbsp;současném umění & hudbě",
+            "anotace": "Vystačit si jen s&nbsp;vlastním tělem. Dát ho v&nbsp;sázku. Otestovat ho. Navázat na dávnou zkušenost s&nbsp;přechodovými rituály. Použít pro svůj tvůrčí experiment sebe sama. To je cesta současných umělců, kteří odkládají všechno, aby jim nakonec zbyl zásadní materiál: vlastní tělo a&nbsp;hlas.\n",
+            "medailon": "Pavel Klusák píše o&nbsp;hudbě od roku 1989. Vysílá na Radiu Wave, pro Českou televizi vytvořil mj. seriál koncertních záznamů nezávislých kapel Doutnák. Vytváří hudební doprovodný program pro Mezinárodní festival dokumentárních filmu Ji.hlava, přednáší na UMPRUM. Zajímá ho především experimentální hudba a&nbsp;společensko-politické kontexty hudby. Každý rok vytváří pro Divadlo Archa společně s&nbsp;Alešem Stuchlým a&nbsp;Karlem Veselým program Hudba 20XX: Co se stalo?.\n",
+            "jmenoTituly": "",
+            "appended": true
+          },
+          {
             "jmeno": "Martin Semerád",
             "cas": "18.11. 10-12",
             "nazev": "Kosmologické pojednání o&nbsp;vzniku tělesnosti člověka z&nbsp;pohledu Anthroposofie",
@@ -452,25 +469,8 @@ var data = [
             "medailon": "Helena Vávrová je dětská endokrinoložka a&nbsp;dětská diabetoložka. Je autorkou mnoha knížek, které jsou jak pro odborníky, tak i&nbsp;pro rodiče dětí s&nbsp;tímto onemocněním a&nbsp;pro laiky. Nyní přednáší na univerzitách v&nbsp;Olomouci a&nbsp;ve Zlíně a&nbsp;zároveň učí na zdravotní škole ve Vsetíně.",
             "jmenoTituly": "MUDr. Helena Vávrová",
             "appended": true
-          },
-          {
-            "jmeno": "Pavel Klusák",
-            "cas": "18.11. 10-12",
-            "nazev": "Rituál se vrací: Tělo v&nbsp;současném umění & hudbě",
-            "anotace": "Vystačit si jen s&nbsp;vlastním tělem. Dát ho v&nbsp;sázku. Otestovat ho. Navázat na dávnou zkušenost s&nbsp;přechodovými rituály. Použít pro svůj tvůrčí experiment sebe sama. To je cesta současných umělců, kteří odkládají všechno, aby jim nakonec zbyl zásadní materiál: vlastní tělo a&nbsp;hlas.\n",
-            "medailon": "Pavel Klusák píše o&nbsp;hudbě od roku 1989. Vysílá na Radiu Wave, pro Českou televizi vytvořil mj. seriál koncertních záznamů nezávislých kapel Doutnák. Vytváří hudební doprovodný program pro Mezinárodní festival dokumentárních filmu Ji.hlava, přednáší na UMPRUM. Zajímá ho především experimentální hudba a&nbsp;společensko-politické kontexty hudby. Každý rok vytváří pro Divadlo Archa společně s&nbsp;Alešem Stuchlým a&nbsp;Karlem Veselým program Hudba 20XX: Co se stalo?.\n",
-            "jmenoTituly": "",
-            "appended": true
-          },
-          {
-            "jmeno": "Marie Salomonová",
-            "cas": "18.11. 10-12",
-            "nazev": "Jak by na tom bylo tělo bez duše?",
-            "anotace": "Proč je potřeba se kromě fyzického zdraví starat i&nbsp;o to duševní? A&nbsp;jak to vypadá, když se psychická stránka zanedbává? Z pohledu neurověd, psychologie, psychiatrie a&nbsp;sociologie se zaměříme na to, co je to duševní zdraví a&nbsp;nemoc, jaké jsou nejčastější mýty, které panují o&nbsp;psychiatrických onemocněních, co je to stigma a&nbsp;jakou roli hraje nejen v prevenci a&nbsp;včasné intervenci při psychických obtížích. Přednáška je z dílny neziskové organizace Nevypusť duši, za kterou stojí tým mladých psychologů, neurovědců a&nbsp;studentů těchto oborů. Zároveň ji tvoří i&nbsp;psychiatričtí pacienti a&nbsp;lidé se zkušeností s duševním onemocněním v&nbsp;mladém věku.\n,,Šíříme fakta, boříme mýty, vzděláváme a&nbsp;pomáháme v&nbsp;oblasti duševního zdraví a&nbsp;psychických onemocnění. Vedeme úspěšnou kampaň na sociálních sítích, pořádáme workshopy a&nbsp;přednášky. Našim cílem je zlepšení informovanosti Česka o&nbsp;duševním zdraví. Zdůrazňujeme důležitost prevence, sdílíme osobní příběhy a&nbsp;podporujeme včasné vyhledání odborné pomoci při duševních obtížích. Našimi projekty mimo jiné usilujeme o&nbsp;duševní zdravovědu ve školách, tedy aby se studenti stejně jako o&nbsp;fyzickou stránku učili starat o&nbsp;zdraví psychické,'' tvrdí o&nbsp;sobě.",
-            "medailon": "Marie Salomonová je spoluzakladatelkou kampaně Nevypusť duši. Studovala neurovědy na univerzitě v Nottinghamu a&nbsp;kromě vedení Nevypusť duši se věnuje i&nbsp;projektům v rámci reformy psychiatrie a&nbsp;zapojení pacientů do péče a&nbsp;rozhodovacích procesů na Ministerstvu zdravotnictví ČR.",
-            "jmenoTituly": "Marie Salomonová, MSci",
-            "appended": true
           }
+
         ]
       },
       {
@@ -587,29 +587,12 @@ var data = [
             "appended": true
           },
           {
-            "jmeno": "Jiří Flígl a&nbsp;Antonín Tesař",
+            "jmeno": "Jiří Flígl",
             "cas": "18.11. 15-17",
             "nazev": "Tělo a tělesnost v současném akčním filmu",
             "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-            "medailon": "",
-            "lide": [
-              {
-                "jmeno": "Jiří Flígl",
-                "cas": "18.11. 15-17",
-                "nazev": "Tělo a&nbsp;tělesnost v&nbsp;současném akčním filmu",
-                "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
                 "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika.",
-                "appended": true
-              },
-              {
-                "jmeno": "Antonín Tesař",
-                "cas": "18.11. 15-17",
-                "nazev": "Tělo a&nbsp;tělesnost v&nbsp;současném akčním filmu",
-                "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-                "medailon": "\nAntonín Tesař je významný český filmový recenzent, jehož kritiky můžeme nalézt například v&nbsp;kulturně zaměřeném čtrnáctideníku A2, na webu Radia Wave či v&nbsp;ryze filmovém dvouměsíčníku Cinepur. Rovněž přispívá do nespecializovaných časopisů, jako například týdeník Respekt. Jako dramaturg se podílí na Festivalu otrlého diváka, který se letos konal již potřinácté. Mimo filmové odvětví se věnuje také japonské kultuře. Je spoluautorem souboru esejů o&nbsp;japonské popkultuře Made in Japan a&nbsp;byl jedním z&nbsp;autorů dnes již neaktivních webových stránek Rejže.cz, zabývajících se japonským filmem. Zajímá se také o&nbsp;tzv. manga komiksy, píše o&nbsp;nich na webu Kobuta.cz, napomáhá vydávání každoroční sbírky české mangy s&nbsp;názvem Vějíř a&nbsp;sám je také autorem několika exemplářů.\n",
-                "appended": true
-              }
-            ]
+              
           },
           {
             "jmeno": "Petr Zewlakk Vrabec",
@@ -637,8 +620,8 @@ var data = [
           {
             "jmeno": "Šimon Pánek",
             "cas": "18.11. 17-18:30",
-            "nazev": "",
-            "anotace": "",
+            "nazev": "Tělo Člověka v tísni – jak vybudovat mezinárodní neziskovou organizaci",
+            "anotace": "Člověk v tísní – jak vést největší nevládní neziskovou organizaci ve střední Evropě, co dělat proto, aby <strong>tělo</strong> Člověka v tísni drželo při sobě, Tělo, které je tvořeno všemi součástmi a řízeno nejen hlavou, ale i názory a nápady každé jeho části (tedy každého člověka v Člověku v tísni). Jak vůbec vybudovat Tělo neziskové organizace, která má 1800 zaměstnanců v desítkách zemí světa..., kde brát odvahu, nápady a energii pokračovat tváří v tvář (téměř) neřešitelným problémům?",
             "medailon": "Šimon Pánek je jedním ze zakladatelů humanitární organizace Člověk v&nbsp;tísni a&nbsp;jejím současným ředitelem. Byl také jedním z&nbsp;nejznámějších studentských vůdců Sametové revoluce v&nbsp;roce 1989 a&nbsp;členem Občaského fóra za studenty. Patřil s&nbsp;Havlem do skupiny lidí, kteří jednali po revoluci o&nbsp;nové demokratické vládě. Politikem ale i&nbsp;přes množství preferenčních hlasů dlouho nezůstal. Roku 2010 mu za zásluhy občanské sdružení Post Bellum udělilo Cenu Paměti národa. Prezident Václav Havel jej na Pražském hradě vyznamenal medailí Za zásluhy za angažovanost ve věcech veřejných v&nbsp;roce 2002 a&nbsp;o rok později získal cenu Evropan roku.",
             "jmenoTituly": "",
             "appended": true
