@@ -63,6 +63,38 @@ var data = [
             "appended": true
           }
         ]
+      },
+      {
+	"cas":"21:00 - 23:00 <br><em>(sborovna)</em>",
+	"prednasky":[
+	      {
+            "jmeno": "Filmová noc",
+            "nazev": "", 
+	    "class":"full-width noBefore",
+            "ref": "FilmovaNoc",
+            "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
+            "anotace": "",
+            "lide": [
+              {
+                "jmeno": "Re Animator",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Dnes už klasické žánrové dílo na motivy příběhu H. P. Lovecrafta o&nbsp;zapáleném experimentátorovi Herbertu Westovi, který ve jménu vědy vyrábí násilnické zombie, si vzalo elementy klasických hororů třicátých a&nbsp;šedesátých let a&nbsp;zkombinovalo je s&nbsp;novou zálibou v&nbsp;excesivní tělesnosti, krvavých efektech a&nbsp;černém humoru.",
+                "appended": true
+              },
+              {
+                "jmeno": "Věc",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Vědce z&nbsp;americké výzkumné stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a&nbsp;Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v&nbsp;pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a&nbsp;vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“.",
+                "appended": true
+              }
+            ],
+            "appended": true
+          }
+	]	
       }
     ]
   },
@@ -131,21 +163,22 @@ var data = [
         "cas": "12:00 - 13:00",
         "prednasky": [
           {
-            "jmeno": "Oběd",
-            "nazev": "",
-            "isEmpty": true,
-            "ref": "Oběd"
-          },
-          {
             "jmeno": "Loono",
             "cas": "17.11. 12-13",
-            "spans": 4,
             "nazev": "#žiješsrdcem",
             "anotace": "Kardiovaskulární onemocnění nejsou totiž vidět a&nbsp;ani nebolí. Projeví se až v&nbsp;okamžiku, kdy je již “příliš pozdě”, což lidé často netuší, a&nbsp;proto si myslí, že se jich netýkají. Opak je bohužel pravdou. Proto je důležité věnovat dostatečnou pozornost preventivním opatřením – zdravému životnímu stylu a&nbsp;návštěvám preventivních prohlídek u&nbsp;praktických lékařů či kardiologů. Důležité je také včas rozpoznat příznaky akutního infarktu či mozkové mrtvice.\n\nCo se dozvíte na workshopu\n\n– jak srdce vypadá, jak funguje a&nbsp;k čemu slouží\n\n– jak včas odhalit infarkt, mrtvici a&nbsp;jiná kardiovaskulární onemocnění i&nbsp;jak jim předcházet\n\n– jak se zachovat v&nbsp;případě, že potkají přímo je nebo někoho v&nbsp;jejich okolí\n\n– kde a&nbsp;jak probíhají preventivní kontroly\n\n– jak o&nbsp;nemoci mluvit, pokud onemocní oni sami nebo někdo z&nbsp;jejich blízkých",
             "medailon": "Loono (čti Lůno) je tým mladých lékařů, studentů lékařských fakult a&nbsp;jiných nadšenců. Jejich společným cílem je prevence společnosti skrze vzdělávací workshopy, přednášky, publikace a&nbsp;videa. O&nbsp;zdraví a&nbsp;těle mluví srozumitelně, nestraší statistikami a&nbsp;inspirují ostatní, aby se o&nbsp;sebe začali starat včas a&nbsp;rádi. Mezi největší ocenění patří Sozial Marie (2016) & Gratias Tibi (2016). K&nbsp;celorepublikovém úspěchu s&nbsp;workshopem #prsakoule se nyní přidává i&nbsp;workshop #žiješsrdcem, v&nbsp;kterém se dozvíte vše o&nbsp;fukncích srdce, jeho onemocnění a&nbsp;jaké to je, si srdce poslechnout.",
             "jmenoTituly": "",
             "appended": true
-          }
+          },
+          {
+            "jmeno": "Oběd",
+            "nazev": "",
+	    "class": "full-width noBefore center",
+            "isEmpty": true,
+            "ref": "Oběd",
+            "spans":4
+		 },
         ]
       },
       {
@@ -323,11 +356,17 @@ var data = [
       {
         "cas": "20:00 - 23:00",
         "prednasky": [
+	  {"jmeno":"",
+	   "nazev":"",
+	   "class":"invisible noBefore",
+	   "isEmpty":"",
+	  },
           {
-            "jmeno": "Filmová noc",
+            "jmeno": "Filmová noc <em>(sborovna)</em>",
             "nazev": "",
-            "ref": "FilmovaNoc",
-            "spans": 5,
+	    "spans":2,
+	     "class":"full-width noBefore",
+            "ref": "FilmovaNocSborovna",
             "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
             "anotace": "",
             "lide": [
@@ -347,10 +386,21 @@ var data = [
                 "medailon": "Kultovní dokumentární film o&nbsp;newyorské queer scéně osmdesátých let se zaměřuje na umění dragu, tance vogue a&nbsp;tragické osudy tehdejší LGBT komunity.",
                 "appended": true
               },
+		],
+		},
+	      {
+            "jmeno": "Filmová noc <em>(P2.1)</em>",
+            "nazev": "",
+	    "spans":2,
+	     "class":"full-width noBefore",
+            "ref": "FilmovaNocP21",
+            "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
+            "anotace": "",
+            "lide": [
               {
                 "jmeno": "Little Miss Sunshine",
                 "cas": "večer",
-                "nazev": "Little Miss Sunshine",
+                "nazev": "",
                 "anotace": "",
                 "medailon": "Rodina se vydává na cestu napříč Amerikou, aby svou dceru podpořila ve finále dětské soutěže krásy.",
                 "appended": true
@@ -360,23 +410,7 @@ var data = [
                 "cas": "večer",
                 "nazev": "",
                 "anotace": "",
-                "medailon": "Po propuštění z&nbsp;vězení se prostitutka Sin-dee Rella dozvídá, že její přítel/pasák jí byl nevěrný, a&nbsp;proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností.",
-                "appended": true
-              },
-              {
-                "jmeno": "Re Animator",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Dnes už klasické žánrové dílo na motivy příběhu H. P. Lovecrafta o&nbsp;zapáleném experimentátorovi Herbertu Westovi, který ve jménu vědy vyrábí násilnické zombie, si vzalo elementy klasických hororů třicátých a&nbsp;šedesátých let a&nbsp;zkombinovalo je s&nbsp;novou zálibou v&nbsp;excesivní tělesnosti, krvavých efektech a&nbsp;černém humoru.",
-                "appended": true
-              },
-              {
-                "jmeno": "Věc",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Vědce z&nbsp;americké výzkumné stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a&nbsp;Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v&nbsp;pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a&nbsp;vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“.",
+                "medailon": "Po propuštění z vězení se prostitutka Sin-dee Rella dozvídá, že její přítel/pasák jí byl nevěrný, a proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností.",
                 "appended": true
               }
             ],
@@ -476,19 +510,23 @@ var data = [
       {
         "cas": "12:00 - 13:00",
         "prednasky": [
-          {
-            "jmeno": "Oběd",
-            "nazev": "",
-            "isEmpty": true,
-            "ref": ""
-          },
+
           {
             "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
             "nazev": "",
             "isEmpty": true,
             "ref": "BesedaSFilipemZajickem",
-            "spans": 4
-          }
+          },
+
+          {
+            "jmeno": "Oběd",
+            "nazev": "",
+            "spans":4,
+	    "class":"full-width noBefore",    
+	    "isEmpty": true,
+            "ref": ""
+          },
+           
         ]
       },
       {

@@ -184,6 +184,11 @@ var build = function(data,parent){
                     props["rowspan"] = prednaska["spansRows"];
                     
                 }
+                if(prednaska.hasOwnProperty("class")){
+                    
+                    props["class"] += " "+prednaska["class"];
+                    
+                }
                var item = createDOM('td','',props,row);  
                 var nazev = '</strong> ';
                 if(prednaska['nazev'].length>0){

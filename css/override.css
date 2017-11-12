@@ -1245,7 +1245,6 @@ nav > ul > li > a,
         top: -9999px;
         left: -9999px;
     }
-
     .table-harm tr {
         border: 1px solid #999;
         border-left: 0px;
@@ -1290,6 +1289,23 @@ nav > ul > li > a,
     .table-harm td:nth-of-type(6):before {
         content: "P2.3 ";
     }
+
+    .table-harm td.noBefore:before{
+	display: none !important;
+	content: '' !important;	
+	}
+	.table-harm td.invisible{
+	display: none;
+	}
+
+	.center{
+	text-align: inherit;
+	}
+	.table-harm td.full-width{
+	width: 100%;
+	padding-left: 0;
+	text-align: center;	
+}
 }
 
 }
