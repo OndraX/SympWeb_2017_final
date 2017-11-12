@@ -178,8 +178,7 @@ var data = [
             "isEmpty": true,
             "ref": "Oběd",
             "spans":4
-		 },
-        ]
+		 }]
       },
       {
         "cas": "13:00 - 15:00",
@@ -193,6 +192,7 @@ var data = [
             "lide": [
               {
                 "jmeno": "Jan Romportl",
+                "jmenoTituly": "Ing. Mgr. Jan Romportl, Ph.D.",
                 "cas": "17.11. 13-15",
                   
                 "nazev": "",
@@ -202,6 +202,7 @@ var data = [
               },
               {
                 "jmeno": "Alžběta Krausová",
+                "jmenoTituly": "Mgr. Alžběta Krausová",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -211,6 +212,7 @@ var data = [
               },
               {
                 "jmeno": "Roman Neruda",
+                "jmenoTituly": "Mgr. Roman Neruda, CSc.",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -261,11 +263,11 @@ var data = [
         "prednasky": [
           {
             "jmeno": "Helena Illnerová",
+            "jmenoTituly": "Prof. RNDr. Helena Illnerová, DrSc.",
             "cas": "17.11. 15-17",
             "nazev": "Denní časový program organismů",
             "anotace": "Všechny živé organismy vykazují denní rytmy. U&nbsp;člověka jsou to např. rytmy ve spánku a&nbsp;bdění, v&nbsp;tělesné teplotě či ve stovkách dalších proměnných. Savčí a&nbsp;tudíž i&nbsp;lidské rytmy jsou řízeny z&nbsp;centrálních biologických hodin uložených v&nbsp;mozku, ale nejnovější objevy ukázaly, že hodiny se nacházejí i&nbsp;v periferních orgánech jako jsou játra, srdce, ledviny apod. Přednáška ukáže, jak jsou centrální savčí hodiny synchronizovány s&nbsp;vnějším dnem pomocí pravidelného střídání světla a&nbsp;tmy, jaké světlo je zejména pro tuto synchronizaci potřebné, jaké jsou mechanismy této synchronizace a&nbsp;jak za určitých okolností, např. po letech přes časová pásma či při směnném provozu, může dojít k&nbsp;desynchronizaci celého časového systému s&nbsp;vnějším prostředím i&nbsp;navzájem mezi jednotlivými orgány. Tato desynchronizace může být rizikovým faktorem pro spánková, psychická, metabolická, nádorová i&nbsp;kardiovaskulární onemocnění. V&nbsp;závěru bude pak podán návod jak zdravě žít, který pomůže tento rizikový faktor umenšit.",
             "medailon": "Prof. RNDr. Helena Illnerová, DrSc. je světově uznávaná fyzioložka a&nbsp;biochemička. Po studiu na Přírodovědecké fakultě UK se věnovala výzkumu v&nbsp;oblasti chronobiologie. Jako první na světě objevila závislost funkce biologických hodin v&nbsp;mozku savců na délce dne během ročních období. Prof. Illnerová byla v&nbsp;letech 2001 - 2005 předsedkyní Akademie věd České republiky, kde zavedla program podpory mladých nadějných vědců. Dále předsedala Učené společnosti České republiky a&nbsp;České komisi pro UNESCO. Dodnes se pohybuje v&nbsp;několika vědeckých radách a&nbsp;etických komisích. Za přínos pro vědu a&nbsp;její řízení jí byla udělena řada domácích i&nbsp;zahraničních ocenění.",
-            "jmenoTituly": "Helena Illnerová",
             "appended": true
           },
           {
@@ -359,8 +361,7 @@ var data = [
 	  {"jmeno":"",
 	   "nazev":"",
 	   "class":"invisible noBefore",
-	   "isEmpty":"",
-	  },
+	   "isEmpty":""},
           {
             "jmeno": "Filmová noc <em>(sborovna)</em>",
             "nazev": "",
@@ -371,14 +372,6 @@ var data = [
             "anotace": "",
             "lide": [
               {
-                "jmeno": "Katka",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Film Heleny Třeštíkové je unikátním časosběrným dokumentem, mapujícím čtrnáct let v&nbsp;životě mladé narkomanky a&nbsp;jejího marného zápasu se závislostí. Třeštíková zaznamenává ve svém filmu rok za rokem Katčin sestup níž a&nbsp;níž na spirále krádeží, prostituce, fyzického i&nbsp;psychického chátrání přerušované jen občasným vzepětím naděje a&nbsp;odhodlání s&nbsp;drogami skoncovat.",
-                "appended": true
-              },
-              {
                 "jmeno": "Paris is burning",
                 "cas": "večer",
                 "nazev": "",
@@ -386,8 +379,15 @@ var data = [
                 "medailon": "Kultovní dokumentární film o&nbsp;newyorské queer scéně osmdesátých let se zaměřuje na umění dragu, tance vogue a&nbsp;tragické osudy tehdejší LGBT komunity.",
                 "appended": true
               },
-		],
-		},
+                {
+                "jmeno": "Katka",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Film Heleny Třeštíkové je unikátním časosběrným dokumentem, mapujícím čtrnáct let v&nbsp;životě mladé narkomanky a&nbsp;jejího marného zápasu se závislostí. Třeštíková zaznamenává ve svém filmu rok za rokem Katčin sestup níž a&nbsp;níž na spirále krádeží, prostituce, fyzického i&nbsp;psychického chátrání přerušované jen občasným vzepětím naděje a&nbsp;odhodlání s&nbsp;drogami skoncovat.",
+                "appended": true
+              }
+		]},
 	      {
             "jmeno": "Filmová noc <em>(P2.1)</em>",
             "nazev": "",
@@ -443,14 +443,16 @@ var data = [
 "lide": [
               {
                 "jmeno": "Vladimír Beneš",
+                "jmenoTituly": "Plk. prof. MUDr. Vladimír Beneš, DrSc.",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
-                "medailon": "Vladimír Beneše je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a&nbsp;v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
+                "medailon": "Vladimír Beneš je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a&nbsp;v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
                 "appended": true
               },
               {
                 "jmeno": "Jiří Kůs",
+                "jmenoTituly": "Mgr. Ing. Jiří Kůs",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
@@ -459,6 +461,7 @@ var data = [
               },
               {
                 "jmeno": "Dalibor Šrámek",
+                "jmenoTituly": "Dalibor Šrámek, MSc.",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
@@ -515,8 +518,7 @@ var data = [
             "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
             "nazev": "",
             "isEmpty": true,
-            "ref": "BesedaSFilipemZajickem",
-          },
+            "ref": "BesedaSFilipemZajickem"},
 
           {
             "jmeno": "Oběd",
@@ -525,9 +527,7 @@ var data = [
 	    "class":"full-width noBefore",    
 	    "isEmpty": true,
             "ref": ""
-          },
-           
-        ]
+          }]
       },
       {
         "cas": "13:00 - 15:00",
@@ -540,6 +540,7 @@ var data = [
             "lide": [
               {
                 "jmeno": "Saša Uhlová",
+                "jmenoTituly": "Mgr. Saša Uhlová",
                 "cas": "18.11. 13-15",
                 "nazev": "Tělesnost žurnalistiky",
                 "anotace": " ",
@@ -629,9 +630,7 @@ var data = [
             "cas": "18.11. 15-17",
             "nazev": "Tělo a tělesnost v současném akčním filmu",
             "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-                "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika.",
-              
-          },
+                "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika."},
           {
             "jmeno": "Petr Zewlakk Vrabec",
             "cas": "18.11.2017 13-15",

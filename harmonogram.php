@@ -4,7 +4,7 @@ $raw = file_get_contents("js/json/harm.json");
 
 $data = json_decode($raw, true);
 
-require $_SERVER['DOCUMENT_ROOT'] . '\vendor\autoload.php';
+require 'vendor/autoload.php';
 Mustache_Autoloader::register();
 
 
