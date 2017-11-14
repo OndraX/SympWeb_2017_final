@@ -3,7 +3,7 @@ var data = [
     "den": "Čtvrtek 16.11. <em>doprovodný program</em>",
     "header": [
       "Čas",
-      "Aula"
+      "P2.1"
     ],
     "program": [
       {
@@ -12,7 +12,7 @@ var data = [
           {
     "jmeno": "Lenka Klodová",
     "cas": "16.11. 18:30 - 18:45",
-    "nazev": "Zahájení",
+    "nazev": "Zahájení <em>(aula)<em>",
     "anotace": "",
     "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
     "ref": "LenkaKlodova"
@@ -265,15 +265,15 @@ var data = [
             "jmenoTituly": "Mgr. Tereza Gafna Váňová, MSt.",
             "appended": true
           },
-          {
-            "jmeno": "Alice Klouzková",
-            "cas": "17.11. 15-17",
-            "nazev": "",
-            "anotace": "Czech Craft Heritage je projekt, jehož cílem je dokázat, že tradiční řemeslné techniky nejsou odsouzeny k&nbsp;zániku, ale mohou existovat jako funkční součást soudobého módní produkce. Zaměřuje se hlavně na modrotisk, doplňkem pak mohou být i&nbsp;práce s&nbsp;paličkovanou krajkou, výšivkou ze skleněných perliček a&nbsp;tradičně tkanými látkami. Ve spolupráci s&nbsp;lokálními výrobci, kteří jsou mistry ve svém oboru, jsou tvořeny oděvy s&nbsp;výrazným řemeslným akcentem. Důležitým tématem se stalo nalezení vyváženého propojení tradice a&nbsp;inovace, tj. jak dosáhnout skloubení moderního výtvarného názoru s&nbsp;precizním rukodělným zpracováním čerpajícím z&nbsp;tradice při zachovaní samotné podstaty dané techniky. Inspiraci pro citlivý a&nbsp;fundovaný přístup designera k&nbsp;tomuto problému Alice Klouzková našla hlavně v&nbsp;produkci Ústředí lidové umělecké výroby (ÚLUV). Podstatnou částí tohoto doktorského projektu je i&nbsp;propagace zkoumaného tématu formou workshopů se studenty a&nbsp;aktivitami směřujícími k&nbsp;veřejnosti.",
-            "medailon": "Alice Klouzková vystudovala Ateliér módní tvorby na Vysoké škole uměleckoprůmyslové v&nbsp;Praze a&nbsp;po studiích zde několik let působila jako asistentka. V&nbsp;roce 2005 založila společně s&nbsp;Janou Jetelovou módní značku SISTERSCONSPIRACY. Od roku 2014 vede Ateliér módního designu na škole současného umění Scholastika. V&nbsp;rámci doktorského studia na VŠUP zkoumá využití modrotisku a&nbsp;dalších tradičních textilních technik v&nbsp;současném oděvním designu a&nbsp;výsledky prezentuje v&nbsp;projektu Czech Craft Heritage. V&nbsp;roce 2016 vydala knihu Dědictví: Tradice, inovace, móda, kde se zabývá tradičními českými a&nbsp;moravskými textilními technikami. Aktuálně můžete navštívit její výstavu Modré inovace v&nbsp;Českém centru ve Vídni.\n",
-            "jmenoTituly": "MgA. Alice Klouzková",
-            "appended": true
-          }
+            "AliceKlouzkova": {
+    "jmeno": "Alice Klouzková",
+	"jmenoTituly":"MgA. Alice Klouzková",
+    "cas": "17.11. 15-17",
+    "nazev": "Czech Craft Heritage: zpátky ke kořenům",
+    "anotace": "Czech Craft Heritage je projekt, jehož cílem je dokázat, že tradiční řemeslné techniky nejsou odsouzeny k zániku, ale mohou existovat jako funkční součást soudobého módní produkce. Zaměřuje se hlavně na modrotisk, doplňkem pak mohou být i práce s paličkovanou krajkou, výšivkou ze skleněných perliček a tradičně tkanými látkami. Ve spolupráci s lokálními výrobci, kteří jsou mistry ve svém oboru, jsou tvořeny oděvy s výrazným řemeslným akcentem. Důležitým tématem se stalo nalezení vyváženého propojení tradice a inovace, tj. jak dosáhnout skloubení moderního výtvarného názoru s precizním rukodělným zpracováním čerpajícím z tradice při zachovaní samotné podstaty dané techniky. Inspiraci pro citlivý a fundovaný přístup designera k tomuto problému Alice Klouzková našla hlavně v produkci Ústředí lidové umělecké výroby (ÚLUV). Podstatnou částí tohoto doktorského projektu je i propagace zkoumaného tématu formou workshopů se studenty a aktivitami směřujícími k veřejnosti.",
+    "medailon": "Alice Klouzková vystudovala Ateliér módní tvorby na Vysoké škole uměleckoprůmyslové v Praze a po studiích zde několik let působila jako asistentka. V roce 2005 založila společně s Janou Jetelovou módní značku SISTERSCONSPIRACY. Od roku 2014 vede Ateliér módního designu na škole současného umění Scholastika. V rámci doktorského studia na VŠUP zkoumá využití modrotisku a dalších tradičních textilních technik v současném oděvním designu a výsledky prezentuje v projektu Czech Craft Heritage. V roce 2016 vydala knihu Dědictví: Tradice, inovace, móda, kde se zabývá tradičními českými a moravskými textilními technikami. Aktuálně můžete navštívit její výstavu Modré inovace v Českém centru ve Vídni.\n",
+    "ref": "AliceKlouzkova"
+  },
         ]
       },
       {
@@ -533,14 +533,14 @@ var data = [
             "ref": "DebataZurnalistika"
           },
           {
-            "jmeno": "Lukáš Pollert",
-            "cas": " 18.11. 13-15",
-            "nazev": "",
-            "anotace": "Transplantace plic nepochybně patří mezi ty nejkomplikovanější operace, které jsou současní chirurgové schopni provádět. Jak je ale vůbec možné natolik složitý a&nbsp;závažný zákrok na lidském těle provést; kterým obtížím je při tom třeba čelit? Jak je vůbec možné se z&nbsp;pozice obyčejného lékaře dostat do týmu, jenž se zabývá něčím takhle pokrokovým? A&nbsp;nakolik se dá medicína kombinovat s&nbsp;jinými časově náročnými činnostmi, například vrcholovým sportem? Zajímá-li Vás odpověď na alespoň jednu z&nbsp;výše uvedených otázek, tak si nenechte ujít tuto přednášku! ",
-            "medailon": "MUDr. Lukáš Pollert je absolventem GJK z&nbsp;počátku 90. let, ve svém studiu pokračoval na 2. lékařské fakultě UK. Proslavil se jako vynikající vodní slalomář a&nbsp;kanoista, například v&nbsp;roce 1992 se stal olympijským vítězem na LOH v&nbsp;Barceloně. Po ukončení sportovní kariéry se začal naplno věnovat medicíně: nejprve pracoval na interně, poté na oddělení urgentního příjmu Ústřední vojenské nemocnice. V&nbsp;současnosti pracuje ve Fakultní nemocnici v&nbsp;Motole na klinice anesteziologie a&nbsp;resuscitace.",
-            "jmenoTituly": "MUDr. Lukáš Pollert",
-            "appended": true
-          },
+    "jmeno": "Lukáš Pollert",
+    "jmenoTituly": "MUDr. Lukáš Pollert",
+    "cas": " 18.11. 13-15",
+    "nazev": "Transplantace plic",
+    "anotace": "Transplantace plic nepochybně patří mezi ty nejkomplikovanější operace, které jsou současní chirurgové schopni provádět. Jak je ale vůbec možné natolik složitý a závažný zákrok na lidském těle provést; kterým obtížím je při tom třeba čelit? Jak je vůbec možné se z pozice obyčejného lékaře dostat do týmu, jenž se zabývá něčím takhle pokrokovým? A nakolik se dá medicína kombinovat s jinými časově náročnými činnostmi, například vrcholovým sportem? Zajímá-li Vás odpověď na alespoň jednu z výše uvedených otázek, tak si nenechte ujít tuto přednášku! ",
+    "medailon": "MUDr. Lukáš Pollert je absolventem GJK z počátku 90. let, ve svém studiu pokračoval na 2. lékařské fakultě UK. Proslavil se jako vynikající vodní slalomář a kanoista, například v roce 1992 se stal olympijským vítězem na LOH v Barceloně. Po ukončení sportovní kariéry se začal naplno věnovat medicíně: nejprve pracoval na interně, poté na oddělení urgentního příjmu Ústřední vojenské nemocnice. V současnosti pracuje ve Fakultní nemocnici v Motole na klinice anesteziologie a resuscitace.",
+    "ref": "LukasPollert"
+  },
           {
             "jmeno": "Dana Drábová",
             "cas": "18.11. 13-15",
@@ -551,14 +551,13 @@ var data = [
             "appended": true
           },
           {
-            "jmeno": "Martin Šuk",
-            "cas": "předběžně 18.11. 13-15",
-            "nazev": "Stavba kytar",
-            "anotace": "Zastává-li hudebník při produkci hudby intelektuální roli, pak je to právě hudební nástroj, který zastupuje rovinu čistě fyzickou a&nbsp;stává se tak „tělem hudby“. Přednáška se zaměří na úlohu hudebního nástroje v&nbsp;hudbě a&nbsp;jejich vzájemný vliv. Představí světy, ze kterých k&nbsp;nám kytara přišla a&nbsp;uvede vás do míst, kde má své neodmyslitelné místo. Ukáže rozdílné typy kytar, které se používají pro různé hudební slohy a&nbsp;styly. Posluchači se seznámí také s&nbsp;procesem stavby kytary, s&nbsp;možnostmi jejího konstrukčního řešení či s&nbsp;důsledky, které má na zvuk nástroje výběr dřeva, a&nbsp;dozví se také mnoho dalších zajímavostí o&nbsp;kytaře.",
-            "medailon": "Martin Šuk, kytarář, po studiu uměleckořemeslné stavby kytar v&nbsp;Lubech u&nbsp;Chebu a&nbsp;uměleckého zpracování dřeva v&nbsp;Hradci Králové zakládá v&nbsp;roce 2007 vlastní kytarářskou dílnu v&nbsp;Poděbradech, kde staví klasické kytary tradiční španělskou metodou. Byl několik let lektorem stavby hudebních nástrojů na Střední uměleckoprůmyslové škole v&nbsp;Hradci Králové. Díky konzultacím s&nbsp;profesory a&nbsp;hudebními profesionály v&nbsp;Praze, Brně, Berlíně, Vídni a&nbsp;Kroměříži staví koncertní nástroje pro profesionální kytaristy a&nbsp;studenty akademií a&nbsp;konzervatoří v&nbsp;Čechách i&nbsp;ve světě.",
-            "jmenoTituly": "",
-            "appended": true
-          },
+    "jmeno": "Martin Šuk",
+    "cas": "předběžně 18.11. 13-15",
+    "nazev": "Od hlavy po korpus aneb Kytara jako tělo hudby",
+    "anotace": "Zastává-li hudebník při produkci hudby intelektuální roli, pak je to právě hudební nástroj, který zastupuje rovinu čistě fyzickou a stává se tak „tělem hudby“. Přednáška se zaměří na úlohu hudebního nástroje v hudbě a jejich vzájemný vliv. Představí světy, ze kterých k nám kytara přišla a uvede vás do míst, kde má své neodmyslitelné místo. Ukáže rozdílné typy kytar, které se používají pro různé hudební slohy a styly. Posluchači se seznámí také s procesem stavby kytary, s možnostmi jejího konstrukčního řešení či s důsledky, které má na zvuk nástroje výběr dřeva, a dozví se také mnoho dalších zajímavostí o kytaře.",
+    "medailon": "Martin Šuk, kytarář, po studiu uměleckořemeslné stavby kytar v Lubech u Chebu a uměleckého zpracování dřeva v Hradci Králové zakládá v roce 2007 vlastní kytarářskou dílnu v Poděbradech, kde staví klasické kytary tradiční španělskou metodou. Byl několik let lektorem stavby hudebních nástrojů na Střední uměleckoprůmyslové škole v Hradci Králové. Díky konzultacím s profesory a hudebními profesionály v Praze, Brně, Berlíně, Vídni a Kroměříži staví koncertní nástroje pro profesionální kytaristy a studenty akademií a konzervatoří v Čechách i ve světě.",
+    "ref": "MartinSuk"
+  },
           {
             "jmeno": "Barbara Herz",
             "cas": "18.11. 13-15",
@@ -583,14 +582,14 @@ var data = [
             "appended": true
           },
           {
-            "jmeno": "Michal Burian",
-            "cas": "18.11. 15-17",
-            "nazev": "",
-            "anotace": "",
-            "medailon": "Plk. Mgr. Michal Burian, PhD. je ředitel odboru muzeí VHÚ. Od roku 1995 je pracovníkem Vojenského historického ústavu Praha, kde působil ve vědeckém, expozičním a&nbsp;sbírkovém oddělení a&nbsp;v odboru muzejně správním. Od roku 2008 je ředitelem odboru muzeí. Je kurátorem sbírek automobilní a&nbsp;těžké bojové techniky a\nspojovacího materiálu. Dříve byl rovněž kurátorem sbírky chemického materiálu. Dlouhodobě se mimo jiné zabývá historií sudetoněmeckých paramilitárních organizací a&nbsp;České obce sokolské. Je členem Rady pro výstavní činnost Národního muzea, Výstavní a&nbsp;programové rady Národního technického muzea, Redakční rady časopisu Historie a&nbsp;Vojenství, Ediční rady Ústavu pro studium totalitních režimů a&nbsp;Předsednictva vzdělavatelského odboru České obce sokolské.\n\n",
-            "jmenoTituly": "Plk. Mgr. Michal Burian, PhD.",
-            "appended": true
-          },
+    "jmeno": "Michal Burian",
+    "jmenoTituly": "Plk. Mgr. Michal Burian, PhD.",
+    "cas": "18.11. 15-17",
+    "nazev": "Ve zdravém těle zdravý duch",
+    "anotace": "Když v roce 1862 vznikla Tělocvičná jednota pražská, nikdo z účastníků ustavující schůze nemohl tušit, že byl právě položen základ nejvýznamnější spolkové organizace v našich dějinách. Záhy začala používat název Sokol a nastoupila na dlouhou cestu lemovanou všemi historickými milníky, které od roku 1862 potkaly české země. Jakou roli hrál tento spolek za druhé světové války? A jakou během zápasu o samostatný československý stát? Přijďte se dozvědět odpověď na otázku, co všechno vzniklo za 155 let pod křídly Sokola.\n",
+    "medailon": "Plk. Mgr. Michal Burian, PhD. je ředitel odboru muzeí VHÚ. Od roku 1995 je pracovníkem Vojenského historického ústavu Praha, kde působil ve vědeckém, expozičním a sbírkovém oddělení a v odboru muzejně správním. Od roku 2008 je ředitelem odboru muzeí. Je kurátorem sbírek automobilní a těžké bojové techniky a\nspojovacího materiálu. Dříve byl rovněž kurátorem sbírky chemického materiálu. Dlouhodobě se mimo jiné zabývá historií sudetoněmeckých paramilitárních organizací a České obce sokolské. Je členem Rady pro výstavní činnost Národního muzea, Výstavní a programové rady Národního technického muzea, Redakční rady časopisu Historie a Vojenství, Ediční rady Ústavu pro studium totalitních režimů a Předsednictva vzdělavatelského odboru České obce sokolské.\n\n",
+    "ref": "MichalBurian"
+  },
 
               {
                 "jmeno": "Jiří Flígl",
@@ -624,14 +623,13 @@ var data = [
         "cas": "17:00 - 19:00",
         "prednasky": [
           {
-            "jmeno": "Šimon Pánek",
-            "cas": "18.11. 17-18:30",
-            "nazev": "",
-            "anotace": "",
-            "medailon": "Šimon Pánek je jedním ze zakladatelů humanitární organizace Člověk v&nbsp;tísni a&nbsp;jejím současným ředitelem. Byl také jedním z&nbsp;nejznámějších studentských vůdců Sametové revoluce v&nbsp;roce 1989 a&nbsp;členem Občaského fóra za studenty. Patřil s&nbsp;Havlem do skupiny lidí, kteří jednali po revoluci o&nbsp;nové demokratické vládě. Politikem ale i&nbsp;přes množství preferenčních hlasů dlouho nezůstal. Roku 2010 mu za zásluhy občanské sdružení Post Bellum udělilo Cenu Paměti národa. Prezident Václav Havel jej na Pražském hradě vyznamenal medailí Za zásluhy za angažovanost ve věcech veřejných v&nbsp;roce 2002 a&nbsp;o rok později získal cenu Evropan roku.",
-            "jmenoTituly": "",
-            "appended": true
-          },
+    "jmeno": "Šimon Pánek",
+    "cas": "18.11. 17-18:30",
+    "nazev": " \nTělo Člověka v tísni – jak vybudovat mezinárodní neziskovou organizaci",
+    "anotace": "Člověk v tísni – jak vést největší nevládní neziskovou organizaci ve střední Evropě, co dělat proto, aby TĚLO Člověka v tísni drželo při sobě, Tělo, které je tvořeno všemi součástmi a řízeno nejen hlavou, ale i názory a nápady každé jeho části (tedy každého člověka v Člověku v tísni). Jak vůbec vybudovat Tělo neziskové organizace, která má 1800 zaměstnanců v desítkách zemí světa…, kde brát odvahu, nápady a energii pokračovat tváří v tvář (téměř) neřešitelným problémům? ",
+    "medailon": "Šimon Pánek je jedním ze zakladatelů humanitární organizace Člověk v tísni a jejím současným ředitelem. Byl také jedním z nejznámějších studentských vůdců Sametové revoluce v roce 1989 a členem Občaského fóra za studenty. Patřil s Havlem do skupiny lidí, kteří jednali po revoluci o nové demokratické vládě. Politikem ale i přes množství preferenčních hlasů dlouho nezůstal. Roku 2010 mu za zásluhy občanské sdružení Post Bellum udělilo Cenu Paměti národa. Prezident Václav Havel jej na Pražském hradě vyznamenal medailí Za zásluhy za angažovanost ve věcech veřejných v roce 2002 a o rok později získal cenu Evropan roku.",
+    "ref": "SimonPanek"
+  },
           {
             "jmeno": "Jan Pačes",
             "cas": "18.11. 17-19",
