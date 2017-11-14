@@ -135,6 +135,7 @@ var data = [
           {
             "jmeno": "Oběd",
             "nazev": "",
+			"class":"full-width noBefore",
             "isEmpty": true,
             "ref": "Oběd"
           },
@@ -488,6 +489,7 @@ var data = [
           {
             "jmeno": "Oběd",
             "nazev": "",
+			"class":"full-width noBefore",
             "isEmpty": true,
             "ref": "",
 			
