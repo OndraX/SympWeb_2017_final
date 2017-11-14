@@ -591,13 +591,7 @@ var data = [
             "jmenoTituly": "Plk. Mgr. Michal Burian, PhD.",
             "appended": true
           },
-          {
-            "jmeno": "Jiří Flígl a&nbsp;Antonín Tesař",
-            "cas": "18.11. 15-17",
-            "nazev": "",
-            "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-            "medailon": "",
-            "lide": [
+
               {
                 "jmeno": "Jiří Flígl",
                 "cas": "18.11. 15-17",
@@ -606,16 +600,6 @@ var data = [
                 "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika.",
                 "appended": true
               },
-              {
-                "jmeno": "Antonín Tesař",
-                "cas": "18.11. 15-17",
-                "nazev": "Tělo a&nbsp;tělesnost v&nbsp;současném akčním filmu",
-                "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-                "medailon": "\nAntonín Tesař je významný český filmový recenzent, jehož kritiky můžeme nalézt například v&nbsp;kulturně zaměřeném čtrnáctideníku A2, na webu Radia Wave či v&nbsp;ryze filmovém dvouměsíčníku Cinepur. Rovněž přispívá do nespecializovaných časopisů, jako například týdeník Respekt. Jako dramaturg se podílí na Festivalu otrlého diváka, který se letos konal již potřinácté. Mimo filmové odvětví se věnuje také japonské kultuře. Je spoluautorem souboru esejů o&nbsp;japonské popkultuře Made in Japan a&nbsp;byl jedním z&nbsp;autorů dnes již neaktivních webových stránek Rejže.cz, zabývajících se japonským filmem. Zajímá se také o&nbsp;tzv. manga komiksy, píše o&nbsp;nich na webu Kobuta.cz, napomáhá vydávání každoroční sbírky české mangy s&nbsp;názvem Vějíř a&nbsp;sám je také autorem několika exemplářů.\n",
-                "appended": true
-              }
-            ]
-          },
           {
             "jmeno": "Petr Zewlakk Vrabec",
             "cas": "18.11.2017 13-15",
