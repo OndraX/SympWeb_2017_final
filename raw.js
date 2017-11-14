@@ -835,9 +835,18 @@ var hybridUpdate = function (hybrid, data) {
 	
 							if (data.hasOwnProperty(ref)) {
 	
-								o[i] = data[ref];
-								data[ref]["appended"] = true;
+								//o[i] = data[ref];
+								
 	
+	["jmeno","nazev","medailon","anotace","ref"].forEach(function(prop){
+								console.log("copied property", prop);
+								o[i][prop] = data[ref][prop]
+								
+								
+								
+							});
+							data[ref]["appended"] = true;
+							
 							} else {
 								console.log('couldn\'t find:', e);
 								}
@@ -854,17 +863,24 @@ var hybridUpdate = function (hybrid, data) {
                             ref = fix(mluvci['jmeno']).toBactrianCamelCase();
 							}
 
-                        if (data.hasOwnProperty(ref)) {
+                        if (data.hasOwnProperty(ref)) {//if could find object with
                             if(mluvci.hasOwnProperty('jmenoTituly')){
-                              var tituly = mluvci['jmenoTituly'];  
-                            
-                            object[index] = data[ref];
-                            object[index]['jmenoTituly'] = tituly;
+							}
+                             // var tituly = mluvci['jmenoTituly'];  
+							["jmeno","nazev","medailon","anotace","ref"].forEach(function(prop){
+								console.log("copied property", prop);
+								object[index][prop] = data[ref][prop]
+								
+							});
+							
+							
+                            //object[index] = data[ref];
+                            //object[index]['jmenoTituly'] = tituly;
 							data[ref]["appended"] = true;
-                                }else{
+                                /*}else{
                             object[index] = data[ref];
 							data[ref]["appended"] = true;
-                                }
+                                }*/
                             
 
                         } else {
@@ -891,6 +907,7 @@ var dataToUsable = function (data) {
     var temp = {};
     data.forEach(function (e) {
         var identifier = fix(e["jmeno"]).toBactrianCamelCase();
+		e["ref"] = identifier;
         if (identifier) {
             temp[identifier] = e;
         }
@@ -898,7 +915,7 @@ var dataToUsable = function (data) {
     return temp;
 }
 
-hybridUpdate(hybrid,rawDataRefed);
+hybridUpdate(hybrid,rawDataRefed)
 
 console.log(hybrid);
 
