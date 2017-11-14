@@ -265,7 +265,7 @@ var data = [
             "jmenoTituly": "Mgr. Tereza Gafna Váňová, MSt.",
             "appended": true
           },
-            "AliceKlouzkova": {
+	{
     "jmeno": "Alice Klouzková",
 	"jmenoTituly":"MgA. Alice Klouzková",
     "cas": "17.11. 15-17",
@@ -279,24 +279,7 @@ var data = [
       {
         "cas": "17:00 - 19:00",
         "prednasky": [
-          {
-            "jmeno": "Monika Švec Sybolová",
-            "cas": "17.11. 17-19",
-            "nazev": "Erotické signály ve výtvarném umění 19. století",
-            "anotace": "Přednáška se zaměří na fenomén, jak do vysokého umění 19. století postupně proniká erotično jako osvěžující, moderní a&nbsp;samozřejmě lehce skandální motiv. Podíváme se na to, čím se ve vizuálním umění vysílají erotické signály. Je to jenom ženské tělo v&nbsp;různém odhalení a&nbsp;natočení? Nebo je to ještě něco dalšího? Porovnáme erotično v&nbsp;obraze a&nbsp;v textu, budeme sledovat souboj erotična s&nbsp;duchovnem a&nbsp;nakonec se uvidíme, co se s&nbsp;erotickou tělesností stane ve 20. století. Přednáška bude pracovat hlavně s&nbsp;díly Josefa Mánesa a&nbsp;Maxe Švabinského.",
-            "medailon": "Monika Sybolová vystudovala estetiku a&nbsp;dějiny umění na FF UK. Od roku 1993 je externí lektorkou Sbírky umění 19. století Národní galerie v&nbsp;Praze a&nbsp;od roku 2000 kurátorkou pro edukační činnost tamtéž. V&nbsp;současnosti organizje doprovodné a&nbsp;vzdělávací programy k&nbsp;výstavám NG jako Tajemné dálky či Celník Rousseau. Dále se podílí na programech pro školy v&nbsp;Anežském klášteře či Salmovském paláci. Organizuje a&nbsp;připravuje s&nbsp;kolegy Kurzy dějin umění, Letní krajinářské dílny pro studenty a&nbsp;dospělé, Jednodenní dramaticko-výtvarné plenéry a&nbsp;soutěž pro studenty středních škol Máš umělecké střevo?. Je také spoluautorkou knih pro děti Deník Jakuba S. nebo Čapek a&nbsp;Čapek. Spolupracovala na tanečních představeních Sen všech žen pro festival Habrovka a&nbsp;Den a&nbsp;noc a&nbsp;noc a&nbsp;den skupiny NANOHACH a&nbsp;na performancích reagující na výtvarné umění v&nbsp;galeriích.",
-            "jmenoTituly": "Mgr. Monika Sybolová",
-            "appended": true
-          },
-          {
-    "jmeno": "Michal Hanus",
-    "cas": "17.11. 17-19",
-    "nazev": "Lidský kapitál",
-    "anotace": "Lidský kapitál je to nejcennější, co ve firmách dnes najdeme. Musí být primárním požadavkem pro úspěch v&nbsp;dnešním světě jen znalosti, nebo jsou i&nbsp;jiné klíčové kompetence? Přednáška představí nejenom odpověď na předchozí otázku, ale i&nbsp;něco o&nbsp;výskytu znalostí a&nbsp;schopností na evropském trhu a&nbsp;jak se měnily v&nbsp;čase. Dále uvede i&nbsp;jaké jsou nejhledanější profese nebo jak firmy dnes investují do lidí a&nbsp;jak identifikovat jejich potenciál.",
-    "medailon": "Po dostudování ČVUT se Michal Hanus začal věnovat start-upům ze světa technologie. Jeho první úspěch pochází z&nbsp;herního světa, kde se podílel na vytvoření firmy Geewa s.r.o., která vyvíjí kompetitivní hry pro mnohé populární platformy (Facebook, IOS). Dále se také podílel na vývoji internetových portálů, jako je ušetřeno.cz, a&nbsp;komplexní mobilní marketingové společnosti Crazy Tomato.\n",
-    "ref": "MichalHanus"
-  },
-          {
+		{
             "jmeno": "Jan Černý ",
             "cas": "17.11. 15-17",
             "nazev": "Chimérismus a&nbsp;mikrochimérismus - krize identity.",
@@ -305,6 +288,25 @@ var data = [
             "jmenoTituly": "Prof. RNDr. Jan Černý PhD.",
             "appended": true
           },
+          
+          {
+    "jmeno": "Michal Hanus",
+    "cas": "17.11. 17-19",
+    "nazev": "Lidský kapitál",
+    "anotace": "Lidský kapitál je to nejcennější, co ve firmách dnes najdeme. Musí být primárním požadavkem pro úspěch v&nbsp;dnešním světě jen znalosti, nebo jsou i&nbsp;jiné klíčové kompetence? Přednáška představí nejenom odpověď na předchozí otázku, ale i&nbsp;něco o&nbsp;výskytu znalostí a&nbsp;schopností na evropském trhu a&nbsp;jak se měnily v&nbsp;čase. Dále uvede i&nbsp;jaké jsou nejhledanější profese nebo jak firmy dnes investují do lidí a&nbsp;jak identifikovat jejich potenciál.",
+    "medailon": "Po dostudování ČVUT se Michal Hanus začal věnovat start-upům ze světa technologie. Jeho první úspěch pochází z&nbsp;herního světa, kde se podílel na vytvoření firmy Geewa s.r.o., která vyvíjí kompetitivní hry pro mnohé populární platformy (Facebook, IOS). Dále se také podílel na vývoji internetových portálů, jako je ušetřeno.cz, a&nbsp;komplexní mobilní marketingové společnosti Crazy Tomato.\n",
+    "ref": "MichalHanus"
+  },
+  {
+            "jmeno": "Monika Švec Sybolová",
+            "cas": "17.11. 17-19",
+            "nazev": "Erotické signály ve výtvarném umění 19. století",
+            "anotace": "Přednáška se zaměří na fenomén, jak do vysokého umění 19. století postupně proniká erotično jako osvěžující, moderní a&nbsp;samozřejmě lehce skandální motiv. Podíváme se na to, čím se ve vizuálním umění vysílají erotické signály. Je to jenom ženské tělo v&nbsp;různém odhalení a&nbsp;natočení? Nebo je to ještě něco dalšího? Porovnáme erotično v&nbsp;obraze a&nbsp;v textu, budeme sledovat souboj erotična s&nbsp;duchovnem a&nbsp;nakonec se uvidíme, co se s&nbsp;erotickou tělesností stane ve 20. století. Přednáška bude pracovat hlavně s&nbsp;díly Josefa Mánesa a&nbsp;Maxe Švabinského.",
+            "medailon": "Monika Sybolová vystudovala estetiku a&nbsp;dějiny umění na FF UK. Od roku 1993 je externí lektorkou Sbírky umění 19. století Národní galerie v&nbsp;Praze a&nbsp;od roku 2000 kurátorkou pro edukační činnost tamtéž. V&nbsp;současnosti organizje doprovodné a&nbsp;vzdělávací programy k&nbsp;výstavám NG jako Tajemné dálky či Celník Rousseau. Dále se podílí na programech pro školy v&nbsp;Anežském klášteře či Salmovském paláci. Organizuje a&nbsp;připravuje s&nbsp;kolegy Kurzy dějin umění, Letní krajinářské dílny pro studenty a&nbsp;dospělé, Jednodenní dramaticko-výtvarné plenéry a&nbsp;soutěž pro studenty středních škol Máš umělecké střevo?. Je také spoluautorkou knih pro děti Deník Jakuba S. nebo Čapek a&nbsp;Čapek. Spolupracovala na tanečních představeních Sen všech žen pro festival Habrovka a&nbsp;Den a&nbsp;noc a&nbsp;noc a&nbsp;den skupiny NANOHACH a&nbsp;na performancích reagující na výtvarné umění v&nbsp;galeriích.",
+            "jmenoTituly": "Mgr. Monika Sybolová",
+            "appended": true
+          },
+          
           {
             "jmeno": "Ondřej Beran",
             "cas": "17.11. 17-19",
@@ -438,6 +440,25 @@ var data = [
               }
             ]
           },
+		  
+		  {
+            "jmeno": "Marie Salomonová",
+            "cas": "18.11. 10-12",
+            "nazev": "Jak by na tom bylo tělo bez duše?",
+            "anotace": "Proč je potřeba se kromě fyzického zdraví starat i&nbsp;o to duševní? A&nbsp;jak to vypadá, když se psychická stránka zanedbává? Z pohledu neurověd, psychologie, psychiatrie a&nbsp;sociologie se zaměříme na to, co je to duševní zdraví a&nbsp;nemoc, jaké jsou nejčastější mýty, které panují o&nbsp;psychiatrických onemocněních, co je to stigma a&nbsp;jakou roli hraje nejen v prevenci a&nbsp;včasné intervenci při psychických obtížích. Přednáška je z dílny neziskové organizace Nevypusť duši, za kterou stojí tým mladých psychologů, neurovědců a&nbsp;studentů těchto oborů. Zároveň ji tvoří i&nbsp;psychiatričtí pacienti a&nbsp;lidé se zkušeností s duševním onemocněním v&nbsp;mladém věku.\n,,Šíříme fakta, boříme mýty, vzděláváme a&nbsp;pomáháme v&nbsp;oblasti duševního zdraví a&nbsp;psychických onemocnění. Vedeme úspěšnou kampaň na sociálních sítích, pořádáme workshopy a&nbsp;přednášky. Našim cílem je zlepšení informovanosti Česka o&nbsp;duševním zdraví. Zdůrazňujeme důležitost prevence, sdílíme osobní příběhy a&nbsp;podporujeme včasné vyhledání odborné pomoci při duševních obtížích. Našimi projekty mimo jiné usilujeme o&nbsp;duševní zdravovědu ve školách, tedy aby se studenti stejně jako o&nbsp;fyzickou stránku učili starat o&nbsp;zdraví psychické,'' tvrdí o&nbsp;sobě.",
+            "medailon": "Marie Salomonová je spoluzakladatelkou kampaně Nevypusť duši. Studovala neurovědy na univerzitě v Nottinghamu a&nbsp;kromě vedení Nevypusť duši se věnuje i&nbsp;projektům v rámci reformy psychiatrie a&nbsp;zapojení pacientů do péče a&nbsp;rozhodovacích procesů na Ministerstvu zdravotnictví ČR.",
+            "jmenoTituly": "Marie Salomonová, MSci",
+            "appended": true
+          },
+          {
+            "jmeno": "Pavel Klusák",
+            "cas": "18.11. 10-12",
+            "nazev": "Rituál se vrací: Tělo v&nbsp;současném umění & hudbě",
+            "anotace": "Vystačit si jen s&nbsp;vlastním tělem. Dát ho v&nbsp;sázku. Otestovat ho. Navázat na dávnou zkušenost s&nbsp;přechodovými rituály. Použít pro svůj tvůrčí experiment sebe sama. To je cesta současných umělců, kteří odkládají všechno, aby jim nakonec zbyl zásadní materiál: vlastní tělo a&nbsp;hlas.\n",
+            "medailon": "Pavel Klusák píše o&nbsp;hudbě od roku 1989. Vysílá na Radiu Wave, pro Českou televizi vytvořil mj. seriál koncertních záznamů nezávislých kapel Doutnák. Vytváří hudební doprovodný program pro Mezinárodní festival dokumentárních filmu Ji.hlava, přednáší na UMPRUM. Zajímá ho především experimentální hudba a&nbsp;společensko-politické kontexty hudby. Každý rok vytváří pro Divadlo Archa společně s&nbsp;Alešem Stuchlým a&nbsp;Karlem Veselým program Hudba 20XX: Co se stalo?.\n",
+            "jmenoTituly": "",
+            "appended": true
+          }, 
           {
             "jmeno": "Martin Semerád",
             "cas": "18.11. 10-12",
@@ -456,44 +477,32 @@ var data = [
             "medailon": "Helena Vávrová je dětská endokrinoložka a&nbsp;dětská diabetoložka. Je autorkou mnoha knížek, které jsou jak pro odborníky, tak i&nbsp;pro rodiče dětí s&nbsp;tímto onemocněním a&nbsp;pro laiky. Nyní přednáší na univerzitách v&nbsp;Olomouci a&nbsp;ve Zlíně a&nbsp;zároveň učí na zdravotní škole ve Vsetíně.",
             "jmenoTituly": "MUDr. Helena Vávrová",
             "appended": true
-          },
-          {
-            "jmeno": "Pavel Klusák",
-            "cas": "18.11. 10-12",
-            "nazev": "Rituál se vrací: Tělo v&nbsp;současném umění & hudbě",
-            "anotace": "Vystačit si jen s&nbsp;vlastním tělem. Dát ho v&nbsp;sázku. Otestovat ho. Navázat na dávnou zkušenost s&nbsp;přechodovými rituály. Použít pro svůj tvůrčí experiment sebe sama. To je cesta současných umělců, kteří odkládají všechno, aby jim nakonec zbyl zásadní materiál: vlastní tělo a&nbsp;hlas.\n",
-            "medailon": "Pavel Klusák píše o&nbsp;hudbě od roku 1989. Vysílá na Radiu Wave, pro Českou televizi vytvořil mj. seriál koncertních záznamů nezávislých kapel Doutnák. Vytváří hudební doprovodný program pro Mezinárodní festival dokumentárních filmu Ji.hlava, přednáší na UMPRUM. Zajímá ho především experimentální hudba a&nbsp;společensko-politické kontexty hudby. Každý rok vytváří pro Divadlo Archa společně s&nbsp;Alešem Stuchlým a&nbsp;Karlem Veselým program Hudba 20XX: Co se stalo?.\n",
-            "jmenoTituly": "",
-            "appended": true
-          },
-          {
-            "jmeno": "Marie Salomonová",
-            "cas": "18.11. 10-12",
-            "nazev": "Jak by na tom bylo tělo bez duše?",
-            "anotace": "Proč je potřeba se kromě fyzického zdraví starat i&nbsp;o to duševní? A&nbsp;jak to vypadá, když se psychická stránka zanedbává? Z pohledu neurověd, psychologie, psychiatrie a&nbsp;sociologie se zaměříme na to, co je to duševní zdraví a&nbsp;nemoc, jaké jsou nejčastější mýty, které panují o&nbsp;psychiatrických onemocněních, co je to stigma a&nbsp;jakou roli hraje nejen v prevenci a&nbsp;včasné intervenci při psychických obtížích. Přednáška je z dílny neziskové organizace Nevypusť duši, za kterou stojí tým mladých psychologů, neurovědců a&nbsp;studentů těchto oborů. Zároveň ji tvoří i&nbsp;psychiatričtí pacienti a&nbsp;lidé se zkušeností s duševním onemocněním v&nbsp;mladém věku.\n,,Šíříme fakta, boříme mýty, vzděláváme a&nbsp;pomáháme v&nbsp;oblasti duševního zdraví a&nbsp;psychických onemocnění. Vedeme úspěšnou kampaň na sociálních sítích, pořádáme workshopy a&nbsp;přednášky. Našim cílem je zlepšení informovanosti Česka o&nbsp;duševním zdraví. Zdůrazňujeme důležitost prevence, sdílíme osobní příběhy a&nbsp;podporujeme včasné vyhledání odborné pomoci při duševních obtížích. Našimi projekty mimo jiné usilujeme o&nbsp;duševní zdravovědu ve školách, tedy aby se studenti stejně jako o&nbsp;fyzickou stránku učili starat o&nbsp;zdraví psychické,'' tvrdí o&nbsp;sobě.",
-            "medailon": "Marie Salomonová je spoluzakladatelkou kampaně Nevypusť duši. Studovala neurovědy na univerzitě v Nottinghamu a&nbsp;kromě vedení Nevypusť duši se věnuje i&nbsp;projektům v rámci reformy psychiatrie a&nbsp;zapojení pacientů do péče a&nbsp;rozhodovacích procesů na Ministerstvu zdravotnictví ČR.",
-            "jmenoTituly": "Marie Salomonová, MSci",
-            "appended": true
           }
+          
         ]
       },
       {
         "cas": "12:00 - 13:00",
         "prednasky": [
+		
           {
             "jmeno": "Oběd",
             "nazev": "",
             "isEmpty": true,
-            "ref": ""
+            "ref": "",
+			
           },
-          {
+		  
+		  {
     "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
     "cas": "přes oběd, 18.11.",
     "nazev": "",
     "medailon": "Srdečně Vás zveme na besedu s&nbsp;novinářem Filipem Zajíčkem, editorem internetové televize DVTV, bývalým šéfredaktorem The Student Times a&nbsp;v současné době studentem politologie na FFUK. V&nbsp;roce 2016 získal společně s&nbsp;Kirillem Ščeblykinem novinářskou cenu za rozhovor s&nbsp;Andrejem Babišem. V&nbsp;besedě se budeme bavit například o&nbsp;tom, jak vypadá práce šéfredaktora nebo co obnáší udělat rozhovor s&nbsp;vrcholným politikem. Beseda se vymyká konvenčnímu symposionovému programu, neboť forma bude spíše uvolněné popovídání než oficiální přednáška.",
     "anotace": "",
-    "ref": "BesedaSFilipemZajickem"
+    "ref": "BesedaSFilipemZajickem",
+	"spans":4
 		}
+          
         ]
       },
       {
