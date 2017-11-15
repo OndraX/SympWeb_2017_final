@@ -40,7 +40,12 @@
 <script>vex.defaultOptions.className = 'vex-theme-wireframe'</script>
 <link rel="stylesheet" href="css/agglutinate.css" />
 <style>
-
+@media screen and (max-width: 900px){/*proste na chvili zavrete oci, ono to bude dobry*/
+#table_0 td:nth-of-type(2):before {
+    content: "prostor před ředitelnou";
+	    font-style: italic;
+}
+}
 @media screen and (min-width: 900px){/*desperate times call for desperate measures*/
 
 .full-width{
@@ -96,7 +101,7 @@ width: initial !important;
           <img class="logo" src="images/logo.png" alt="logo">          
 						<div class = "figure-wrap">
 	        <img id = "figura" class = "telo" src="images/telo_rw.png" alt="tělo Symposion GJK">
-	            <a class = "heart-wrap" href = "#o-akci"><img src="images/heart_color.png" alt="srdce" class="heart beating overlay-image"></a>
+	            <a class = "heart-wrap" href = "#o-akci"><img src="images/heart_color.png" alt="srdce" id = "heart" class="heart beating overlay-image"></a>
 </div>
 		<table class = "align-left contact-info" id = "heads-up-info">
                     <tr>
@@ -155,7 +160,7 @@ width: initial !important;
 
 <section class = 'text-content twelve columns'>
 
-
+<h6> <a href = "files/Harmonogram-A4.pdf">Harmonogram v PDF stáhnete <strong>zde</strong>.</a> </h6>
     <p id="harmonogram-fallback">
     
         <noscript>

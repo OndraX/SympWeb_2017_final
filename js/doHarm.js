@@ -155,10 +155,10 @@ String.prototype.titlify = function() {
 }
 
 var build = function(data,parent){
-
+var tableCount = 0;
     data.forEach(function(day){
         createDOM('h2',day['den'],{class:'headingClass',},parent);
-        var table = createDOM('table','',{'class':'table-harm u-full-width u-max-full-width standard','id':'tableId'},parent);
+        var table = createDOM('table','',{'class':'table-harm u-full-width u-max-full-width standard','id':('table_' + String(tableCount++))},parent);
         var th = createDOM('tr','',{'class':'thClass','id':'thId'},createDOM('thead','',{'class':'theadClass','id':'tableHeadId'},table));
         
         for(var i in day['header']){

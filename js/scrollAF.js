@@ -1,9 +1,11 @@
 function stuff(scrolledPast,lightUp,lightUpPrev){//YAY for semantic names!
+		if(lightUp)
 		if(lightUp.classList){
 
             lightUp.classList.add('current-link');
         }
 		
+		if(lightUpPrev)
 		if(lightUpPrev.classList){
 
             lightUpPrev.classList.remove('current-link');
@@ -53,7 +55,6 @@ window.addEventListener('touchmove', lightupificationMagic,{passive:true});
 	
 	function stuffDelegate(a,b,c){//and yet more semanticity
 		stuff(a,b,c);
-		console.log(b);
 	}
 	
 	requestAnimationFrame(function(){

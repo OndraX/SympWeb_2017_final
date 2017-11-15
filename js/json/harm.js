@@ -3,11 +3,11 @@ var data = [
     "den": "Čtvrtek 16.11. <em>doprovodný program</em>",
     "header": [
       "Čas",
-      "P2.1"
+      "prostor před ředitelnou</em>"
     ],
     "program": [
       {
-        "cas": "18:30 - 18:45 <br> (<em>prostor před ředitelnou</em>)",
+        "cas": "18:30 - 18:45 <br>",
         "prednasky": [
           {
             "jmeno": "Lenka Klodová",
@@ -107,7 +107,7 @@ var data = [
     ]
   },
   {
-    "den": "Pátek 17.11",
+    "den": "Pátek 17.11.",
     "header": [
       "Čas",
       "Aula",
@@ -688,16 +688,6 @@ var data = [
             "ref": "JiriFligl"
           },
           {
-            "jmeno": "Petr Zewlakk Vrabec",
-            "cas": "18.11.2017 13-15",
-            "nazev": "Skrz tělo fotoaparátu",
-            "anotace": "Skrze tělo fotoapáratu zaznamenáváme svět kolem sebe. Jaký smysl mají Aktivistické fotografie, fotografování tajných policistů a projekt Week of life, jako o specifické formy fotografie. Jedním z dalších Zewlakkových projektů byly fotografie z Autonomního sociálního centra Klinika, ke kterým má, stejně jako ke squattu samotnému, velký citová  vztah. Jak velkou sílu a smysl má fotografie, která je bezpochyby jedním z hlavních prostředníků v mediích v dnešní společnosti? Co specifického fotografie jako taková znamená a co může v dnešním světě dokázat. ",
-            "medailon": "Petr Zewlakk Vrabec je fotograf na volné noze, který spolupracuje s mnoha organizacemi jako je Greenpeace, Limity jsme my, Jako doma, Romea, Hnutí duha, Autonomní sociální centrum Klinika, Statek Vlčkovice a dalšími. Pracuje na projektu Aktivistická fotografie, kde mapuje protesty v ulicích v ČR. Za dva a půl roku už nafotil přes 200 demonstrací, happeningů a přímých akcí. Jeho reportáže z demonstrací vycházejí na A2larm. Vyšly ale třeba i na americkém serveru Buzzfeed. Jeho fotografie se dále objevují i např. na přebalech knih. Letos získal nominaci na cenu Czech press photo za fotografii z letošního Ende Gelande. Jako fotograf Autonomního sociálního centra Klinika chystá fotoknihu o životě tohoto žižkovského squatu.",
-            "jmenoTituly": "",
-            "appended": true,
-            "ref": "PetrZewlakkVrabec"
-          },
-          {
             "jmeno": "Lucie Šrámková",
             "cas": "18.11.2017 15-17",
             "nazev": "Jsou myšlenky C.G.Junga použitelné v současnosti? (přednáška a workshop)",
@@ -706,8 +696,15 @@ var data = [
             "jmenoTituly": "MUDr. Lucie Šrámková",
             "appended": true,
             "ref": "LucieSramkova"
-          }
-        ]
+          },
+		  { "jmeno": "",
+            "cas": "",
+			"isEmpty":true,
+            "nazev": "",
+            "anotace":"",
+            "medailon":""
+		  }
+        ]          
       },
       {
         "cas": "17:00 - 19:00",
@@ -742,6 +739,16 @@ var data = [
             "appended": true,
             "ref": "PetrPojman"
           },
+		  {
+            "jmeno": "Johanna Nejedlová",
+            "cas": "18.11. 17-19",
+            "nazev": "Když to nechce?\n",
+            "anotace": "\nKonsent se věnuje prevenci sexuálního násilí a znásilnění a vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a psychopati?\nA když se budeme bavit  o souhlasu u sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s debatou se pobavíme i o tom, jak se dá proti sexuálnímu násilí bojovat a probereme, zda se dá o tak vážném tématu mluvit i s humorem",
+            "medailon": "Johanna Nejedlová je novinářka a aktivistka spolupracující mimo jiné s webovým portálem A2larm a deníkem Referendum. Je také členkou sdružení Konsent. Založila a momentálně vede osvětovou kampaň o znásilnění \"Když to nechce, tak to nechce\".",
+            "jmenoTituly": "",
+            "appended": true,
+            "ref": "JohannaNejedlova"
+          },
           {
             "jmeno": "Pavel Josef Macků",
             "cas": "18.11. 17-19",
@@ -751,17 +758,8 @@ var data = [
             "jmenoTituly": "Mgr. Pavel Josef Macků, Ph.D.",
             "appended": true,
             "ref": "PavelJosefMacku"
-          },
-          {
-            "jmeno": "Johanna Nejedlová",
-            "cas": "18.11. 17-19",
-            "nazev": "Když to nechce?\n",
-            "anotace": "\nKonsent se věnuje prevenci sexuálního násilí a znásilnění a vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a psychopati?\nA když se budeme bavit  o souhlasu u sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s debatou se pobavíme i o tom, jak se dá proti sexuálnímu násilí bojovat a probereme, zda se dá o tak vážném tématu mluvit i s humorem",
-            "medailon": "Johanna Nejedlová je novinářka a aktivistka spolupracující mimo jiné s webovým portálem A2larm a deníkem Referendum. Je také členkou sdružení Konsent. Založila a momentálně vede osvětovou kampaň o znásilnění \"Když to nechce, tak to nechce\".",
-            "jmenoTituly": "",
-            "appended": true,
-            "ref": "JohannaNejedlova"
           }
+          
         ]
       }
     ]
