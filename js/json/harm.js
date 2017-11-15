@@ -14,7 +14,7 @@ var data = [
             "cas": "16.11. 18:30 - 18:45",
             "nazev": "Zahájení",
 			"class":"full-width noBefore",
-            "anotace": "Jsem multimediální autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen.",
+            "anotace": ",,Jsem multimediální autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen,\" říká o své tvorbě Lenka Klodová. Pro zahájení 21. Sympozionu si připravila další ze svých vtipů, avšak zbytek zůstává překvapením.",
             "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
             "ref": "LenkaKlodova"
           }
@@ -206,6 +206,7 @@ var data = [
             "lide": [
               {
                 "jmeno": "Jan Romportl",
+                "jmenoTituly": "Ing. Mgr. Jan Romportl, Ph.D.",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -214,8 +215,9 @@ var data = [
                 "ref": "JanRomportl"
               },
               {
-                "jmeno": "Alžběta Krausová",
                 "cas": "17.11. 13-15",
+                "jmeno": "Alžběta Krausová",
+                "jmenoTituly": "Alžběta Krausová, PhD.",
                 "nazev": "",
                 "anotace": "",
                 "medailon": " ",
@@ -224,6 +226,7 @@ var data = [
               },
               {
                 "jmeno": "Roman Neruda",
+                "jmenoTituly": "Mgr. Roman Neruda, CSc.",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -247,8 +250,8 @@ var data = [
           {
             "jmeno": "Kateřina Kolářová",
             "cas": "17.11. 10-12 (když nebude zbytí tak i&nbsp;13-15)",
-            "nazev": "Jinakost - postižení - kritika",
-            "anotace": "Jinakost přitahuje pozornost, nutí zírat. Odlišnost se zdůrazňuje, staví se do středu pozornosti, aby budila údiv, je exotizována a asentimentalizována. Diváctvu je dovoleno, aby se upřeným pohledem odlišnosti zmocňovalo, a zároveň se distancovalo od toho, co vidí. Tento druh upřeného pohledu je způsobem vyznačení hranic, způsobem začlenění a zároveň vyčlenění odlišnosti pozorovaných abnormálních, defektních a postižených těl. Fascinace a exotizace, strach a úzkost, vyhroceně negativní či exaltovaně pozitivní pozornost – oba protipóly afektivních reakcí jsou založené na předpokladu, že abnormální těla a odlišně uskupené duševní a intelektuální vlastnosti konstituují druhé, nám nepodobné. Přitom ale každé setkání s jinakostí hrozí tuto hranici mezi „námi“ a „těmi druhými“ narušit.",
+            "nazev": "AIDS sem, AIDS tam aneb: Hroutíme se z&nbsp;tempa doby",
+            "anotace": "Priscilla Wald ve své studii kulturních představ nákazy využívá konceptu „představ o společenství“ Benedicta Andersona (2008) a ukazuje, jak příběhy o epidemii slouží k reformulaci představ o sounáležitosti, i jak se „představy o společenství“ mění v „představy o imunitě“ a sdílené náchylnosti k nákaze (Wald 2008: 29-67). Vyprávění o epidemii i metafora společenské a mravní krize rámovaly celý diskurz o AIDS v Československu už od jeho počátků a vytvořily působivý archiv svědčící o sdílených pocitech zranitelnosti, jež spoluvytvářely materiální i ideologické tělo společenství. To, že figury nákazy a představy epidemie nejsou důsledkem, ale spíše performativním vyjádřením společenských struktur a soudobých dominantních diskurzů, se ukazuje i tehdy, když se na konci osmdesátých let AIDS i HIV stávají důsledkem společnosti, nebezpečné a nakažlivé „asociálností“. V přednášce se budeme věnovat analýze reportáží o prvním případu odsouzení HIV pozitivního člověka za „šíření viru“ (1988) a  filmu Věry Chytilové Kopytem sem, kopytem tam (1990).",
             "medailon": "Mgr. Kateřina Kolářová, PhD. působí na Katedře genderových studií při FHS UK v Praze. Zabývá se bádáním v oblasti genderu, feministických kulturních studií, queer teorie a disability studies. V současnosti pracuje na publikaci zabývající se HIV, AIDS a vnímání nemocných společností.",
             "jmenoTituly": "Mgr. Kateřina Kolářová, PhD.",
             "appended": true,
@@ -285,7 +288,7 @@ var data = [
             "nazev": "Denní časový program organismů",
             "anotace": "Všechny živé organismy vykazují denní rytmy. U člověka jsou to např. rytmy ve spánku a bdění, v tělesné teplotě či ve stovkách dalších proměnných. Savčí a tudíž i lidské rytmy jsou řízeny z centrálních biologických hodin uložených v mozku, ale nejnovější objevy ukázaly, že hodiny se nacházejí i v periferních orgánech jako jsou játra, srdce, ledviny apod. Přednáška ukáže, jak jsou centrální savčí hodiny synchronizovány s vnějším dnem pomocí pravidelného střídání světla a tmy, jaké světlo je zejména pro tuto synchronizaci potřebné, jaké jsou mechanismy této synchronizace a jak za určitých okolností, např. po letech přes časová pásma či při směnném provozu, může dojít k desynchronizaci celého časového systému s vnějším prostředím i navzájem mezi jednotlivými orgány. Tato desynchronizace může být rizikovým faktorem pro spánková, psychická, metabolická, nádorová i kardiovaskulární onemocnění. V závěru bude pak podán návod jak zdravě žít, který pomůže tento rizikový faktor umenšit.",
             "medailon": "Prof. RNDr. Helena Illnerová, DrSc. je světově uznávaná fyzioložka a biochemička. Po studiu na Přírodovědecké fakultě UK se věnovala výzkumu v oblasti chronobiologie. Jako první na světě objevila závislost funkce biologických hodin v mozku savců na délce dne během ročních období. Prof. Illnerová byla v letech 2001 - 2005 předsedkyní Akademie věd České republiky, kde zavedla program podpory mladých nadějných vědců. Dále předsedala Učené společnosti České republiky a České komisi pro UNESCO. Dodnes se pohybuje v několika vědeckých radách a etických komisích. Za přínos pro vědu a její řízení jí byla udělena řada domácích i zahraničních ocenění.",
-            "jmenoTituly": "Helena Illnerová",
+            "jmenoTituly": "Prof. RNDr. Helena Illnerová, Dr.Sc.",
             "appended": true,
             "ref": "HelenaIllnerova"
           },
@@ -347,6 +350,7 @@ var data = [
           },
 		  {
             "jmeno": "Michal Hanus",
+            "jmenoTituly": "Ing. Michal Hanus",
             "nazev": "Lidský kapitál",
             "ref": "MichalHanus",
             "medailon": "Po dostudování personalistiky se Michal Hanus rozhodl zasvětit svůj život pomáhání druhým a v nadcházejících letech působil jako provozní v nadaci Duha, společnosti se zaměřením na integraci osob s mentálním a kombinovaným handicapem. Na to hned navázal pozicí projektového manažera v občanském sdružení Máme Otevřeno?, odkud po nějaké době přešel do VZP, kde dodnes působí jako vedoucí vývoje a vzdělávání.",
@@ -442,10 +446,10 @@ var data = [
                 "ref": "LittleMissSunshine"
               },
               {
-                "jmeno": "Transdarinka",
+                "jmeno": "Shrek 2",
                 "cas": "večer",
                 "nazev": "",
-                "medailon":"Po propuštění z vězení se prostitutka Sin-dee Rella dozvídá že její přítel/pasák jí byl nevěrný, a proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností",
+                "medailon":"Stěžejní dílo americké kinematorafie snoubí najivní pohádkno a sociální kritiku moderní kultury.",
                 "anotace":  "",
                 "appended": true,
                 "ref": "Transdarinka"
@@ -478,8 +482,9 @@ var data = [
             "medailon": "",
             "lide": [
               {
-                "jmeno": "Vladimír Beneš",
                 "cas": "",
+                "jmeno": "Vladimír Beneš",
+                "jmenoTituly": "Plk. prof. MUDr. Vladimír Beneš, DrSc.",
                 "nazev": "",
                 "anotace": "",
                 "medailon": "Vladimír Beneš je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
@@ -542,8 +547,8 @@ var data = [
             "jmeno": "Helena Vávrová",
             "cas": "",
             "nazev": "Imunita vs autoimunita",
-            "anotace": "Chcete se dozvědět o základách imunity lidského těla?  A co se stane, když se obrátí vlastní tělo proti vám. Významné typy autoimunitnich onemocnění a především problěm dětskeho diabetu 1. stupně a jeho života s ním.  ",
-            "medailon": "Helena Vávrová je dětská endokrinoložka a dětská diabetoložka. Je autorkou mnoha knížek, které jsou jak pro odborníky, tak i pro rodiče dětí s tímto onemocněním a pro laiky. Nyní přednáší na univerzitách v Olomouci a ve Zlíně a zároveň učí na zdravotní škole ve Vsetíně.",
+            "anotace": "Chcete se dozvědět o základech imunity lidského těla?  A co se stane, když se obrátí prti vám obrátí vaše vlastní tělo? Přednáška představí významné typy autoimunitnich onemocnění, především pak problém dětskeho diabetu 1. stupně a života s ním.",
+		"medailon": "Helena Vávrová je dětská endokrinoložka a dětská diabetoložka. Je autorkou mnoha knížek, které jsou jak pro odborníky, tak i pro rodiče dětí s tímto onemocněním a pro laiky. Nyní přednáší na univerzitách v Olomouci a ve Zlíně a zároveň učí na zdravotní škole ve Vsetíně.",
             "jmenoTituly": "MUDr. Helena Vávrová",
             "appended": true,
             "ref": "HelenaVavrova"

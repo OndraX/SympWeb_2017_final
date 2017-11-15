@@ -1,5 +1,3 @@
-console.log("Heyo dickbags!");
-
 function stuff(scrolledPast,lightUp,lightUpPrev){//YAY for semantic names!
 		if(lightUp.classList){
 
