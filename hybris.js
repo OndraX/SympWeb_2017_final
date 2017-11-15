@@ -10,13 +10,10 @@ var hybrid = [
         "cas": "18:30 - 18:45",
         "prednasky": [
           {
-    "jmeno": "Lenka Klodová",
-    "cas": "16.11. 18:30 - 18:45",
-    "nazev": "Zahájení",
-    "anotace": "Jsem multimediální autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen.",
-    "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
-    "ref": "LenkaKlodova"
-  }
+            "jmeno": "Lenka Klodová",
+            "nazev": "",
+            "isEmpty": true,
+          }
         ]
       },
       {
@@ -180,8 +177,7 @@ var hybrid = [
             "isEmpty": true,
             "ref": "Oběd",
             "spans":4
-		 },
-        ]
+		 }]
       },
       {
         "cas": "13:00 - 15:00",
@@ -194,6 +190,7 @@ var hybrid = [
             "lide": [
               {
                 "jmeno": "Jan Romportl",
+                "jmenoTituly": "Ing. Mgr. Jan Romportl, Ph.D.",
                 "cas": "17.11. 13-15",
                   
                 "nazev": "",
@@ -203,6 +200,7 @@ var hybrid = [
               },
               {
                 "jmeno": "Alžběta Krausová",
+                "jmenoTituly": "Mgr. Alžběta Krausová",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -212,6 +210,7 @@ var hybrid = [
               },
               {
                 "jmeno": "Roman Neruda",
+                "jmenoTituly": "Mgr. Roman Neruda, CSc.",
                 "cas": "17.11. 13-15",
                 "nazev": "",
                 "anotace": "",
@@ -262,11 +261,11 @@ var hybrid = [
         "prednasky": [
           {
             "jmeno": "Helena Illnerová",
+            "jmenoTituly": "Prof. RNDr. Helena Illnerová, DrSc.",
             "cas": "17.11. 15-17",
             "nazev": "Denní časový program organismů",
             "anotace": "Všechny živé organismy vykazují denní rytmy. U&nbsp;člověka jsou to např. rytmy ve spánku a&nbsp;bdění, v&nbsp;tělesné teplotě či ve stovkách dalších proměnných. Savčí a&nbsp;tudíž i&nbsp;lidské rytmy jsou řízeny z&nbsp;centrálních biologických hodin uložených v&nbsp;mozku, ale nejnovější objevy ukázaly, že hodiny se nacházejí i&nbsp;v periferních orgánech jako jsou játra, srdce, ledviny apod. Přednáška ukáže, jak jsou centrální savčí hodiny synchronizovány s&nbsp;vnějším dnem pomocí pravidelného střídání světla a&nbsp;tmy, jaké světlo je zejména pro tuto synchronizaci potřebné, jaké jsou mechanismy této synchronizace a&nbsp;jak za určitých okolností, např. po letech přes časová pásma či při směnném provozu, může dojít k&nbsp;desynchronizaci celého časového systému s&nbsp;vnějším prostředím i&nbsp;navzájem mezi jednotlivými orgány. Tato desynchronizace může být rizikovým faktorem pro spánková, psychická, metabolická, nádorová i&nbsp;kardiovaskulární onemocnění. V&nbsp;závěru bude pak podán návod jak zdravě žít, který pomůže tento rizikový faktor umenšit.",
             "medailon": "Prof. RNDr. Helena Illnerová, DrSc. je světově uznávaná fyzioložka a&nbsp;biochemička. Po studiu na Přírodovědecké fakultě UK se věnovala výzkumu v&nbsp;oblasti chronobiologie. Jako první na světě objevila závislost funkce biologických hodin v&nbsp;mozku savců na délce dne během ročních období. Prof. Illnerová byla v&nbsp;letech 2001 - 2005 předsedkyní Akademie věd České republiky, kde zavedla program podpory mladých nadějných vědců. Dále předsedala Učené společnosti České republiky a&nbsp;České komisi pro UNESCO. Dodnes se pohybuje v&nbsp;několika vědeckých radách a&nbsp;etických komisích. Za přínos pro vědu a&nbsp;její řízení jí byla udělena řada domácích i&nbsp;zahraničních ocenění.",
-            "jmenoTituly": "Helena Illnerová",
             "appended": true
           },
           {
@@ -310,12 +309,7 @@ var hybrid = [
       {
         "cas": "17:00 - 19:00",
         "prednasky": [
-          {
-            "jmeno": "Michal Hanus",
-            "nazev": "",
-            "isEmpty": true,
-            "ref": "MichalHanus"
-          },
+          
           {
             "jmeno": "Jan Černý ",
             "cas": "17.11. 15-17",
@@ -324,6 +318,12 @@ var hybrid = [
             "medailon": "Prof. RNDr. Jan Černý PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v&nbsp;Praze obor molekulární biologie a&nbsp;genetika, dále pak na PřF UK studoval obor imunologie v&nbsp;rámci doktorského studia. V&nbsp;dnešní době se věnuje studiu molekul a&nbsp;jejich spojení s&nbsp;membránami leukocytů (bílých krvinek), ale také studiu biologických aktiviti sekundárních metabolitů bakterií a&nbsp;hub. Získal mnoho ocenění, naposledy v&nbsp;roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o&nbsp;adaptorových proteinech lidských leukocytů.",
             "jmenoTituly": "Prof. RNDr. Jan Černý PhD.",
             "appended": true
+          },
+		  {
+            "jmeno": "Michal Hanus",
+            "nazev": "",
+            "isEmpty": true,
+            "ref": "MichalHanus"
           },
           {
             "jmeno": "Monika Švec Sybolová",
@@ -360,8 +360,7 @@ var hybrid = [
 	  {"jmeno":"",
 	   "nazev":"",
 	   "class":"invisible noBefore",
-	   "isEmpty":"",
-	  },
+	   "isEmpty":""},
           {
             "jmeno": "Filmová noc <em>(sborovna)</em>",
             "nazev": "",
@@ -372,14 +371,6 @@ var hybrid = [
             "anotace": "",
             "lide": [
               {
-                "jmeno": "Katka",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Film Heleny Třeštíkové je unikátním časosběrným dokumentem, mapujícím čtrnáct let v&nbsp;životě mladé narkomanky a&nbsp;jejího marného zápasu se závislostí. Třeštíková zaznamenává ve svém filmu rok za rokem Katčin sestup níž a&nbsp;níž na spirále krádeží, prostituce, fyzického i&nbsp;psychického chátrání přerušované jen občasným vzepětím naděje a&nbsp;odhodlání s&nbsp;drogami skoncovat.",
-                "appended": true
-              },
-              {
                 "jmeno": "Paris is burning",
                 "cas": "večer",
                 "nazev": "",
@@ -387,8 +378,15 @@ var hybrid = [
                 "medailon": "Kultovní dokumentární film o&nbsp;newyorské queer scéně osmdesátých let se zaměřuje na umění dragu, tance vogue a&nbsp;tragické osudy tehdejší LGBT komunity.",
                 "appended": true
               },
-		],
-		},
+                {
+                "jmeno": "Katka",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Film Heleny Třeštíkové je unikátním časosběrným dokumentem, mapujícím čtrnáct let v&nbsp;životě mladé narkomanky a&nbsp;jejího marného zápasu se závislostí. Třeštíková zaznamenává ve svém filmu rok za rokem Katčin sestup níž a&nbsp;níž na spirále krádeží, prostituce, fyzického i&nbsp;psychického chátrání přerušované jen občasným vzepětím naděje a&nbsp;odhodlání s&nbsp;drogami skoncovat.",
+                "appended": true
+              }
+		]},
 	      {
             "jmeno": "Filmová noc <em>(P2.1)</em>",
             "nazev": "",
@@ -443,14 +441,16 @@ var hybrid = [
 "lide": [
               {
                 "jmeno": "Vladimír Beneš",
+                "jmenoTituly": "Plk. prof. MUDr. Vladimír Beneš, DrSc.",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
-                "medailon": "Vladimír Beneše je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a&nbsp;v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
+                "medailon": "Vladimír Beneš je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a&nbsp;v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
                 "appended": true
               },
               {
                 "jmeno": "Jiří Kůs",
+                "jmenoTituly": "Mgr. Ing. Jiří Kůs",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
@@ -459,6 +459,7 @@ var hybrid = [
               },
               {
                 "jmeno": "Dalibor Šrámek",
+                "jmenoTituly": "Dalibor Šrámek, MSc.",
                 "cas": "",
                 "nazev": "",
                 "anotace": "",
@@ -515,8 +516,7 @@ var hybrid = [
             "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
             "nazev": "",
             "isEmpty": true,
-            "ref": "BesedaSFilipemZajickem",
-          },
+            "ref": "BesedaSFilipemZajickem"},
 
           {
             "jmeno": "Oběd",
@@ -525,21 +525,20 @@ var hybrid = [
 	    "class":"full-width noBefore",    
 	    "isEmpty": true,
             "ref": ""
-          },
-           
-        ]
+          }]
       },
       {
         "cas": "13:00 - 15:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Tělesnost žurnalistiky",
+            "jmeno": "Panelová diskuse: Tělesnost dnešní žurnalistiky",
             "nazev": "",
             "anotace": "Má novinařina bez osobního kontaktu redaktora a&nbsp;subjektu pro daný článek či reportáž hlavu a&nbsp;patu? Jak moc je zkreslený výsledný produkt nepřímé komunikace, například přes emailové dopisování? Jakou měrou se liší od akce a&nbsp;zapálené investigace? Je takto žurnalismus degenerovaný a&nbsp;nenaplněný? Různé aspekty soft news a&nbsp;hard news - jak jsou ovlivňovány a&nbsp;jak mohou samy ovlivňovat? Ubývá prostor pro tělenost dnešní žurnalistky?Na téma těchto otázek bude diskutovat trojice českých novinářek, s&nbsp;nimiž poté tělo na tělo budete moci probrat své osobní názory, pocity a&nbsp;připomínky.",
             "medailon": "",
             "lide": [
               {
                 "jmeno": "Saša Uhlová",
+                "jmenoTituly": "Mgr. Saša Uhlová",
                 "cas": "18.11. 13-15",
                 "nazev": "Tělesnost žurnalistiky",
                 "anotace": " ",
@@ -562,7 +561,7 @@ var hybrid = [
                 "medailon": "Šarlota Šudrychová studuje v&nbsp;pátém ročníku Právnické fakulty Univerzity Karlovy. Od února 2015 působí na serveru Lidovky.cz v&nbsp;rubrice Kultura a&nbsp;cestování, od minulého roku přispívá také do rubriky Právo a&nbsp;justice (kde se např. zabývá různými podobami bezplatné právní pomoci). V&nbsp;minulosti vedla studentský server Pardubice podle vás (specializace na místní politiku a&nbsp;předvolební debaty apod.), publikovala v&nbsp;Právním prostoru či pro fakultní časopis Paragraf.\n",
                 "appended": true
               }
-            ]
+            ],
           },
           {
             "jmeno": "Lukáš Pollert",
@@ -628,9 +627,7 @@ var hybrid = [
             "cas": "18.11. 15-17",
             "nazev": "Tělo a tělesnost v současném akčním filmu",
             "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
-                "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika.",
-              
-          },
+                "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika."},
           {
             "jmeno": "Petr Zewlakk Vrabec",
             "cas": "18.11.2017 13-15",

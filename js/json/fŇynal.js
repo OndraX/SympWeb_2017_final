@@ -1,4 +1,4 @@
-var hybrid = [
+var data = [
   {
     "den": "Čtvrtek 16.11. <em>doprovodný program</em>",
     "header": [
@@ -10,13 +10,11 @@ var hybrid = [
         "cas": "18:30 - 18:45",
         "prednasky": [
           {
-    "jmeno": "Lenka Klodová",
-    "cas": "16.11. 18:30 - 18:45",
-    "nazev": "Zahájení",
-    "anotace": "Jsem multimediální autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen.",
-    "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
-    "ref": "LenkaKlodova"
-  }
+            "jmeno": "Zahájení",
+            "nazev": "",
+            "isEmpty": true,
+            "ref": "Zahájení"
+          }
         ]
       },
       {
@@ -187,10 +185,11 @@ var hybrid = [
         "cas": "13:00 - 15:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Umělá Inteligence",
+            "jmeno": "Panelová diskuse:<br> Umělá Inteligence",
             "nazev": "",
             "anotace": "Už dnes se dokážou stroje naučit řešit konkrétní úlohy lépe než člověk. A&nbsp;zdá se, že by již v&nbsp;tomto století mohla umělá inteligence překonat lidské možnosti také na obecné úrovni. Stroje budou mít zcela univerzální schopnost se učit, efektivně pracovat s&nbsp;neurčitostí, vjemy z&nbsp;vnějšího prostředí i&nbsp;se svými vnitřními stavy. Co to může znamenat pro lidstvo?Měla by umělá inteligence mít svá vlastní práva? V&nbsp;čem všem nám umělá inteligence zjednoduší život a&nbsp;jaké bude její soužití s&nbsp;námi? Jak reálná je situace, že by umělá inteligence nad námi převezala moc nebo se vzbouřila?",
             "medailon": "",
+            "ref": "DebataUmelaInteligence",
             "lide": [
               {
                 "jmeno": "Jan Romportl",
@@ -436,8 +435,9 @@ var hybrid = [
         "cas": "10:00 - 12:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Transhumanismus",
+            "jmeno": "Panelová diskuse:<br> Transhumanismus",
             "nazev": "",
+            "ref": "DebataTranshumanismus",
             "anotace":"",
             "medailon": "Věda, kultura i veškeré vnímání světa kolem nás se odvíjí z povahy našeho těla – to je pro nás nástrojem míry, stejně jako prostředkem vnímání emocí. Tělesná schránka výrazně omezuje naše schopnosti a možnosti, zároveň ale poskytuje organické spojení s okolním prostředím. Je tělesná forma života pouze jednou z mnoha a lze jí překonat, nebo snahou dostat se za hranice člověka pohřbíme kořeny naší přirozenosti ztratíme to, co nás definuje a je určující pro smysl života, alespoň jak ho známe. Co se může zdát jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití. Diskuzi o transhumanismu – čeho již věda dosáhne, kam se budou technologie vyvíjet a jaké to bude mít důsledky – se bude účastnit neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a transhumanista Dalibor Šrámek.",
 "lide": [
@@ -533,7 +533,7 @@ var hybrid = [
         "cas": "13:00 - 15:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Tělesnost žurnalistiky",
+            "jmeno": "Panelová diskuse:<br> Tělesnost dnešní žurnalistiky",
             "nazev": "",
             "anotace": "Má novinařina bez osobního kontaktu redaktora a&nbsp;subjektu pro daný článek či reportáž hlavu a&nbsp;patu? Jak moc je zkreslený výsledný produkt nepřímé komunikace, například přes emailové dopisování? Jakou měrou se liší od akce a&nbsp;zapálené investigace? Je takto žurnalismus degenerovaný a&nbsp;nenaplněný? Různé aspekty soft news a&nbsp;hard news - jak jsou ovlivňovány a&nbsp;jak mohou samy ovlivňovat? Ubývá prostor pro tělenost dnešní žurnalistky?Na téma těchto otázek bude diskutovat trojice českých novinářek, s&nbsp;nimiž poté tělo na tělo budete moci probrat své osobní názory, pocity a&nbsp;připomínky.",
             "medailon": "",
@@ -562,7 +562,8 @@ var hybrid = [
                 "medailon": "Šarlota Šudrychová studuje v&nbsp;pátém ročníku Právnické fakulty Univerzity Karlovy. Od února 2015 působí na serveru Lidovky.cz v&nbsp;rubrice Kultura a&nbsp;cestování, od minulého roku přispívá také do rubriky Právo a&nbsp;justice (kde se např. zabývá různými podobami bezplatné právní pomoci). V&nbsp;minulosti vedla studentský server Pardubice podle vás (specializace na místní politiku a&nbsp;předvolební debaty apod.), publikovala v&nbsp;Právním prostoru či pro fakultní časopis Paragraf.\n",
                 "appended": true
               }
-            ]
+            ],
+            "ref": "DebataZurnalistika"
           },
           {
             "jmeno": "Lukáš Pollert",

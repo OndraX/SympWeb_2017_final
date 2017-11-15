@@ -1,9 +1,9 @@
-var hybrid = [
+var data = [
   {
     "den": "Čtvrtek 16.11. <em>doprovodný program</em>",
     "header": [
       "Čas",
-      "Aula"
+      "P2.1"
     ],
     "program": [
       {
@@ -11,9 +11,10 @@ var hybrid = [
         "prednasky": [
           {
     "jmeno": "Lenka Klodová",
-    "cas": "16.11. 18:30 - 18:45",
+    "cas": "16.11. 18:30 - 18:45 <em>(aula)<em>",
     "nazev": "Zahájení",
-    "anotace": "Jsem multimediální autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen.",
+    "class":"full-width noBefore",
+    "anotace": "",
     "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
     "ref": "LenkaKlodova"
   }
@@ -65,38 +66,6 @@ var hybrid = [
             "appended": true
           }
         ]
-      },
-      {
-	"cas":"21:00 - 23:00 <br><em>(sborovna)</em>",
-	"prednasky":[
-	      {
-            "jmeno": "Filmová noc",
-            "nazev": "", 
-	    "class":"full-width noBefore",
-            "ref": "FilmovaNoc",
-            "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
-            "anotace": "",
-            "lide": [
-              {
-                "jmeno": "Re Animator",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Dnes už klasické žánrové dílo na motivy příběhu H. P. Lovecrafta o&nbsp;zapáleném experimentátorovi Herbertu Westovi, který ve jménu vědy vyrábí násilnické zombie, si vzalo elementy klasických hororů třicátých a&nbsp;šedesátých let a&nbsp;zkombinovalo je s&nbsp;novou zálibou v&nbsp;excesivní tělesnosti, krvavých efektech a&nbsp;černém humoru.",
-                "appended": true
-              },
-              {
-                "jmeno": "Věc",
-                "cas": "večer",
-                "nazev": "",
-                "anotace": "",
-                "medailon": "Vědce z&nbsp;americké výzkumné stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a&nbsp;Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v&nbsp;pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a&nbsp;vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“.",
-                "appended": true
-              }
-            ],
-            "appended": true
-          }
-	]	
       }
     ]
   },
@@ -165,32 +134,33 @@ var hybrid = [
         "cas": "12:00 - 13:00",
         "prednasky": [
           {
+            "jmeno": "Oběd",
+            "nazev": "",
+			"class":"full-width noBefore",
+            "isEmpty": true,
+            "ref": "Oběd"
+          },
+          {
             "jmeno": "Loono",
             "cas": "17.11. 12-13",
+            "spans": 4,
             "nazev": "#žiješsrdcem",
             "anotace": "Kardiovaskulární onemocnění nejsou totiž vidět a&nbsp;ani nebolí. Projeví se až v&nbsp;okamžiku, kdy je již “příliš pozdě”, což lidé často netuší, a&nbsp;proto si myslí, že se jich netýkají. Opak je bohužel pravdou. Proto je důležité věnovat dostatečnou pozornost preventivním opatřením – zdravému životnímu stylu a&nbsp;návštěvám preventivních prohlídek u&nbsp;praktických lékařů či kardiologů. Důležité je také včas rozpoznat příznaky akutního infarktu či mozkové mrtvice.\n\nCo se dozvíte na workshopu\n\n– jak srdce vypadá, jak funguje a&nbsp;k čemu slouží\n\n– jak včas odhalit infarkt, mrtvici a&nbsp;jiná kardiovaskulární onemocnění i&nbsp;jak jim předcházet\n\n– jak se zachovat v&nbsp;případě, že potkají přímo je nebo někoho v&nbsp;jejich okolí\n\n– kde a&nbsp;jak probíhají preventivní kontroly\n\n– jak o&nbsp;nemoci mluvit, pokud onemocní oni sami nebo někdo z&nbsp;jejich blízkých",
             "medailon": "Loono (čti Lůno) je tým mladých lékařů, studentů lékařských fakult a&nbsp;jiných nadšenců. Jejich společným cílem je prevence společnosti skrze vzdělávací workshopy, přednášky, publikace a&nbsp;videa. O&nbsp;zdraví a&nbsp;těle mluví srozumitelně, nestraší statistikami a&nbsp;inspirují ostatní, aby se o&nbsp;sebe začali starat včas a&nbsp;rádi. Mezi největší ocenění patří Sozial Marie (2016) & Gratias Tibi (2016). K&nbsp;celorepublikovém úspěchu s&nbsp;workshopem #prsakoule se nyní přidává i&nbsp;workshop #žiješsrdcem, v&nbsp;kterém se dozvíte vše o&nbsp;fukncích srdce, jeho onemocnění a&nbsp;jaké to je, si srdce poslechnout.",
             "jmenoTituly": "",
             "appended": true
-          },
-          {
-            "jmeno": "Oběd",
-            "nazev": "",
-	    "class": "full-width noBefore center",
-            "isEmpty": true,
-            "ref": "Oběd",
-            "spans":4
-		 },
+          }
         ]
       },
       {
         "cas": "13:00 - 15:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Umělá Inteligence",
+            "jmeno": "Panelová diskuse:<br> Umělá Inteligence",
             "nazev": "",
             "anotace": "Už dnes se dokážou stroje naučit řešit konkrétní úlohy lépe než člověk. A&nbsp;zdá se, že by již v&nbsp;tomto století mohla umělá inteligence překonat lidské možnosti také na obecné úrovni. Stroje budou mít zcela univerzální schopnost se učit, efektivně pracovat s&nbsp;neurčitostí, vjemy z&nbsp;vnějšího prostředí i&nbsp;se svými vnitřními stavy. Co to může znamenat pro lidstvo?Měla by umělá inteligence mít svá vlastní práva? V&nbsp;čem všem nám umělá inteligence zjednoduší život a&nbsp;jaké bude její soužití s&nbsp;námi? Jak reálná je situace, že by umělá inteligence nad námi převezala moc nebo se vzbouřila?",
             "medailon": "",
+            "ref": "DebataUmelaInteligence",
             "lide": [
               {
                 "jmeno": "Jan Romportl",
@@ -241,9 +211,9 @@ var hybrid = [
           {
             "jmeno": "Iva Baslarová",
             "cas": "17.11. 13-15",
-            "nazev": "Od princezny ke kyborgyni -&nbsp;tělo v&nbsp;populární kultuře feministickou perspektivou",
+            "nazev": "Gender, média a&nbsp;popkultura",
             "anotace": "Přednáška bude zaměřena na základní tematické okruhy, které se vztahují k&nbsp;úloze a&nbsp;funkci médií v&nbsp;populární kultuře v&nbsp;souvislosti s&nbsp;kategorií gender. Představí historický vývoj feministického zájmu o&nbsp;média, stereotypní a&nbsp;inovativní utváření ženských a&nbsp;mužských postav ve filmu a&nbsp;televizi, možnosti recepce mediálních obsahů publikem včetně subverzivního (především queer) čtení. Specifickou část bude tvořit působení mýtu krásy a&nbsp;romantické lásky v&nbsp;populární kultuře s&nbsp;ohledem na proměnu žánrů horor, sci-fi a&nbsp;fantasy. Přednášku doplní empirická data a&nbsp;četné příklady a&nbsp;ukázky z&nbsp;mediální praxe, které budou vhodně ilustrovat danou tematiku.",
-            "medailon": "Iva Baslarová je socioložka vyučujucí na katedře genderových studií FHS. Zabývá se především otázkami feminismu a&nbsp;jeho vnímání a&nbsp;znázornění v&nbsp;popkultuře a&nbsp;médiích. Je externí spolupracovnicí portálu A2larm. cz a&nbsp;webového magazínu femag.cz",
+            "medailon": "Iva Baslarová je socioložka a&nbsp;genderoložka vyučujucí na katedře genderových studií FHS. Zabývá se především otázkami feminismu a&nbsp;jeho vnímání a&nbsp;znázornění v&nbsp;popkultuře a&nbsp;médiích. Je externí spolupracovnicí portálu A2larm. cz a&nbsp;webového magazínu femag.cz",
             "jmenoTituly": "Mgr. Iva Baslarová, Ph.D.",
             "appended": true
           },
@@ -252,6 +222,7 @@ var hybrid = [
             "cas": "17.11. 13-15",
             "nazev": "Československá sexuologie a&nbsp;tělo: předpis, norma, nezbadatelnost",
             "anotace": "„K vrcholné něžnosti je třeba jemné pleti, měkkosti pohybu, jemnosti skladby těla, obecné citovosti a&nbsp;vláčnosti. Tyto vlastnosti jsou biologickými vlastnostmi ženy, nikoliv muže. Je velikou chybou, že se ženy při emancipaci, ve snaze napodobovat muže, něžnosti zbavují nebo na ni zapomínají.“ Takové i&nbsp;jiné výroky zaznívaly během 20. století z&nbsp;úst vážených pánů v&nbsp;bílých pláštích a&nbsp;s tituly, mužů, kteří měli moc nad lidským (duševním) zdravím a&nbsp;kteří rozhodovali, co je ještě normální, a&nbsp;co už ne. Opravdu si dívky píšou deníky s&nbsp;milostnými básněmi, zatímco se chlapci otužují? Je skupinový sex v&nbsp;pořádku, pokud se ho pár dopouští pro záchranu manželství? A&nbsp;když se někomu líbí jedinec stejného pohlaví, má pro to nutně sklony k&nbsp;umění? To jsou jen některé z&nbsp;otázek, jaké si kladli českoslovenští a&nbsp;čeští sexuologové a&nbsp;sexuoložky. My se potom budeme ptát, co je k&nbsp;jejich tázání vlastně vedlo – opravdu naše těla a&nbsp;touhy tolik vypovídají o&nbsp;tom, kým jsme? Anebo jsou sexuologické pojmy naší tělesnosti přeci jen příliš těsné?",
+            "medailon": "Josef Řídký po dokončení studia na Gymnáziu Jana Keplera vystudoval historii a&nbsp;komparatistiku na FF UK. Věnuje se vztahu genderu a&nbsp;ideologie, především za doby normalizace. V&nbsp;současné době také spolupracuje se serverem A2larm.cz a&nbsp;kulturním čtrnáctideníkem A2.",
             "jmenoTituly": "Mgr. Josef Řídký",
             "appended": true
           }
@@ -296,44 +267,48 @@ var hybrid = [
             "jmenoTituly": "Mgr. Tereza Gafna Váňová, MSt.",
             "appended": true
           },
-          {
-            "jmeno": "Alice Klouzková",
-            "cas": "17.11. 15-17",
-            "nazev": "",
-            "anotace": "Czech Craft Heritage je projekt, jehož cílem je dokázat, že tradiční řemeslné techniky nejsou odsouzeny k&nbsp;zániku, ale mohou existovat jako funkční součást soudobého módní produkce. Zaměřuje se hlavně na modrotisk, doplňkem pak mohou být i&nbsp;práce s&nbsp;paličkovanou krajkou, výšivkou ze skleněných perliček a&nbsp;tradičně tkanými látkami. Ve spolupráci s&nbsp;lokálními výrobci, kteří jsou mistry ve svém oboru, jsou tvořeny oděvy s&nbsp;výrazným řemeslným akcentem. Důležitým tématem se stalo nalezení vyváženého propojení tradice a&nbsp;inovace, tj. jak dosáhnout skloubení moderního výtvarného názoru s&nbsp;precizním rukodělným zpracováním čerpajícím z&nbsp;tradice při zachovaní samotné podstaty dané techniky. Inspiraci pro citlivý a&nbsp;fundovaný přístup designera k&nbsp;tomuto problému Alice Klouzková našla hlavně v&nbsp;produkci Ústředí lidové umělecké výroby (ÚLUV). Podstatnou částí tohoto doktorského projektu je i&nbsp;propagace zkoumaného tématu formou workshopů se studenty a&nbsp;aktivitami směřujícími k&nbsp;veřejnosti.",
-            "medailon": "Alice Klouzková vystudovala Ateliér módní tvorby na Vysoké škole uměleckoprůmyslové v&nbsp;Praze a&nbsp;po studiích zde několik let působila jako asistentka. V&nbsp;roce 2005 založila společně s&nbsp;Janou Jetelovou módní značku SISTERSCONSPIRACY. Od roku 2014 vede Ateliér módního designu na škole současného umění Scholastika. V&nbsp;rámci doktorského studia na VŠUP zkoumá využití modrotisku a&nbsp;dalších tradičních textilních technik v&nbsp;současném oděvním designu a&nbsp;výsledky prezentuje v&nbsp;projektu Czech Craft Heritage. V&nbsp;roce 2016 vydala knihu Dědictví: Tradice, inovace, móda, kde se zabývá tradičními českými a&nbsp;moravskými textilními technikami. Aktuálně můžete navštívit její výstavu Modré inovace v&nbsp;Českém centru ve Vídni.\n",
-            "jmenoTituly": "MgA. Alice Klouzková",
-            "appended": true
-          }
+	{
+    "jmeno": "Alice Klouzková",
+	"jmenoTituly":"MgA. Alice Klouzková",
+    "cas": "17.11. 15-17",
+    "nazev": "Czech Craft Heritage: zpátky ke kořenům",
+    "anotace": "Czech Craft Heritage je projekt, jehož cílem je dokázat, že tradiční řemeslné techniky nejsou odsouzeny k zániku, ale mohou existovat jako funkční součást soudobého módní produkce. Zaměřuje se hlavně na modrotisk, doplňkem pak mohou být i práce s paličkovanou krajkou, výšivkou ze skleněných perliček a tradičně tkanými látkami. Ve spolupráci s lokálními výrobci, kteří jsou mistry ve svém oboru, jsou tvořeny oděvy s výrazným řemeslným akcentem. Důležitým tématem se stalo nalezení vyváženého propojení tradice a inovace, tj. jak dosáhnout skloubení moderního výtvarného názoru s precizním rukodělným zpracováním čerpajícím z tradice při zachovaní samotné podstaty dané techniky. Inspiraci pro citlivý a fundovaný přístup designera k tomuto problému Alice Klouzková našla hlavně v produkci Ústředí lidové umělecké výroby (ÚLUV). Podstatnou částí tohoto doktorského projektu je i propagace zkoumaného tématu formou workshopů se studenty a aktivitami směřujícími k veřejnosti.",
+    "medailon": "Alice Klouzková vystudovala Ateliér módní tvorby na Vysoké škole uměleckoprůmyslové v Praze a po studiích zde několik let působila jako asistentka. V roce 2005 založila společně s Janou Jetelovou módní značku SISTERSCONSPIRACY. Od roku 2014 vede Ateliér módního designu na škole současného umění Scholastika. V rámci doktorského studia na VŠUP zkoumá využití modrotisku a dalších tradičních textilních technik v současném oděvním designu a výsledky prezentuje v projektu Czech Craft Heritage. V roce 2016 vydala knihu Dědictví: Tradice, inovace, móda, kde se zabývá tradičními českými a moravskými textilními technikami. Aktuálně můžete navštívit její výstavu Modré inovace v Českém centru ve Vídni.\n",
+    "ref": "AliceKlouzkova"
+  },
         ]
       },
       {
         "cas": "17:00 - 19:00",
         "prednasky": [
-          {
-            "jmeno": "Michal Hanus",
-            "nazev": "",
-            "isEmpty": true,
-            "ref": "MichalHanus"
-          },
-          {
+		{
             "jmeno": "Jan Černý ",
             "cas": "17.11. 15-17",
-            "nazev": "Chimérismus a&nbsp;mikrochimérismus - krize identity",
+            "nazev": "Chimérismus a&nbsp;mikrochimérismus - krize identity.",
             "anotace": "Nové objevy ukazaly, že naše těla mohou být geneticky mnohem komplikovanější, než jsme si kdy dokázali představit. Jsme spíš společenství buněk různého původu, z&nbsp;nichž jen část (i když samozřejmě podstatná) je potomstvem buňky vzniklé setkáním otcovy spermie a&nbsp;matčina vajíčka – tedy tím, co jsme považovali za své niterné já. Fenomén chimérismu a&nbsp;mikrochimérismu bude diskutován z&nbsp;obecně biologického hlediska, ale i&nbsp;ve vztahu k&nbsp;medicíně.\n",
             "medailon": "Prof. RNDr. Jan Černý PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v&nbsp;Praze obor molekulární biologie a&nbsp;genetika, dále pak na PřF UK studoval obor imunologie v&nbsp;rámci doktorského studia. V&nbsp;dnešní době se věnuje studiu molekul a&nbsp;jejich spojení s&nbsp;membránami leukocytů (bílých krvinek), ale také studiu biologických aktiviti sekundárních metabolitů bakterií a&nbsp;hub. Získal mnoho ocenění, naposledy v&nbsp;roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o&nbsp;adaptorových proteinech lidských leukocytů.",
             "jmenoTituly": "Prof. RNDr. Jan Černý PhD.",
             "appended": true
           },
+          
           {
+    "jmeno": "Michal Hanus",
+    "cas": "17.11. 17-19",
+    "nazev": "Lidský kapitál",
+    "anotace": "Lidský kapitál je to nejcennější, co ve firmách dnes najdeme. Musí být primárním požadavkem pro úspěch v&nbsp;dnešním světě jen znalosti, nebo jsou i&nbsp;jiné klíčové kompetence? Přednáška představí nejenom odpověď na předchozí otázku, ale i&nbsp;něco o&nbsp;výskytu znalostí a&nbsp;schopností na evropském trhu a&nbsp;jak se měnily v&nbsp;čase. Dále uvede i&nbsp;jaké jsou nejhledanější profese nebo jak firmy dnes investují do lidí a&nbsp;jak identifikovat jejich potenciál.",
+    "medailon": "Po dostudování ČVUT se Michal Hanus začal věnovat start-upům ze světa technologie. Jeho první úspěch pochází z&nbsp;herního světa, kde se podílel na vytvoření firmy Geewa s.r.o., která vyvíjí kompetitivní hry pro mnohé populární platformy (Facebook, IOS). Dále se také podílel na vývoji internetových portálů, jako je ušetřeno.cz, a&nbsp;komplexní mobilní marketingové společnosti Crazy Tomato.\n",
+    "ref": "MichalHanus"
+  },
+  {
             "jmeno": "Monika Švec Sybolová",
             "cas": "17.11. 17-19",
             "nazev": "Erotické signály ve výtvarném umění 19. století",
             "anotace": "Přednáška se zaměří na fenomén, jak do vysokého umění 19. století postupně proniká erotično jako osvěžující, moderní a&nbsp;samozřejmě lehce skandální motiv. Podíváme se na to, čím se ve vizuálním umění vysílají erotické signály. Je to jenom ženské tělo v&nbsp;různém odhalení a&nbsp;natočení? Nebo je to ještě něco dalšího? Porovnáme erotično v&nbsp;obraze a&nbsp;v textu, budeme sledovat souboj erotična s&nbsp;duchovnem a&nbsp;nakonec se uvidíme, co se s&nbsp;erotickou tělesností stane ve 20. století. Přednáška bude pracovat hlavně s&nbsp;díly Josefa Mánesa a&nbsp;Maxe Švabinského.",
             "medailon": "Monika Sybolová vystudovala estetiku a&nbsp;dějiny umění na FF UK. Od roku 1993 je externí lektorkou Sbírky umění 19. století Národní galerie v&nbsp;Praze a&nbsp;od roku 2000 kurátorkou pro edukační činnost tamtéž. V&nbsp;současnosti organizje doprovodné a&nbsp;vzdělávací programy k&nbsp;výstavám NG jako Tajemné dálky či Celník Rousseau. Dále se podílí na programech pro školy v&nbsp;Anežském klášteře či Salmovském paláci. Organizuje a&nbsp;připravuje s&nbsp;kolegy Kurzy dějin umění, Letní krajinářské dílny pro studenty a&nbsp;dospělé, Jednodenní dramaticko-výtvarné plenéry a&nbsp;soutěž pro studenty středních škol Máš umělecké střevo?. Je také spoluautorkou knih pro děti Deník Jakuba S. nebo Čapek a&nbsp;Čapek. Spolupracovala na tanečních představeních Sen všech žen pro festival Habrovka a&nbsp;Den a&nbsp;noc a&nbsp;noc a&nbsp;den skupiny NANOHACH a&nbsp;na performancích reagující na výtvarné umění v&nbsp;galeriích.",
-            "jmenoTituly": "",
+            "jmenoTituly": "Mgr. Monika Sybolová",
             "appended": true
           },
+          
           {
             "jmeno": "Ondřej Beran",
             "cas": "17.11. 17-19",
@@ -357,17 +332,11 @@ var hybrid = [
       {
         "cas": "20:00 - 23:00",
         "prednasky": [
-	  {"jmeno":"",
-	   "nazev":"",
-	   "class":"invisible noBefore",
-	   "isEmpty":"",
-	  },
           {
-            "jmeno": "Filmová noc <em>(sborovna)</em>",
+            "jmeno": "Filmová noc",
             "nazev": "",
-	    "spans":2,
-	     "class":"full-width noBefore",
-            "ref": "FilmovaNocSborovna",
+            "ref": "FilmovaNoc",
+            "spans": 5,
             "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
             "anotace": "",
             "lide": [
@@ -387,21 +356,10 @@ var hybrid = [
                 "medailon": "Kultovní dokumentární film o&nbsp;newyorské queer scéně osmdesátých let se zaměřuje na umění dragu, tance vogue a&nbsp;tragické osudy tehdejší LGBT komunity.",
                 "appended": true
               },
-		],
-		},
-	      {
-            "jmeno": "Filmová noc <em>(P2.1)</em>",
-            "nazev": "",
-	    "spans":2,
-	     "class":"full-width noBefore",
-            "ref": "FilmovaNocP21",
-            "medailon": "Dva večery voyerismu. Nazírání na těla oblečená i&nbsp;svlečená, krásná i&nbsp;ošklivá, živá i&nbsp;mrtvá. Těla se budou hýbat, ohýbat i&nbsp;prohýbat, budou se měnit, tančit, skrývat, exhibovat či prodávat. Tělesné prožitky a&nbsp;závislosti. To vše na letošní filmové noci Symposionu GJK.",
-            "anotace": "",
-            "lide": [
               {
                 "jmeno": "Little Miss Sunshine",
                 "cas": "večer",
-                "nazev": "",
+                "nazev": "Little Miss Sunshine",
                 "anotace": "",
                 "medailon": "Rodina se vydává na cestu napříč Amerikou, aby svou dceru podpořila ve finále dětské soutěže krásy.",
                 "appended": true
@@ -411,7 +369,23 @@ var hybrid = [
                 "cas": "večer",
                 "nazev": "",
                 "anotace": "",
-                "medailon": "Po propuštění z vězení se prostitutka Sin-dee Rella dozvídá, že její přítel/pasák jí byl nevěrný, a proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností.",
+                "medailon": "Po propuštění z&nbsp;vězení se prostitutka Sin-dee Rella dozvídá, že její přítel/pasák jí byl nevěrný, a&nbsp;proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností.",
+                "appended": true
+              },
+              {
+                "jmeno": "Re Animator",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Dnes už klasické žánrové dílo na motivy příběhu H. P. Lovecrafta o&nbsp;zapáleném experimentátorovi Herbertu Westovi, který ve jménu vědy vyrábí násilnické zombie, si vzalo elementy klasických hororů třicátých a&nbsp;šedesátých let a&nbsp;zkombinovalo je s&nbsp;novou zálibou v&nbsp;excesivní tělesnosti, krvavých efektech a&nbsp;černém humoru.",
+                "appended": true
+              },
+              {
+                "jmeno": "Věc",
+                "cas": "večer",
+                "nazev": "",
+                "anotace": "",
+                "medailon": "Vědce z&nbsp;americké výzkumné stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a&nbsp;Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v&nbsp;pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a&nbsp;vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“.",
                 "appended": true
               }
             ],
@@ -436,11 +410,12 @@ var hybrid = [
         "cas": "10:00 - 12:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Transhumanismus",
+            "jmeno": "Panelová diskuse:<br> Transhumanismus",
             "nazev": "",
+            "ref": "DebataTranshumanismus",
             "anotace":"",
-            "medailon": "Věda, kultura i veškeré vnímání světa kolem nás se odvíjí z povahy našeho těla – to je pro nás nástrojem míry, stejně jako prostředkem vnímání emocí. Tělesná schránka výrazně omezuje naše schopnosti a možnosti, zároveň ale poskytuje organické spojení s okolním prostředím. Je tělesná forma života pouze jednou z mnoha a lze jí překonat, nebo snahou dostat se za hranice člověka pohřbíme kořeny naší přirozenosti ztratíme to, co nás definuje a je určující pro smysl života, alespoň jak ho známe. Co se může zdát jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití. Diskuzi o transhumanismu – čeho již věda dosáhne, kam se budou technologie vyvíjet a jaké to bude mít důsledky – se bude účastnit neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a transhumanista Dalibor Šrámek.",
-"lide": [
+            "medailon": "Věda, kultura i&nbsp;veškeré vnímání světa kolem nás se zakládá na naší vlastní tělesnosti – tělo je nástrojem míry, stejně jako prostředkem vnímání emocí, které dodávají lidské existenci smysl. Transhumanismus znamená snahu překonat omezení naší přirozenosti – jde o&nbsp;smrtící tendenci, přirozenou cestu zpestřování našich životů, nebo začátek konce společnosti, jak jí známe dnes?Co se v&nbsp;současnosti zdá jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití.Na otázky toho, čeho již lze dosáhnout, jaké to může mít důsledky, kam se to může vyvíjet nebo co si pod tím představit v&nbsp;praxi, bude odpovídat neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a&nbsp;transhumanista Dalibor Šrámek.",
+            "lide": [
               {
                 "jmeno": "Vladimír Beneš",
                 "cas": "",
@@ -467,7 +442,8 @@ var hybrid = [
               }
             ]
           },
-          {
+		  
+		  {
             "jmeno": "Marie Salomonová",
             "cas": "18.11. 10-12",
             "nazev": "Jak by na tom bylo tělo bez duše?",
@@ -484,7 +460,7 @@ var hybrid = [
             "medailon": "Pavel Klusák píše o&nbsp;hudbě od roku 1989. Vysílá na Radiu Wave, pro Českou televizi vytvořil mj. seriál koncertních záznamů nezávislých kapel Doutnák. Vytváří hudební doprovodný program pro Mezinárodní festival dokumentárních filmu Ji.hlava, přednáší na UMPRUM. Zajímá ho především experimentální hudba a&nbsp;společensko-politické kontexty hudby. Každý rok vytváří pro Divadlo Archa společně s&nbsp;Alešem Stuchlým a&nbsp;Karlem Veselým program Hudba 20XX: Co se stalo?.\n",
             "jmenoTituly": "",
             "appended": true
-          },
+          }, 
           {
             "jmeno": "Martin Semerád",
             "cas": "18.11. 10-12",
@@ -504,36 +480,39 @@ var hybrid = [
             "jmenoTituly": "MUDr. Helena Vávrová",
             "appended": true
           }
-
+          
         ]
       },
       {
         "cas": "12:00 - 13:00",
         "prednasky": [
-
-          {
-            "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
-            "nazev": "",
-            "isEmpty": true,
-            "ref": "BesedaSFilipemZajickem",
-          },
-
+		
           {
             "jmeno": "Oběd",
             "nazev": "",
-            "spans":4,
-	    "class":"full-width noBefore",    
-	    "isEmpty": true,
-            "ref": ""
+			"class":"full-width noBefore",
+            "isEmpty": true,
+            "ref": "",
+			
           },
-           
+		  
+		  {
+    "jmeno": "Beseda s&nbsp;Filipem Zajíčkem",
+    "cas": "přes oběd, 18.11.",
+    "nazev": "",
+    "medailon": "Srdečně Vás zveme na besedu s&nbsp;novinářem Filipem Zajíčkem, editorem internetové televize DVTV, bývalým šéfredaktorem The Student Times a&nbsp;v současné době studentem politologie na FFUK. V&nbsp;roce 2016 získal společně s&nbsp;Kirillem Ščeblykinem novinářskou cenu za rozhovor s&nbsp;Andrejem Babišem. V&nbsp;besedě se budeme bavit například o&nbsp;tom, jak vypadá práce šéfredaktora nebo co obnáší udělat rozhovor s&nbsp;vrcholným politikem. Beseda se vymyká konvenčnímu symposionovému programu, neboť forma bude spíše uvolněné popovídání než oficiální přednáška.",
+    "anotace": "",
+    "ref": "BesedaSFilipemZajickem",
+	"spans":4
+		}
+          
         ]
       },
       {
         "cas": "13:00 - 15:00",
         "prednasky": [
           {
-            "jmeno": "Panelová diskuse: Tělesnost žurnalistiky",
+            "jmeno": "Panelová diskuse:<br> Tělesnost dnešní žurnalistiky",
             "nazev": "",
             "anotace": "Má novinařina bez osobního kontaktu redaktora a&nbsp;subjektu pro daný článek či reportáž hlavu a&nbsp;patu? Jak moc je zkreslený výsledný produkt nepřímé komunikace, například přes emailové dopisování? Jakou měrou se liší od akce a&nbsp;zapálené investigace? Je takto žurnalismus degenerovaný a&nbsp;nenaplněný? Různé aspekty soft news a&nbsp;hard news - jak jsou ovlivňovány a&nbsp;jak mohou samy ovlivňovat? Ubývá prostor pro tělenost dnešní žurnalistky?Na téma těchto otázek bude diskutovat trojice českých novinářek, s&nbsp;nimiž poté tělo na tělo budete moci probrat své osobní názory, pocity a&nbsp;připomínky.",
             "medailon": "",
@@ -562,17 +541,18 @@ var hybrid = [
                 "medailon": "Šarlota Šudrychová studuje v&nbsp;pátém ročníku Právnické fakulty Univerzity Karlovy. Od února 2015 působí na serveru Lidovky.cz v&nbsp;rubrice Kultura a&nbsp;cestování, od minulého roku přispívá také do rubriky Právo a&nbsp;justice (kde se např. zabývá různými podobami bezplatné právní pomoci). V&nbsp;minulosti vedla studentský server Pardubice podle vás (specializace na místní politiku a&nbsp;předvolební debaty apod.), publikovala v&nbsp;Právním prostoru či pro fakultní časopis Paragraf.\n",
                 "appended": true
               }
-            ]
+            ],
+            "ref": "DebataZurnalistika"
           },
           {
-            "jmeno": "Lukáš Pollert",
-            "cas": " 18.11. 13-15",
-            "nazev": "",
-            "anotace": "Transplantace plic nepochybně patří mezi ty nejkomplikovanější operace, které jsou současní chirurgové schopni provádět. Jak je ale vůbec možné natolik složitý a&nbsp;závažný zákrok na lidském těle provést; kterým obtížím je při tom třeba čelit? Jak je vůbec možné se z&nbsp;pozice obyčejného lékaře dostat do týmu, jenž se zabývá něčím takhle pokrokovým? A&nbsp;nakolik se dá medicína kombinovat s&nbsp;jinými časově náročnými činnostmi, například vrcholovým sportem? Zajímá-li Vás odpověď na alespoň jednu z&nbsp;výše uvedených otázek, tak si nenechte ujít tuto přednášku! ",
-            "medailon": "MUDr. Lukáš Pollert je absolventem GJK z&nbsp;počátku 90. let, ve svém studiu pokračoval na 2. lékařské fakultě UK. Proslavil se jako vynikající vodní slalomář a&nbsp;kanoista, například v&nbsp;roce 1992 se stal olympijským vítězem na LOH v&nbsp;Barceloně. Po ukončení sportovní kariéry se začal naplno věnovat medicíně: nejprve pracoval na interně, poté na oddělení urgentního příjmu Ústřední vojenské nemocnice. V&nbsp;současnosti pracuje ve Fakultní nemocnici v&nbsp;Motole na klinice anesteziologie a&nbsp;resuscitace.",
-            "jmenoTituly": "MUDr. Lukáš Pollert",
-            "appended": true
-          },
+    "jmeno": "Lukáš Pollert",
+    "jmenoTituly": "MUDr. Lukáš Pollert",
+    "cas": " 18.11. 13-15",
+    "nazev": "Transplantace plic",
+    "anotace": "Transplantace plic nepochybně patří mezi ty nejkomplikovanější operace, které jsou současní chirurgové schopni provádět. Jak je ale vůbec možné natolik složitý a závažný zákrok na lidském těle provést; kterým obtížím je při tom třeba čelit? Jak je vůbec možné se z pozice obyčejného lékaře dostat do týmu, jenž se zabývá něčím takhle pokrokovým? A nakolik se dá medicína kombinovat s jinými časově náročnými činnostmi, například vrcholovým sportem? Zajímá-li Vás odpověď na alespoň jednu z výše uvedených otázek, tak si nenechte ujít tuto přednášku! ",
+    "medailon": "MUDr. Lukáš Pollert je absolventem GJK z počátku 90. let, ve svém studiu pokračoval na 2. lékařské fakultě UK. Proslavil se jako vynikající vodní slalomář a kanoista, například v roce 1992 se stal olympijským vítězem na LOH v Barceloně. Po ukončení sportovní kariéry se začal naplno věnovat medicíně: nejprve pracoval na interně, poté na oddělení urgentního příjmu Ústřední vojenské nemocnice. V současnosti pracuje ve Fakultní nemocnici v Motole na klinice anesteziologie a resuscitace.",
+    "ref": "LukasPollert"
+  },
           {
             "jmeno": "Dana Drábová",
             "cas": "18.11. 13-15",
@@ -583,14 +563,13 @@ var hybrid = [
             "appended": true
           },
           {
-            "jmeno": "Martin Šuk",
-            "cas": "předběžně 18.11. 13-15",
-            "nazev": "Od hlavy po korpus aneb Kytara jako tělo hudby",
-            "anotace": "Zastává-li hudebník při produkci hudby intelektuální roli, pak je to právě hudební nástroj, který zastupuje rovinu čistě fyzickou a&nbsp;stává se tak „tělem hudby“. Přednáška se zaměří na úlohu hudebního nástroje v&nbsp;hudbě a&nbsp;jejich vzájemný vliv. Představí světy, ze kterých k&nbsp;nám kytara přišla a&nbsp;uvede vás do míst, kde má své neodmyslitelné místo. Ukáže rozdílné typy kytar, které se používají pro různé hudební slohy a&nbsp;styly. Posluchači se seznámí také s&nbsp;procesem stavby kytary, s&nbsp;možnostmi jejího konstrukčního řešení či s&nbsp;důsledky, které má na zvuk nástroje výběr dřeva, a&nbsp;dozví se také mnoho dalších zajímavostí o&nbsp;kytaře.",
-            "medailon": "Martin Šuk, kytarář, po studiu uměleckořemeslné stavby kytar v&nbsp;Lubech u&nbsp;Chebu a&nbsp;uměleckého zpracování dřeva v&nbsp;Hradci Králové zakládá v&nbsp;roce 2007 vlastní kytarářskou dílnu v&nbsp;Poděbradech, kde staví klasické kytary tradiční španělskou metodou. Byl několik let lektorem stavby hudebních nástrojů na Střední uměleckoprůmyslové škole v&nbsp;Hradci Králové. Díky konzultacím s&nbsp;profesory a&nbsp;hudebními profesionály v&nbsp;Praze, Brně, Berlíně, Vídni a&nbsp;Kroměříži staví koncertní nástroje pro profesionální kytaristy a&nbsp;studenty akademií a&nbsp;konzervatoří v&nbsp;Čechách i&nbsp;ve světě.",
-            "jmenoTituly": "",
-            "appended": true
-          },
+    "jmeno": "Martin Šuk",
+    "cas": "předběžně 18.11. 13-15",
+    "nazev": "Od hlavy po korpus aneb Kytara jako tělo hudby",
+    "anotace": "Zastává-li hudebník při produkci hudby intelektuální roli, pak je to právě hudební nástroj, který zastupuje rovinu čistě fyzickou a stává se tak „tělem hudby“. Přednáška se zaměří na úlohu hudebního nástroje v hudbě a jejich vzájemný vliv. Představí světy, ze kterých k nám kytara přišla a uvede vás do míst, kde má své neodmyslitelné místo. Ukáže rozdílné typy kytar, které se používají pro různé hudební slohy a styly. Posluchači se seznámí také s procesem stavby kytary, s možnostmi jejího konstrukčního řešení či s důsledky, které má na zvuk nástroje výběr dřeva, a dozví se také mnoho dalších zajímavostí o kytaře.",
+    "medailon": "Martin Šuk, kytarář, po studiu uměleckořemeslné stavby kytar v Lubech u Chebu a uměleckého zpracování dřeva v Hradci Králové zakládá v roce 2007 vlastní kytarářskou dílnu v Poděbradech, kde staví klasické kytary tradiční španělskou metodou. Byl několik let lektorem stavby hudebních nástrojů na Střední uměleckoprůmyslové škole v Hradci Králové. Díky konzultacím s profesory a hudebními profesionály v Praze, Brně, Berlíně, Vídni a Kroměříži staví koncertní nástroje pro profesionální kytaristy a studenty akademií a konzervatoří v Čechách i ve světě.",
+    "ref": "MartinSuk"
+  },
           {
             "jmeno": "Barbara Herz",
             "cas": "18.11. 13-15",
@@ -615,22 +594,23 @@ var hybrid = [
             "appended": true
           },
           {
-            "jmeno": "Michal Burian",
-            "cas": "18.11. 15-17",
-            "nazev": "",
-            "anotace": "",
-            "medailon": "Plk. Mgr. Michal Burian, PhD. je ředitel odboru muzeí VHÚ. Od roku 1995 je pracovníkem Vojenského historického ústavu Praha, kde působil ve vědeckém, expozičním a&nbsp;sbírkovém oddělení a&nbsp;v odboru muzejně správním. Od roku 2008 je ředitelem odboru muzeí. Je kurátorem sbírek automobilní a&nbsp;těžké bojové techniky a\nspojovacího materiálu. Dříve byl rovněž kurátorem sbírky chemického materiálu. Dlouhodobě se mimo jiné zabývá historií sudetoněmeckých paramilitárních organizací a&nbsp;České obce sokolské. Je členem Rady pro výstavní činnost Národního muzea, Výstavní a&nbsp;programové rady Národního technického muzea, Redakční rady časopisu Historie a&nbsp;Vojenství, Ediční rady Ústavu pro studium totalitních režimů a&nbsp;Předsednictva vzdělavatelského odboru České obce sokolské.\n\n",
-            "jmenoTituly": "Plk. Mgr. Michal Burian, PhD.",
-            "appended": true
-          },
-          {
-            "jmeno": "Jiří Flígl",
-            "cas": "18.11. 15-17",
-            "nazev": "Tělo a tělesnost v současném akčním filmu",
-            "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
+    "jmeno": "Michal Burian",
+    "jmenoTituly": "Plk. Mgr. Michal Burian, PhD.",
+    "cas": "18.11. 15-17",
+    "nazev": "Ve zdravém těle zdravý duch",
+    "anotace": "V letošním roce uplynulo 155 let od založení naší nejvýznamnější tělovýchovné organizace – České obce sokolské. Sokolská organizace byla v průběhu své historie třikrát zakázána, vždy v okamžicích, kdy se znelíbily ryze demokratické a svobodomyslné principy, na nichž byla vybudována. Česká obec sokolská dnes sdružuje v 45 župách a 1125 tělocvičných jednotách více než 160 000 cvičenců a cvičenek. Stejně jako před 155 lety se ale nejedná jen o čistě tělovýchovnou organizaci. Tělesná výchova a sport jsou sice logickým základem činnosti Sokola, neméně významná je ale i činnost vzdělavatelská, která všem sokolům a sokolkám připomíná původní myšlenky zakladatelů Sokola i slavný odkaz jejich pokračovatelů.Přednáška připomene historii Sokola a skutečnost, že bychom v našich dějinách marně hledali organizaci, která je svými osudy tolik spojena s vývojem naší novodobé státnosti.",
+    "medailon": "Plk. Mgr. Michal Burian, PhD. je ředitel odboru muzeí VHÚ. Od roku 1995 je pracovníkem Vojenského historického ústavu Praha, kde působil ve vědeckém, expozičním a sbírkovém oddělení a v odboru muzejně správním. Od roku 2008 je ředitelem odboru muzeí. Je kurátorem sbírek automobilní a těžké bojové techniky a\nspojovacího materiálu. Dříve byl rovněž kurátorem sbírky chemického materiálu. Dlouhodobě se mimo jiné zabývá historií sudetoněmeckých paramilitárních organizací a České obce sokolské. Je členem Rady pro výstavní činnost Národního muzea, Výstavní a programové rady Národního technického muzea, Redakční rady časopisu Historie a Vojenství, Ediční rady Ústavu pro studium totalitních režimů a Předsednictva vzdělavatelského odboru České obce sokolské.\n\n",
+    "ref": "MichalBurian"
+  },
+
+              {
+                "jmeno": "Jiří Flígl",
+                "cas": "18.11. 15-17",
+                "nazev": "Tělo a&nbsp;tělesnost v&nbsp;současném akčním filmu",
+                "anotace": "Při pohledu na americké akční filmy posledního desetiletí by mohl leckterý fanoušek i&nbsp;znalec žánru lamentovat nad tím, že se z&nbsp;nich vytratila skutečná fyzická akce, která byla nahrazena počítačovými efekty a&nbsp;lehce napodobitelným frenetickým stylem v&nbsp;podobě zběsilého střihu nebo těkající kamery. Je pravda, že „kinematografie chaosu“ na jistou dobu ovládla hollywoodskou akční mainstreamovou produkci a&nbsp;někteří tvůrci ji dokonce přijali za svůj autorský trademark. Kde tedy můžeme stále i&nbsp;dnes najít poctivou akci a&nbsp;rvačky tzv. tělo na tělo? Odpovědi se zdají být v&nbsp;béčkové kinematografii, nebo ještě lépe na dálném východu.",
                 "medailon": "Jiří Flígl je český filmový kritik recenzent spolupracující mimo jiné s&nbsp;kritickým dvouměsíčníkem pro filmové cinefily Cinepur či kulturním čtrnáctideníkem A2, jeho starší texty si zase můžete přečíst na serveru aktuálně.cz. Jako dramaturg se podílí na Festivalu otrlého diváka, festivalu Filmasia, má na starosti sekci půlnočních lahůdek na Letní filmové škole v&nbsp;Uherském Hradišti. Specializuje se především na kinematografii Dálného východu, dále jej také zajímá braková, campová a&nbsp;exploatační estetika.",
-              
-          },
+                "appended": true
+              },
           {
             "jmeno": "Petr Zewlakk Vrabec",
             "cas": "18.11.2017 13-15",
@@ -655,14 +635,13 @@ var hybrid = [
         "cas": "17:00 - 19:00",
         "prednasky": [
           {
-            "jmeno": "Šimon Pánek",
-            "cas": "18.11. 17-18:30",
-            "nazev": "Tělo Člověka v tísni – jak vybudovat mezinárodní neziskovou organizaci",
-            "anotace": "Člověk v tísní – jak vést největší nevládní neziskovou organizaci ve střední Evropě, co dělat proto, aby <strong>tělo</strong> Člověka v tísni drželo při sobě, Tělo, které je tvořeno všemi součástmi a řízeno nejen hlavou, ale i názory a nápady každé jeho části (tedy každého člověka v Člověku v tísni). Jak vůbec vybudovat Tělo neziskové organizace, která má 1800 zaměstnanců v desítkách zemí světa..., kde brát odvahu, nápady a energii pokračovat tváří v tvář (téměř) neřešitelným problémům?",
-            "medailon": "Šimon Pánek je jedním ze zakladatelů humanitární organizace Člověk v&nbsp;tísni a&nbsp;jejím současným ředitelem. Byl také jedním z&nbsp;nejznámějších studentských vůdců Sametové revoluce v&nbsp;roce 1989 a&nbsp;členem Občaského fóra za studenty. Patřil s&nbsp;Havlem do skupiny lidí, kteří jednali po revoluci o&nbsp;nové demokratické vládě. Politikem ale i&nbsp;přes množství preferenčních hlasů dlouho nezůstal. Roku 2010 mu za zásluhy občanské sdružení Post Bellum udělilo Cenu Paměti národa. Prezident Václav Havel jej na Pražském hradě vyznamenal medailí Za zásluhy za angažovanost ve věcech veřejných v&nbsp;roce 2002 a&nbsp;o rok později získal cenu Evropan roku.",
-            "jmenoTituly": "",
-            "appended": true
-          },
+    "jmeno": "Šimon Pánek",
+    "cas": "18.11. 17-18:30",
+    "nazev": " \nTělo Člověka v tísni – jak vybudovat mezinárodní neziskovou organizaci",
+    "anotace": "Člověk v tísni – jak vést největší nevládní neziskovou organizaci ve střední Evropě, co dělat proto, aby TĚLO Člověka v tísni drželo při sobě, Tělo, které je tvořeno všemi součástmi a řízeno nejen hlavou, ale i názory a nápady každé jeho části (tedy každého člověka v Člověku v tísni). Jak vůbec vybudovat Tělo neziskové organizace, která má 1800 zaměstnanců v desítkách zemí světa…, kde brát odvahu, nápady a energii pokračovat tváří v tvář (téměř) neřešitelným problémům? ",
+    "medailon": "Šimon Pánek je jedním ze zakladatelů humanitární organizace Člověk v tísni a jejím současným ředitelem. Byl také jedním z nejznámějších studentských vůdců Sametové revoluce v roce 1989 a členem Občaského fóra za studenty. Patřil s Havlem do skupiny lidí, kteří jednali po revoluci o nové demokratické vládě. Politikem ale i přes množství preferenčních hlasů dlouho nezůstal. Roku 2010 mu za zásluhy občanské sdružení Post Bellum udělilo Cenu Paměti národa. Prezident Václav Havel jej na Pražském hradě vyznamenal medailí Za zásluhy za angažovanost ve věcech veřejných v roce 2002 a o rok později získal cenu Evropan roku.",
+    "ref": "SimonPanek"
+  },
           {
             "jmeno": "Jan Pačes",
             "cas": "18.11. 17-19",

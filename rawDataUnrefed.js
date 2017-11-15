@@ -1,8 +1,8 @@
-{var rawDataRefed ={
+var rawDataRefed ={
   "JanRomportl": {
     "jmeno": "Jan Romportl",
     "cas": "17.11. 13-15",
-    "nazev": "Panelová diskuse: Umělá inteligence",
+    "nazev": "",
     "anotace": "",
     "medailon": "Ing. Mgr. Jan Romportl, Ph.D. vystudoval kybernetiku a umělou inteligenci na Fakultě aplikovaných věd Západočeské univerzity v Plzni a filozofii vědy na fakultě filozofické téže univerzity. Do roku 2015 se zabýval výzkumem v oblasti aplikované umělé inteligence a řečových technologií na Katedře kybernetiky FAV ZČU, kde také vyučoval předměty týkající se filozofických otázek umělé inteligence, vztahu nových technologií k člověku a historie kybernetiky. Zároveň pracuje mimo akademickou sféru jako Chief Data Scientist ve společnosti O2 Czech Republic a.s..",
     "ref": "JanRomportl"
@@ -10,7 +10,7 @@
   "RomanNeruda": {
     "jmeno": "Roman Neruda",
     "cas": "17.11. 13-15",
-    "nazev": "Panelová diskuse: Umělá inteligence",
+    "nazev": "",
     "anotace": "",
     "medailon": "Roman Neruda je vědecký pracovník Ústavu informatiky AV ČR, přednáší na Matematicko-fyzikální fakultě Univerzity Karlovy v Praze. Zabývá se umělou inteligencí, hlavně oblastmi umělých neuronových sítí, evolučních algoritmů a inteligentních agentů a aplikací těchto metod v robotice, strojovém učení a získávání znalostí z dat (data mining).",
     "ref": "RomanNeruda"
@@ -18,7 +18,7 @@
   "AlzbetaKrausova": {
     "jmeno": "Alžběta Krausová",
     "cas": "17.11. 13-15",
-    "nazev": "Panelová diskuse: Umělá inteligence",
+    "nazev": "",
     "anotace": "",
     "medailon": " ",
     "ref": "AlzbetaKrausova"
@@ -27,8 +27,8 @@
     "jmeno": "Panelová diskuse: Umělá inteligence",
     "cas": "",
     "nazev": "",
-    "anotace": "Dnes už se dokážou stroje naučit řešit konkrétní úlohy lépe než člověk. A zdá se, že by již v tomto století mohla umělá inteligence překonat lidské možnosti také na obecné úrovni. Stroje budou mít zcela univerzální schopnost učit se, efektivně pracovat s neurčitostí, vjemy z vnějšího prostředí i se svými vnitřními stavy. Co to může znamenat pro lidstvo?Měla by umělá inteligence mít svá vlastní práva? V čem všem nám umělá inteligence zjednoduší život a jaké bude její soužití s námi? Jak reálná je situace, že by umělá inteligence nad námi převezala moc nebo se vzbouřila?",
-    "medailon": "",
+    "anotace": "",
+    "medailon": "Dnes už se dokážou stroje naučit řešit konkrétní úlohy lépe než člověk. A zdá se, že by již v tomto století mohla umělá inteligence překonat lidské možnosti také na obecné úrovni. Stroje budou mít zcela univerzální schopnost učit se, efektivně pracovat s neurčitostí, vjemy z vnějšího prostředí i se svými vnitřními stavy. Co to může znamenat pro lidstvo?Měla by umělá inteligence mít svá vlastní práva? V čem všem nám umělá inteligence zjednoduší život a jaké bude její soužití s námi? Jak reálná je situace, že by umělá inteligence nad námi převezala moc nebo se vzbouřila?",
     "ref": "PanelovaDiskuseUmelaInteligence"
   },
   "KaterinaKolarova": {
@@ -43,13 +43,13 @@
     "jmeno": "Johanna Nejedlová",
     "cas": "18.11. 17-19",
     "nazev": "Když to nechce?\n",
-    "anotace": "Konsent se věnuje prevenci sexuálního násilí a znásilnění a vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a psychopati?\nA když se budeme bavit  o souhlasu u sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s debatou se pobavíme i o tom, jak se dá proti sexuálnímu násilí bojovat a probereme, zda se dá o tak vážném tématu mluvit i s humorem",
+    "anotace": "\nKonsent se věnuje prevenci sexuálního násilí a znásilnění a vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a psychopati?\nA když se budeme bavit  o souhlasu u sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s debatou se pobavíme i o tom, jak se dá proti sexuálnímu násilí bojovat a probereme, zda se dá o tak vážném tématu mluvit i s humorem",
     "medailon": "Johanna Nejedlová je novinářka a aktivistka spolupracující mimo jiné s webovým portálem A2larm a deníkem Referendum. Je také členkou sdružení Konsent. Založila a momentálně vede osvětovou kampaň o znásilnění \"Když to nechce, tak to nechce\".",
     "ref": "JohannaNejedlova"
   },
   "MartinSoukup": {
     "jmeno": "Martin Soukup",
-    "cas": "17.11. 10-12",
+    "cas": "17.11. 10-12 (nechce mít rozkouskovaný celý den)",
     "nazev": "Antropologická analýza a interpretace lidského těla",
     "anotace": "V každé kultuře podstupuje lidské tělo specifické tělesné modifikace, a tím pádem může být naše tělesná schránka chápána jako specifický artefakt. Důraz je také kladen na disciplinaci lidského těla – vždy totiž dochází ke kulturně specifickému přivádění těla a tělesných procesů pod kontrolu. V neposlední řadě jsou lidské tělo a jeho procesy nositelé mnoha významů. Při provádění antropologické analýzy a interpretace lidského těla, při kterých se snažíme určit různé aspekty týkající se tělesnosti, stavíme na poznatcích z mnoha mimoevropských kultur z různých kulturních areálů. ",
     "medailon": "Doc. PhDr. Martin Soukup, Ph.D. vystudoval kulturologii na Filozofické fakultě Univerzity Karlovy v Praze. Po dokončení studia až do roku 2015 působil na Univerzitě Karlově jako odborný asistent. V dnešní době zde působí jako docent a zástupce vedoucího pro obor kulturní antropologie. Mezi jeho předměty odborného zájmu patří teorie, metodologie a dějiny sociální a kulturní antropologie. Zajímá se také o antropologii těla a vizuální antropologii. Zvýšenou pozornost věnuje oblasti Melanésie, kde provedl už několik terénních výzkumů, především pak v Papui-Nové Guineji. O svých poznatcích z této části Oceánie publikoval řadu studií. V roce 2017 se stal laureátem Ceny pro mladé vědce za společenské vědy právě díky svému výzkumu obyvatelstva na největším tropickém ostrově světa. Podílel se také na výstavě Lovci lebek v Náprstkově muzeu v Praze",
@@ -179,7 +179,7 @@
     "jmeno": "Loono",
     "cas": "17.11. 12-13",
     "nazev": "#žiješsrdcem",
-    "anotace": "Kardiovaskulární onemocnění nejsou totiž vidět a ani nebolí. Projeví se až v okamžiku, kdy je již “příliš pozdě”, což lidé často netuší, a proto si myslí, že se jich netýkají. Opak je bohužel pravdou. Proto je důležité věnovat dostatečnou pozornost preventivním opatřením – zdravému životnímu stylu a návštěvám preventivních prohlídek u praktických lékařů či kardiologů. Důležité je také včas rozpoznat příznaky akutního infarktu či mozkové mrtvice.\n\nCo se dozvíte na workshopu:/*/\n\n– jak srdce vypadá, jak funguje a k čemu slouží\n\n– jak včas odhalit infarkt, mrtvici a jiná kardiovaskulární onemocnění i jak jim předcházet\n\n– jak se zachovat v případě, že potkají přímo je nebo někoho v jejich okolí\n\n– kde a jak probíhají preventivní kontroly\n\n– jak o nemoci mluvit, pokud onemocní oni sami nebo někdo z jejich blízkých",
+    "anotace": "Kardiovaskulární onemocnění nejsou totiž vidět a ani nebolí. Projeví se až v okamžiku, kdy je již “příliš pozdě”, což lidé často netuší, a proto si myslí, že se jich netýkají. Opak je bohužel pravdou. Proto je důležité věnovat dostatečnou pozornost preventivním opatřením – zdravému životnímu stylu a návštěvám preventivních prohlídek u praktických lékařů či kardiologů. Důležité je také včas rozpoznat příznaky akutního infarktu či mozkové mrtvice.\n\nCo se dozvíte na workshopu\n\n– jak srdce vypadá, jak funguje a k čemu slouží\n\n– jak včas odhalit infarkt, mrtvici a jiná kardiovaskulární onemocnění i jak jim předcházet\n\n– jak se zachovat v případě, že potkají přímo je nebo někoho v jejich okolí\n\n– kde a jak probíhají preventivní kontroly\n\n– jak o nemoci mluvit, pokud onemocní oni sami nebo někdo z jejich blízkých",
     "medailon": "Loono (čti Lůno) je tým mladých lékařů, studentů lékařských fakult a jiných nadšenců. Jejich společným cílem je prevence společnosti skrze vzdělávací workshopy, přednášky, publikace a videa. O zdraví a těle mluví srozumitelně, nestraší statistikami a inspirují ostatní, aby se o sebe začali starat včas a rádi. Mezi největší ocenění patří Sozial Marie (2016) & Gratias Tibi (2016). K celorepublikovém úspěchu s workshopem #prsakoule se nyní přidává i workshop #žiješsrdcem, v kterém se dozvíte vše o fukncích srdce, jeho onemocnění a jaké to je, si srdce poslechnout.",
     "ref": "Loono"
   },
@@ -240,7 +240,7 @@
     "ref": "LukasCerny"
   },
   "JakubCibulaLukasAdam": {
-    "jmeno": "Jakub Cibula & Lukáš Adam/*/",
+    "jmeno": "Jakub Cibula & Lukáš Adam",
     "cas": "16.11. 19:30 - 20:15",
     "nazev": "O kráse těla",
     "anotace": "Přijďte se podívat na dvě krásná těla a jejich jedinečný a interaktivní seminář, naučte se vnímat krásu lidí okolo sebe (a také krásu sebe sama), seznamte se s lidským tělem všemi smysly.",
@@ -267,7 +267,7 @@
     "jmeno": "Michal Burian",
     "cas": "18.11. 15-17",
     "nazev": "Ve zdravém těle zdravý duch",
-    "anotace": "Když v roce 1862 vznikla Tělocvičná jednota pražská, nikdo z účastníků ustavující schůze nemohl tušit, že byl právě položen základ nejvýznamnější spolkové organizace v našich dějinách. Záhy začala používat název Sokol a nastoupila na dlouhou cestu lemovanou všemi historickými milníky, které od roku 1862 potkaly české země. Jakou roli hrál tento spolek za druhé světové války? A jakou během zápasu o samostatný československý stát? Přijďte se dozvědět odpověď na otázku, co všechno vzniklo za 155 let pod křídly Sokola.\n",
+    "anotace": "V letošním roce uplynulo 155 let od založení naší nejvýznamnější tělovýchovné organizace – České obce sokolské. Sokolská organizace byla v průběhu své historie třikrát zakázána, vždy v okamžicích, kdy se znelíbily ryze demokratické a svobodomyslné principy, na nichž byla vybudována. Česká obec sokolská dnes sdružuje v 45 župách a 1125 tělocvičných jednotách více než 160 000 cvičenců a cvičenek. Stejně jako před 155 lety se ale nejedná jen o čistě tělovýchovnou organizaci. Tělesná výchova a sport jsou sice logickým základem činnosti Sokola, neméně významná je ale i činnost vzdělavatelská, která všem sokolům a sokolkám připomíná původní myšlenky zakladatelů Sokola i slavný odkaz jejich pokračovatelů.\nPřednáška připomene historii Sokola a skutečnost, že bychom v našich dějinách marně hledali organizaci, která je svými osudy tolik spojena s vývojem naší novodobé státnosti.",
     "medailon": "Plk. Mgr. Michal Burian, PhD. je ředitel odboru muzeí VHÚ. Od roku 1995 je pracovníkem Vojenského historického ústavu Praha, kde působil ve vědeckém, expozičním a sbírkovém oddělení a v odboru muzejně správním. Od roku 2008 je ředitelem odboru muzeí. Je kurátorem sbírek automobilní a těžké bojové techniky a\nspojovacího materiálu. Dříve byl rovněž kurátorem sbírky chemického materiálu. Dlouhodobě se mimo jiné zabývá historií sudetoněmeckých paramilitárních organizací a České obce sokolské. Je členem Rady pro výstavní činnost Národního muzea, Výstavní a programové rady Národního technického muzea, Redakční rady časopisu Historie a Vojenství, Ediční rady Ústavu pro studium totalitních režimů a Předsednictva vzdělavatelského odboru České obce sokolské.\n\n",
     "ref": "MichalBurian"
   },
@@ -330,10 +330,10 @@
   "SarlotaSudrychova": {
     "jmeno": "Šarlota Šudrychová",
     "cas": "18.11. 13-15",
-    "nazev": "Tělesnost žurnalistiky",
-    "anotace": "Má novinařina bez osobního kontaktu redaktora a subjektu pro daný článek či reportáž hlavu a patu? Jak moc je zkreslený výsledný produkt nepřímé komunikace, například přes emailové dopisování? Jakou měrou se liší od akce a zapálené investigace? Je tato forma žurnalismu degenerovaná a nenaplněná? Různé aspekty soft news a hard news - jak jsou ovlivňovány a jak mohou samy ovlivňovat? Ubývá prostor pro tělenost dnešní žurnalistky? Na téma těchto otázek bude diskutovat trojice českých novinářek, s nimiž poté budete moci tělo na tělo  probrat své osobní názory, pocity a připomínky.",
+    "nazev": "",
+    "anotace": "",
     "medailon": "Šarlota Šudrychová studuje v pátém ročníku Právnické fakulty Univerzity Karlovy. Od února 2015 působí na serveru Lidovky.cz v rubrice Kultura a cestování, od minulého roku přispívá také do rubriky Právo a justice (kde se např. zabývá různými podobami bezplatné právní pomoci). V minulosti vedla studentský server Pardubice podle vás (specializace na místní politiku a předvolební debaty apod.), publikovala v Právním prostoru či pro fakultní časopis Paragraf.\n",
-    "ref": "SarkaSudrychova"
+    "ref": "SarlotaSudrychova"
   },
   "PetrZewlakkVrabec": {
     "jmeno": "Petr Zewlakk Vrabec",
@@ -363,8 +363,8 @@
     "jmeno": "Martin Semerád",
     "cas": "18.11. 10-12",
     "nazev": "Kosmologické pojednání o vzniku tělesnosti člověka z pohledu Anthroposofie",
-    "anotace": "Ve filosofii nejsou tolik důležité odpovědi, jako otázky, které klademe, neboť především způsob, jak se ptáme, dává světu možnost, aby nám podle toho také odpovídal. Člověk sám pak zůstává (a to i svým tělem) sám sobě především živou otázkou – Kdo jsem, odkud jdu a kam? Způsob hledání odpovědi přitom není podmíněna jen časem, ve kterém se ptáme, ale především celým naším myšlenkovým konceptem, tedy oním světem kultu - kultury, ve kterém je prožíván (chápán) také náš vlastní příběh, náš vlastní život. Přednáška, bude zasazena do kontextu mythu pythagorejského – do světa, kde Moudrost Hvězd ještě promlouvá k Člověku, ve kterém matematika sama sebe ještě chápe jako božskou vědu  a kdy svět včel je viditelným tajemstvím možné lidské budoucnosti. V posledku však může být i tato anotace pouze poukazem na cestu, po které se vydáme společně – neboť přednáška je koncipována jako setkání a tedy možný rozhovor, ve kterém okruh otázek není vymezován jen přednášejícím, ale také posluchači. ",
-    "medailon": "Mgr. Martin Semerád, Ph.D. je lektorem /*/Akademie sociálního umění TABOR v Praze. Vystudoval magisterský obor \"Matematická analýza\" na Matematicko fyzikální fakultě Univerzity Karlovy v Praze (1999), obor Léčebná pedagogika a sociálně umělecká terapie v Akademii sociálního umění Tabor v Praze (2009) a doktorské studium oboru Filosofie na Pedagogické fakultě Univerzity Karlovy v Praze (2011). Ve své doktorské práci Imaginace nekonečna rozvíjí koncept imaginativního přístupu v matematice, který dále uplatňuje ve výuce dětí i dospělých. Mezi oblasti jeho profesního zájmu patří filosofie matematiky, hermenautika, prostor a čas, hudba a také včely.",
+    "anotace": "Ve filosofii nejsou tolik důležité odpovědi, jako otázky, které klademe, neboť především způsob, jak se ptáme, dává světu možnost, aby nám podle toho také odpovídal. Člověk sám pak zůstává (a to i svým tělem) sám sobě především živou otázkou – Kdo jsem, odkud jdu a kam? Způsob hledání odpovědi přitom není podmíněna jen časem, ve kterém se ptáme, ale především celým naším myšlenkovým konceptem, tedy oním světem kultu - kultury, ve kterém je prožíván (chápán) také náš vlastní příběh, náš vlastní život. Přednáška, bude zasazena do kontextu mythu pythagorejského – do světa, kde Moudrost Hvězd ještě promlouvá k Člověku, ve kterém matematika sama sebe ještě chápe jako božskou vědu a v němž svět včel je viditelným tajemstvím možné lidské budoucnosti. V posledku však může být i tato anotace pouze poukazem na cestu, po které se vydáme společně – neboť přednáška je koncipována jako setkání a tedy možný rozhovor, ve kterém okruh otázek není vymezován jen přednášejícím, ale také posluchači. ",
+    "medailon": "Mgr. Martin Semerád, Ph.D. je lektorem <a href = 'http://www.akademietabor.cz/studium/o-akademii/lektorsky-sbor'>Akademie sociálního umění TABOR v Praze</a>. Vystudoval magisterský obor \"Matematická analýza\" na Matematicko fyzikální fakultě Univerzity Karlovy v Praze (1999), obor Léčebná pedagogika a sociálně umělecká terapie v Akademii sociálního umění Tabor v Praze (2009) a doktorské studium oboru Filosofie na Pedagogické fakultě Univerzity Karlovy v Praze (2011). Ve své doktorské práci Imaginace nekonečna rozvíjí koncept imaginativního přístupu v matematice, který dále uplatňuje ve výuce dětí i dospělých. Mezi oblasti jeho profesního zájmu patří filosofie matematiky, hermenautika, prostor a čas, hudba a také včely.",
     "ref": "MartinSemerad"
   },
   "VladimirBenes": {
@@ -372,7 +372,7 @@
     "cas": "18.11. 10-12",
     "nazev": "",
     "anotace": "",
-    "medailon": "Vladimír Beneše je lékař, specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
+    "medailon": "Vladimír Beneš je lékař, //**//**// specializací neurochirurg, přednosta Neurochirurgické kliniky Ústřední vojenské nemocnice Praha a 1. LF UK. Působí také ve funkci předsedy České neurochirurgické společnosti a v letech 2011–2015 byl prezidentem Evropské asociace neurochirurgických společností. Od roku 1998 zároveň vede subkatedru neurochirurgie na Institutu postgraduálního vzdělávání ve zdravotnictví (IPVZ). Jeho zálibou je entomologie, čeleď střevlíkovití.",
     "ref": "VladimirBenes"
   },
   "JiriKus": {
@@ -383,14 +383,6 @@
     "medailon": "Jiří Kůs podnikatel, psycholog, předseda Asociace nanotechnologického průmyslu ČR, propagátor nanotechnologií a konceptu třetí průmyslové revoluce amerického ekonoma Jeremy Rifkina vystudoval průmyslovou energetiku a později i sociologii a psychologii. Přes 20 let působil v oboru průmyslové automatizace jako obchodní ředitel česko-italské společnosti. Spoluzaložil firmu NanoSPACE. NanoSPACE je součástí projektu Česko je nano, který pořádá Asociace nanotechnologického průmyslu ČR, jejíž vznik sám také inicioval.",
     "ref": "JiriKus"
   },
-  "PanelovaDiskuseTranshumanismus": {
-    "jmeno": "Panelová diskuse: Transhumanismus",
-    "cas": "",
-    "nazev": "",
-    "anotace": "Věda, kultura i veškeré vnímání světa kolem nás se odvíjí od povahy našeho těla – to je pro nás nástrojem míry, stejně jako prostředkem vnímání emocí. Tělesná schránka výrazně omezuje naše schopnosti a možnosti, zároveň ale poskytuje organické spojení s okolním prostředím. Je tělesná forma života pouze jednou z mnoha a lze ji překonat, nebo snahou dostat se za hranice člověka pohřbíme kořeny naší přirozenosti a ztratíme to, co nás definuje a je určující pro smysl života, alespoň tak, jak ho známe. Co se může zdát jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití. Diskuzi o transhumanismu – čeho již věda dosáhla, kam se budou technologie vyvíjet a jaké to bude mít důsledky – se bude účastnit neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a transhumanista Dalibor Šrámek.",
-    "medailon": "",
-    "ref": "PanelovaDiskuseTranshumanismus"
-  },
   "DaliborSramek": {
     "jmeno": "Dalibor Šrámek",
     "cas": "18.11. 10-12",
@@ -398,6 +390,14 @@
     "anotace": "",
     "medailon": "Dalibor Šrámek je transhumanista a systémový analytik, zakladatel portálu http://www.transhumanismus.cz, který se zabývá konvergujícími technologiemi a související problematikou. ",
     "ref": "DaliborSramek"
+  },
+  "PanelovaDiskuseTranshumanismus": {
+    "jmeno": "Panelová diskuse: Transhumanismus",
+    "cas": "",
+    "nazev": "",
+    "anotace": "Věda, kultura i veškeré vnímání světa kolem nás se odvíjí od povahy našeho těla – to je pro nás nástrojem míry, stejně jako prostředkem vnímání emocí. Tělesná schránka výrazně omezuje naše schopnosti a možnosti, zároveň ale poskytuje organické spojení s okolním prostředím. Je tělesná forma života pouze jednou z mnoha a lze ji překonat, nebo snahou dostat se za hranice člověka pohřbíme kořeny naší přirozenosti a ztratíme to, co nás definuje a je určující pro smysl života, alespoň tak, jak ho známe. Co se může zdát jako polemika nadšenců do moderních technologií je ve skutečnosti rozhodující otázkou pro naše přežití. Diskuzi o transhumanismu – čeho již věda dosáhla, kam se budou technologie vyvíjet a jaké to bude mít důsledky – se bude účastnit neurochirurg Vladimír Beneš, předseda Asociace nanotechnologického průmyslu Jiří Kůs a transhumanista Dalibor Šrámek.",
+    "medailon": "",
+    "ref": "PanelovaDiskuseTranshumanismus"
   },
   "HelenaVavrova": {
     "jmeno": "Helena Vávrová",
@@ -408,7 +408,7 @@
     "ref": "HelenaVavrova"
   },
   "MarieSalomonova": {
-    "jmeno": "Marie Salomonová",
+    "jmeno": "Marie //**//**// Salomonová",
     "cas": "18.11. 10-12",
     "nazev": "Jak by na tom bylo tělo bez duše?",
     "anotace": "Proč je potřeba se kromě fyzického zdraví starat i o to duševní? A jak to vypadá, když se psychická stránka zanedbává? Z pohledu neurověd, psychologie, psychiatrie a sociologie se zaměříme na to, co je to duševní zdraví a nemoc, jaké jsou nejčastější mýty, které panují o psychiatrických onemocněních, co je to stigma a jakou roli hraje nejen v prevenci a včasné intervenci při psychických obtížích. Přednáška je z dílny neziskové organizace Nevypusť duši, za kterou stojí tým mladých psychologů, neurovědců a studentů těchto oborů. Zároveň ji tvoří i psychiatričtí pacienti a lidé se zkušeností s duševním onemocněním v mladém věku.\n,,Šíříme fakta, boříme mýty, vzděláváme a pomáháme v oblasti duševního zdraví a psychických onemocnění. Vedeme úspěšnou kampaň na sociálních sítích, pořádáme workshopy a přednášky. Našim cílem je zlepšení informovanosti Česka o duševním zdraví. Zdůrazňujeme důležitost prevence, sdílíme osobní příběhy a podporujeme včasné vyhledání odborné pomoci při duševních obtížích. Našimi projekty mimo jiné usilujeme o duševní zdravovědu ve školách, tedy aby se studenti stejně jako o fyzickou stránku učili starat o zdraví psychické,'' tvrdí o sobě.",
@@ -418,15 +418,15 @@
   "Vec": {
     "jmeno": "Věc",
     "cas": "večer",
-    "nazev": "Věc",
-    "anotace": "Vědce z americké výzkumné stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“",
+    "nazev": "",
+    "anotace": "Vědce z americké výzkumné//**//**// stanice na Antarktidě vystraší vrtulníkový nájezd jejich norských kolegů, kteří se marně snaží zabít prchajícího psa. Lov dopadne neúspěšně a Norové zmizí bez toho, aby situaci Američanům vysvětlili. Ti však postupně zjišťují, že se psem není něco v pořádku. Je totiž infikovaný mimozemským virem, který pro zdokonalování sebe sama využívá tělesné schránky (nejen) lidí a vůbec mu není proti mysli na svých hostitelích ledacos „zkoušet“",
     "medailon": "",
     "ref": "Vec"
   },
   "ReAnimator": {
     "jmeno": "Re Animator",
     "cas": "večer",
-    "nazev": "Re Animator",
+    "nazev": "",
     "anotace": "Dnes už klasické žánrové dílo na motivy příběhu H. P. Lovecrafta o zapáleném experimentátorovi Herbertu Westovi, který ve jménu vědy vyrábí násilnické zombie, si vzalo elementy klasických hororů třicátých a šedesátých let a zkombinovalo je s novou zálibou v excesivní tělesnosti, krvavých efektech a černém humoru.",
     "medailon": "",
     "ref": "ReAnimator"
@@ -434,7 +434,7 @@
   "Transdarinka": {
     "jmeno": "Transdarinka",
     "cas": "večer",
-    "nazev": "Transdarinka",
+    "nazev": "",
     "anotace": "Po propuštění z vězení se prostitutka Sin-dee Rella dozvídá že její přítel/pasák jí byl nevěrný, a proto se svou nejlepší přítelkyní vyráží do ulic L.A. za spravedlností",
     "medailon": "",
     "ref": "Transdarinka"
@@ -442,7 +442,7 @@
   "LittleMissSunshine": {
     "jmeno": "Little Miss Sunshine",
     "cas": "večer",
-    "nazev": "Little Miss Sunshine",
+    "nazev": "",
     "anotace": "Rodina se vydává na cestu napříč Amerikou aby svou dceru podpořila ve finále dětské soutěže krásy.",
     "medailon": "",
     "ref": "LittleMissSunshine"
@@ -450,7 +450,7 @@
   "ParisIsBurning": {
     "jmeno": "Paris is burning",
     "cas": "večer",
-    "nazev": "Paris is burning",
+    "nazev": "",
     "anotace": "Kultovní dokumentární film o newyorské queer scéně osmdesátých let se zaměřuje na umění dragu, tance vogue a tragické osudy tehdejší LGBT komunity.",
     "medailon": "",
     "ref": "ParisIsBurning"
@@ -458,7 +458,7 @@
   "Katka": {
     "jmeno": "Katka",
     "cas": "večer",
-    "nazev": "Katka",
+    "nazev": "",
     "anotace": "Film Heleny Třeštíkové je unikátním časosběrným dokumentem, mapujícím čtrnáct let v životě mladé narkomanky a jejího marného zápasu se závislostí. Třeštíková zaznamenává ve svém filmu rok za rokem Katčin sestup níž a níž na spirále krádeží, prostituce, fyzického i psychického chátrání přerušované jen občasným vzepětím naděje a odhodlání s drogami skoncovat.",
     "medailon": "",
     "ref": "Katka"
@@ -467,15 +467,15 @@
     "jmeno": "Beseda s Filipem Zajíčkem",
     "cas": "přes oběd, 18.11.",
     "nazev": "",
-    "anotace": "Srdečně Vás zveme na besedu s novinářem Filipem Zajíčkem, editorem internetové televize DVTV, bývalým šéfredaktorem The Student Times a v současné době studentem politologie na FFUK. V roce 2016 získal společně s Kirillem Ščeblykinem novinářskou cenu za rozhovor s Andrejem Babišem. V besedě se budeme bavit například o tom, jak vypadá práce šéfredaktora nebo co obnáší udělat rozhovor s vrcholným politikem. Beseda se vymyká konvenčnímu symposionovému programu, neboť forma bude spíše uvolněné popovídání než oficiální přednáška.",
-    "medailon": "",
+    "anotace": "",
+    "medailon": "Srdečně Vás zveme na besedu s novinářem Filipem Zajíčkem, editorem internetové televize DVTV, bývalým šéfredaktorem The Student Times a v současné době studentem politologie na FFUK. V roce 2016 získal společně s Kirillem Ščeblykinem novinářskou cenu za rozhovor s Andrejem Babišem. V besedě se budeme bavit například o tom, jak vypadá práce šéfredaktora nebo co obnáší udělat rozhovor s vrcholným politikem. Beseda se vymyká konvenčnímu symposionovému programu, neboť forma bude spíše uvolněné popovídání než oficiální přednáška.",
     "ref": "BesedaSFilipemZajickem"
   },
   "MichalHanus": {
     "jmeno": "Michal Hanus",
     "cas": "17.11. 17-19",
     "nazev": "Lidský kapitál",
-    "anotace": "Lidský kapitál je to nejcennější, co ve firmách dnes najdeme. Musí být primárním požadavkem pro úspěch v dnešním světě jen znalosti, nebo jsou i jiné klíčové kompetence? Přednáška představí nejenom odpověď na předchozí otázku, ale i něco o výskytu znalostí a schopností na evropském trhu a jak se měnily v čase. Dále uvede i jaké jsou nejhledanější profese nebo jak firmy dnes investují do lidí a jak identifikovat jejich potenciál.",
+    "anotace": "Lidský kapitál je //**//**// to nejcennější, co ve firmách dnes najdeme. Musí být primárním požadavkem pro úspěch v dnešním světě jen znalosti, nebo jsou i jiné klíčové kompetence? Přednáška představí nejenom odpověď na předchozí otázku, ale i něco o výskytu znalostí a schopností na evropském trhu a jak se měnily v čase. Dále uvede i jaké jsou nejhledanější profese nebo jak firmy dnes investují do lidí a jak identifikovat jejich potenciál.",
     "medailon": "Po dostudování ČVUT se Michal Hanus začal věnovat start-upům ze světa technologie. Jeho první úspěch pochází z herního světa, kde se podílel na vytvoření firmy Geewa s.r.o., která vyvíjí kompetitivní hry pro mnohé populární platformy (Facebook, IOS). Dále se také podílel na vývoji internetových portálů, jako je ušetřeno.cz, a komplexní mobilní marketingové společnosti Crazy Tomato.\n",
     "ref": "MichalHanus"
   },
@@ -483,8 +483,8 @@
     "jmeno": "Lenka Klodová",
     "cas": "16.11. 18:30 - 18:45",
     "nazev": "Zahájení",
-    "anotace": "",
+    "anotace": "Jsem multimediální //**//**// autorka a jednu ze složek mé tvorby tvoří díla, při kterých není nutné přepracovávat žádný materiál, ani vybírat si z uměleckých technologií a médií. Jsou to produkty situace, kdy si myšlenka, která v mém případě bývá poměrně jednoduchá, řekne o přímé vyjádření vlastním tělem. Myšlenka si žádá, aby dílo bylo vytvořeno před diváky v reálném čase, v odhaleném procesu, s konkrétními hmatatelnými výsledky a následky. Postupně jsem si tuto tvorbu, které se zavedeně říká performance, velmi oblíbila a také jsem si ji ve svém chápání velmi zúžila. Své performance pracovně nazývám tělesnými vtipy – body jokes – a hlavní roli v něm hraje tělo jedné ženy po třech dětech s poměrně universálními parametry. Pomocí tohoto těla, které je já, moje a je i pro mě a se mnou, zkouším vyprávět příběhy žen.",
     "medailon": "Lenka Klodová je jedna z nejznámějších českých performerek. Její dílo se točí především kolem ženského živlu, TĚLESNOSTI, sexuality a mateřství. Známá je především socha Boženě, kterou zakončila svá studia na VŠUP, na které prezentovala svůj konceptuální přístup k tématu a smysl pro humor. Její díla se dotýkají mateřství, diktátu ženské krásy, ženské tělesnosti, využití ženského těla v reklamě i pornografického průmyslu. ",
     "ref": "LenkaKlodova"
   }
-}};
+};

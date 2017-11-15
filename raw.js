@@ -917,5 +917,6 @@ var dataToUsable = function (data) {
 
 hybridUpdate(hybrid,rawDataRefed)
 
+//console.log(dataToUsable(hybrid));
 console.log(hybrid);
 
