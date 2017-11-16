@@ -30,85 +30,13 @@ if(_itIsAlive){
     harmonogram.style.display = "none"; //TEMP   
 }
 
-
-var samplePrednasky = [{
-    'jmeno': 'Petr Kulhánek',
-    'nazev': 'Bing bong název přednášky',
-    'jmenoTituly': 'Prof. RNDr. Petr Kulhánek, CSc.,',
-    'medailon': 'woopty doo text medailonu doobly diio',
-    'anotace':'bla bla bla text anotace bla bla bla',
-    'cas': null, 
-    'ref': 1
-},
-{
-    'jmeno': 'Dana Drábová',
-    'nazev': 'Bing bong název přednášky',
-    'jmenoTituly': 'Ing. Dana Drábová, Ph.D.',
-    'medailon': 'woopty doo text medailonu doobly diio',
-    'anotace':'bla bla bla text anotace bla bla bla',
-    'cas': null, 
-    'ref': 2
-},
-{
-    'jmeno': 'Martin Soukup',
-    'nazev': 'Bing bong název přednášky',
-    'jmenoTituly': 'Doc. PhDr. Martin Soukup, Ph.D.',
-    'medailon': 'woopty doo text medailonu doobly diio',
-    'anotace':'bla bla bla text anotace bla bla bla',
-    'cas': null, 
-    'ref': 3
-},
-{
-    'jmeno': 'Člověk McOsoba',
-    'nazev': 'Bing bong název přednášky',
-    'jmenoTituly': 'Doc. Člověk McOsoba, Ph.D.',
-    'medailon': 'woopty doo text medailonu doobly diio',
-    'anotace':'bla bla bla text anotace bla bla bla',
-    'cas': null, 
-    'ref': 4
-},
-{
-    'jmeno': 'Člověk McOsoba',
-    'nazev': 'Bing bong název přednášky',
-    'jmenoTituly': 'Doc. Člověk McOsoba, Ph.D.',
-    'medailon': 'woopty doo text medailonu doobly diio',
-    'anotace':'bla bla bla text anotace bla bla bla',
-    'cas': null, 
-    'ref': 4
-},                    
-                       
-                      ];
-
 var head = ['Prostor:','Aula','USV','Sborovna','P2.2','P2.3'];
 
-var content = [
-    
-    {'den':'sobota', 
-    'program':[
-        
-        {'cas':'10-12','prednasky':samplePrednasky},
-        {'cas':'12-13','prednasky':samplePrednasky},
-        {'cas':'13-15','prednasky':samplePrednasky},
-        {'cas':'15-17','prednasky':samplePrednasky},
-        {'cas':'17-19','prednasky':samplePrednasky},
-        
-    ]},
-    {'den':'neděle', 
-    'program':[
-        
-        {'cas':'10-12','prednasky':samplePrednasky},
-        {'cas':'12-13','prednasky':samplePrednasky},
-        {'cas':'13-15','prednasky':samplePrednasky},
-        {'cas':'15-17','prednasky':samplePrednasky},
-        {'cas':'17-19','prednasky':samplePrednasky},
-        
-    ]}
-    
-    ];
 
 if(typeof data !== 'undefined'){
     
     data = [
+	{
     "den": "Čtvrtek 16.11. <em>doprovodný program</em>",
     "header": [
       "Čas",
@@ -878,7 +806,7 @@ if(typeof data !== 'undefined'){
     ]
   }
 ];
-
+content = data;
     
 }
     var constCount = 3;
