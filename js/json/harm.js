@@ -7,10 +7,11 @@ var data = [
     ],
     "program": [
       {
-        "cas": "18:30 - 18:45 <br>",
+        "cas": "18:30 - 18:45 <br><span class ='lt_tablet'><em>(prostor před ředitelnou)</em> </span>",
         "prednasky": [
           {
             "jmeno": "Lenka Klodová",
+			"class": "full-width noBefore",
             "cas": "16.11. 18:30 - 18:45",
             "nazev": "Zahájení",
 			"class":"full-width noBefore",
@@ -21,10 +22,11 @@ var data = [
         ]
       },
       {
-        "cas": "18:45 - 19:30",
+        "cas": "18:45 - 19:30 <br><span class ='lt_tablet'><em>(prostor před ředitelnou)</em> </span>",
         "prednasky": [
           {
             "jmeno": "Lukáš Černý",
+			"class": "full-width noBefore",
             "cas": "16.11. 18:45 - 19:30 ",
             "nazev": "Příliš pevné, příliš křehké\ntragické tělo",
             "anotace": "Tragédie jakožto dramatický žánr osciluje mezi jazykem a tělem. V tom prvním přetrvává, v tom druhém se rodí a umírá. Nebo naopak. V každém případě hraje tělesnost v tragédii zásadní roli. Podívame se tedy pod kůži tomu tragickému hrdinovi, který je svojí kůží i svojí rolí přímo posedlý: náhledneme pod černý plášť Hamleta, principála všech šmíráků. Právě ten totiž vlastní tělesnost neustále reflektuje, nahlíží ji jako bytostně divadelní, a možná tak i nepřímo pojmenovává funkci těla v tragédii vůbec - nebo se o to alespoň snaží. Otázka je, nakolik jeho slovům můžeme věřit...",
@@ -36,10 +38,11 @@ var data = [
         ]
       },
       {
-        "cas": "19:30 - 20:15",
+	  "cas": "19:30 - 20:15 <br><span class ='lt_tablet'><em>(prostor před ředitelnou)</em> </span>",
         "prednasky": [
           {
             "jmeno": "Jakub Cibula & Lukáš Adam",
+			"class": "full-width noBefore",
             "cas": "16.11. 19:30 - 20:15",
             "nazev": "O kráse těla",
             "spansRows": 2,
@@ -56,11 +59,12 @@ var data = [
         "prednasky": []
       },
       {
-        "cas": "21:00 - 23:00",
+        "cas": "21:00 - 23:00 <br><span class ='lt_tablet'><em>(prostor před ředitelnou)</em> </span>",
         "prednasky": [
           {
             "jmeno": "Jan Vácha",
             "cas": "16.11. 21-23",
+			"class": "full-width noBefore",
             "nazev": "PUBQUIZ: Lidské tělo",
             "anotace": "<a href = 'https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2Fforms%2F9I4dH6D7pqIjISVG2&h=ATMP0fn6Up6f3ZReb5ft8SHCojlOzjhAijILhMUaNdTlcszSVmGTkdMDjwzUe_r2-SHpV__z-r5rm2PWncOA9usXphAmNb7MpSgrRq2kRIPEEt8xLl5VZ32Rh-JZWZHYPdfDwlpYLDpEZJtkisAbOq6TMs-7QAFsWSwpS_zHMfjLn7SspSunkEvb7fikRGpqsVKnhQbcOrq-PLIWt6DZlGioZfM2KuEIndMFHmINg-joA4XpZqmmwDl5HBMnMDjMt4vCsv6feLOnc9bao3WyffPaTBN8NeY4c41ZON-0'> Registrujte se zde!</a><br>\nLidské tělo je fascinující. Skrývá mnoho zajímavostí. Překvapuje nás svým potenciálem. Je v neustálém boji se svými nepřáteli. Ale na své straně má armádu velmi dobře vyzbrojených opravářů. Dejte hlavy dohromady, vytvořte tým a otestuje své znalosti o lidském těle a medicíně. Přihláška zde: https://goo.gl/forms/9I4dH6D7pqIjISVG2",
             "medailon": "Jan Vácha, absolvent GJK, je nyní studentem 2. LF UK v Praze. Studium lidského těla ho uchvacuje už mnoho let a své poznatky předává studentům v semináři Biologie člověka. V budoucnu se chce věnovat opravování těch nejmenších lidských těl, tedy dětí.",
