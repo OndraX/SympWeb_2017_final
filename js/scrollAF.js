@@ -24,10 +24,12 @@ function stuff(scrolledPast,lightUp,lightUpPrev){//YAY for semantic names!
 		
 	
 }
-
+window.addEventListener("DOMContentLoaded",function(){
+	document.body.classList.remove("scrolled-past-menu");
+});
 document.body.addEventListener("scroll",function(){
 lightupificationMagic
-	});
+	},{'passive':true});
 	
 window.addEventListener('scroll', lightupificationMagic,{passive:true});
 window.addEventListener('mousewheel', lightupificationMagic,{passive:true});
@@ -41,6 +43,7 @@ window.addEventListener('touchmove', lightupificationMagic,{passive:true});
 	
 	mScrolledPast = (document.getElementById('main-menu-padding-container').getBoundingClientRect().top < 50);
 	mLightUpPrev = mLightUp;
+	mLightUp = null;
 	links.forEach(function(o){
 		
 					

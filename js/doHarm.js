@@ -764,8 +764,8 @@ if(typeof data !== 'undefined'){
             "jmeno": "Jan Pačes",
             "cas": "18.11. 17-19",
             "nazev": "Člověk a šimpanz aneb lekce od bratranců",
-            "anotace": "Šimpanzi jsou naši nejbližší příbuzní a jsou nám - nebo my jim - v mnohém podobní. Protože dnešní technologie nám umožňuje číst DNA, tedy genetickou informaci celých organismů, vědce pochopitelně velmi zajímalo, v čem je lidská a šimpanzí DNA stejná, ale hlavně, v čem se liší. Dokážeme najít tu část genetické informace, která z nás udělala člověka? Přednáška o tom, jak hledání \"člověčenství\" probíhalo a co jsme se nakonec o sobě dozvěděli.",
-            "medailon": "Jan Pačes, Ph.D., (*1967) vystudoval PřF UK a v Ústavu molekulární genetiky AV ČR, v. v. i., studuje strukturu genomů. Zaměřuje se zejména na lidské endogenní retrovirové elementy, jejichž dosud nejúplnější databázi sestavil. Přednáší ve studijním programu bioinformatiky a je koordinátorem velké vědecké infrastruktury ELIXIR.",
+            "anotace": "Šimpanzi jsou naši nejbližší příbuzní a jsou nám - nebo my jim - v&nbsp;mnohém podobní. Protože dnešní technologie nám umožňuje číst DNA, tedy genetickou informaci celých organismů, vědce pochopitelně velmi zajímalo, v&nbsp;čem je lidská a&nbsp;šimpanzí DNA stejná, ale hlavně, v&nbsp;čem se liší. Dokážeme najít tu část genetické informace, která z&nbsp;nás udělala člověka? Přednáška o&nbsp;tom, jak hledání \"člověčenství\" probíhalo a&nbsp;co jsme se nakonec o&nbsp;sobě dozvěděli.",
+            "medailon": "Jan Pačes, Ph.D., (*1967) vystudoval PřF UK a&nbsp;v Ústavu molekulární genetiky AV ČR, v. v. i., studuje strukturu genomů. Zaměřuje se zejména na lidské endogenní retrovirové elementy, jejichž dosud nejúplnější databázi sestavil. Přednáší ve studijním programu bioinformatiky a&nbsp;je koordinátorem velké vědecké infrastruktury ELIXIR.",
             "jmenoTituly": "Jan Pačes, Ph.D.",
             "appended": true,
             "ref": "JanPaces"
@@ -773,9 +773,9 @@ if(typeof data !== 'undefined'){
           {
             "jmeno": "Petr Pojman",
             "cas": "18.11. 17-19",
-            "nazev": "Obchodování s lidmi v dnešní době",
-            "anotace": "Podle odhadů londýnské protiotrokářské společnosti je dnes v postavení otroků asi 200 milionů lidí. Za čtyři stovky let fungování klasického obchodu s otroky činil jeho obrat něco kolem 12 milionů osob. Za posledních 30 let se jen v Asii množství dětí a žen prodaných do sexuálního otroctví pohybovalo kolem 30 milionů. Dnes představuje obchod s lidmi jednu z nejvýdělečnějších nelegálních aktivit organizovaného zločinu. Z lidského těla se stala komodita. Jak se může člověk stát obětí obchodování s lidmi a jaké podmínky tomuto zločinu napomáhají? To vše bude doplněné o aktuální poznatky z Ukrajiny, která je jednou z hlavních zdrojových zemí otroků pro Českou republiku.",
-            "medailon": "Petr Pojman je absolventem mezinárodních teritoriálních studií a ruských a východoevropských studií na IMS FSV UK. Absolvoval řadu studijních a výzkumných pobytů v Rusku, Bělorusku, Ukrajině a Velké Británii. V letech 2008-2009 působil v humanitárním projektu Charity ČR Magdala, který pomáhá obětem obchodování s lidmi v ČR. V oblasti boje proti obchodu s lidmi a volebního pozorování spolupracuje s Organizací pro bezpečnost a spolupráci v Evropě. \nDále působí na Ukrajině od r. 2014 v rámci projektu The Prague Security Studies Institute. Zaměřuje se na problematiku bezpečnosti, organizovaného zločinu a na studium nových metod hybridní války. Za účelem pomoci progresivním složkám ukrajinské společnosti i státu vytvořil v r. 2015 Team4Ukraine.",
+            "nazev": "Obchodování s&nbsp;lidmi v&nbsp;dnešní době",
+            "anotace": "Podle odhadů londýnské protiotrokářské společnosti je dnes v&nbsp;postavení otroků asi 200 milionů lidí. Za čtyři stovky let fungování klasického obchodu s&nbsp;otroky činil jeho obrat něco kolem 12 milionů osob. Za posledních 30 let se jen v&nbsp;Asii množství dětí a&nbsp;žen prodaných do sexuálního otroctví pohybovalo kolem 30 milionů. Dnes představuje obchod s&nbsp;lidmi jednu z&nbsp;nejvýdělečnějších nelegálních aktivit organizovaného zločinu. Z&nbsp;lidského těla se stala komodita. Jak se může člověk stát obětí obchodování s&nbsp;lidmi a&nbsp;jaké podmínky tomuto zločinu napomáhají? To vše bude doplněné o&nbsp;aktuální poznatky z&nbsp;Ukrajiny, která je jednou z&nbsp;hlavních zdrojových zemí otroků pro Českou republiku.",
+            "medailon": "Petr Pojman je absolventem mezinárodních teritoriálních studií a&nbsp;ruských a&nbsp;východoevropských studií na IMS FSV UK. Absolvoval řadu studijních a&nbsp;výzkumných pobytů v&nbsp;Rusku, Bělorusku, Ukrajině a&nbsp;Velké Británii. V&nbsp;letech 2008-2009 působil v&nbsp;humanitárním projektu Charity ČR Magdala, který pomáhá obětem obchodování s&nbsp;lidmi v&nbsp;ČR. V&nbsp;oblasti boje proti obchodu s&nbsp;lidmi a&nbsp;volebního pozorování spolupracuje s&nbsp;Organizací pro bezpečnost a&nbsp;spolupráci v&nbsp;Evropě. \nDále působí na Ukrajině od r. 2014 v&nbsp;rámci projektu The Prague Security Studies Institute. Zaměřuje se na problematiku bezpečnosti, organizovaného zločinu a&nbsp;na studium nových metod hybridní války. Za účelem pomoci progresivním složkám ukrajinské společnosti i&nbsp;státu vytvořil v&nbsp;r. 2015 Team4Ukraine.",
             "jmenoTituly": "PhDr. Petr Pojman, Ph.D.",
             "appended": true,
             "ref": "PetrPojman"
@@ -784,8 +784,8 @@ if(typeof data !== 'undefined'){
             "jmeno": "Johanna Nejedlová",
             "cas": "18.11. 17-19",
             "nazev": "Když to nechce?\n",
-            "anotace": "\nKonsent se věnuje prevenci sexuálního násilí a znásilnění a vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a psychopati?\nA když se budeme bavit  o souhlasu u sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s debatou se pobavíme i o tom, jak se dá proti sexuálnímu násilí bojovat a probereme, zda se dá o tak vážném tématu mluvit i s humorem",
-            "medailon": "Johanna Nejedlová je novinářka a aktivistka spolupracující mimo jiné s webovým portálem A2larm a deníkem Referendum. Je také členkou sdružení Konsent. Založila a momentálně vede osvětovou kampaň o znásilnění \"Když to nechce, tak to nechce\".",
+            "anotace": "\nKonsent se věnuje prevenci sexuálního násilí a&nbsp;znásilnění a&nbsp;vede kampaň Když to nechce, tak to nechce.\nJaké jsou mýty, které sexuální násilí opřádají? Co si o&nbsp;sexuálním násilí myslí česká společnost? Páchají násilí vážně jen uprchlící, vyvrhelové a&nbsp;psychopati?\nA když se budeme bavit  o&nbsp;souhlasu u&nbsp;sexu, nedostaneme se do fáze, kdy budeme potřebovat ke každému styku notářem ověřené lejstro? Během přednášky s&nbsp;debatou se pobavíme i&nbsp;o tom, jak se dá proti sexuálnímu násilí bojovat a&nbsp;probereme, zda se dá o&nbsp;tak vážném tématu mluvit i&nbsp;s humorem",
+            "medailon": "Johanna Nejedlová je novinářka a&nbsp;aktivistka spolupracující mimo jiné s&nbsp;webovým portálem A2larm a&nbsp;deníkem Referendum. Je také členkou sdružení Konsent. Založila a&nbsp;momentálně vede osvětovou kampaň o&nbsp;znásilnění \"Když to nechce, tak to nechce\".",
             "jmenoTituly": "",
             "appended": true,
             "ref": "JohannaNejedlova"
@@ -794,8 +794,8 @@ if(typeof data !== 'undefined'){
             "jmeno": "Pavel Josef Macků",
             "cas": "18.11. 17-19",
             "nazev": "Vývoj hudebních nástrojů od pravěku po současnost",
-            "anotace": "Přijďte si poslechnout hru na padesát různých nástrojů. Přednáška seznámí posluchače s historií vývoje hudebních nástrojů od prehistorických až po současné formy. Téměř kompletní vývojová řada všech druhů dechových a strunných nástrojů bude doplněna hranými ukázkami. Posluchači tak budou mít unikátní možnost na vlastní oči vidět a hlavně slyšet kromě jiných také některé středověké či renesanční nástroje jako např. zvířecí rohy, chrotu, cink, křivý roh, loutnu, fidulu, psalterium, středověkou harfu a další.        ",
-            "medailon": "Mgr. Pavel Josef Macků, Ph.D. na Masarykově univerzitě v Brně nejdříve vystudoval matematiku, fyziku a psychologii, poté také teologii na Univerzitě Palackého v Olomouci. Kromě toho se intenzivně věnuje i hudbě. Také sbírá i staví historické hudební nástroje.Mezi jeho další záliby patří například olejomalba či řezbářství.V současnosti pořádá nejrůznější přednášky a kurzy pro školy i veřejnost.",
+            "anotace": "Přijďte si poslechnout hru na padesát různých nástrojů. Přednáška seznámí posluchače s&nbsp;historií vývoje hudebních nástrojů od prehistorických až po současné formy. Téměř kompletní vývojová řada všech druhů dechových a&nbsp;strunných nástrojů bude doplněna hranými ukázkami. Posluchači tak budou mít unikátní možnost na vlastní oči vidět a&nbsp;hlavně slyšet kromě jiných také některé středověké či renesanční nástroje jako např. zvířecí rohy, chrotu, cink, křivý roh, loutnu, fidulu, psalterium, středověkou harfu a&nbsp;další.        ",
+            "medailon": "Mgr. Pavel Josef Macků, Ph.D. na Masarykově univerzitě v&nbsp;Brně nejdříve vystudoval matematiku, fyziku a&nbsp;psychologii, poté také teologii na Univerzitě Palackého v&nbsp;Olomouci. Kromě toho se intenzivně věnuje i&nbsp;hudbě. Také sbírá i&nbsp;staví historické hudební nástroje.Mezi jeho další záliby patří například olejomalba či řezbářství.V současnosti pořádá nejrůznější přednášky a&nbsp;kurzy pro školy i&nbsp;veřejnost.",
             "jmenoTituly": "Mgr. Pavel Josef Macků, Ph.D.",
             "appended": true,
             "ref": "PavelJosefMacku"
@@ -828,7 +828,7 @@ var makeRandomSelection = function(data, parent){
 
 function createDOM(obj,text,properties,parent){
     
-    var o = document.createElement(obj);
+    var o= document.createElement(obj);
     
     for (var name in properties){
         //TODO: traverse tree if object(css)
@@ -859,7 +859,7 @@ var tableCount = 0;
         var table = createDOM('table','',{'class':'table-harm u-full-width u-max-full-width standard','id':('table_' + String(tableCount++))},parent);
         var th = createDOM('tr','',{'class':'thClass','id':'thId'},createDOM('thead','',{'class':'theadClass','id':'tableHeadId'},table));
         
-        for(var i in day['header']){
+        for(var i 	in day['header']){
             createDOM('th',day['header'][i],{'class':'tableClass','id':'tableHeadId'},th);
         }
         day['program'].forEach(function(list){
