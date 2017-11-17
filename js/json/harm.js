@@ -276,10 +276,10 @@ var data = [
             "cas": "17.11. 13-15",
             "nazev": "Československá sexuologie a tělo: předpis, norma, nezbadatelnost",
             "anotace": "„K vrcholné něžnosti je třeba jemné pleti, měkkosti pohybu, jemnosti skladby těla, obecné citovosti a vláčnosti. Tyto vlastnosti jsou biologickými vlastnostmi ženy, nikoliv muže. Je velikou chybou, že se ženy při emancipaci, ve snaze napodobovat muže, něžnosti zbavují nebo na ni zapomínají.“ Takové i jiné výroky zaznívaly během 20. století z úst vážených pánů v bílých pláštích a s tituly, mužů, kteří měli moc nad lidským (duševním) zdravím a kteří rozhodovali, co je ještě normální, a co už ne. Opravdu si dívky píšou deníky s milostnými básněmi, zatímco se chlapci otužují? Je skupinový sex v pořádku, pokud se ho pár dopouští pro záchranu manželství? A když se někomu líbí jedinec stejného pohlaví, má pro to nutně sklony k umění? To jsou jen některé z otázek, jaké si kladli českoslovenští a čeští sexuologové a sexuoložky. My se potom budeme ptát, co je k jejich tázání vlastně vedlo – opravdu naše těla a touhy tolik vypovídají o tom, kým jsme? Anebo jsou sexuologické pojmy naší tělesnosti přeci jen příliš těsné?",
-            "jmenoTituly": "Mgr. Josef Řídký",
+			"jmenoTituly": "Mgr. Josef Řídký",
             "appended": true,
-            "medailon": "Josef Řídký po dokončení studia na Gymnáziu Jana Keplera vystudoval historii a komparatistiku na FF UK. Věnuje se vztahu genderu a ideologie, především za doby normalizace. V současné době také spolupracuje se serverem A2larm.cz a kulturním čtrnáctideníkem A2.",
-            "ref": "JosefRidky"
+            "medailon": "Josef Řídký po dokončení studia na Gymnáziu Jana Keplera vystudoval historii a komparatistiku na FF UK. Věnuje se vztahu genderu a ideologie, především za doby normalizace. Také se dlouhodobě zabývá filosofií a dějinami vědy. V současné době je doktorandem literární komparistiky na FFUK a spolupracuje se serverem A2larm.cz a kulturním čtrnáctideníkem A2.",
+			"ref": "JosefRidky"
           }
         ]
       },
@@ -292,7 +292,7 @@ var data = [
             "nazev": "Denní časový program organismů",
             "anotace": "Všechny živé organismy vykazují denní rytmy. U člověka jsou to např. rytmy ve spánku a bdění, v tělesné teplotě či ve stovkách dalších proměnných. Savčí a tudíž i lidské rytmy jsou řízeny z centrálních biologických hodin uložených v mozku, ale nejnovější objevy ukázaly, že hodiny se nacházejí i v periferních orgánech jako jsou játra, srdce, ledviny apod. Přednáška ukáže, jak jsou centrální savčí hodiny synchronizovány s vnějším dnem pomocí pravidelného střídání světla a tmy, jaké světlo je zejména pro tuto synchronizaci potřebné, jaké jsou mechanismy této synchronizace a jak za určitých okolností, např. po letech přes časová pásma či při směnném provozu, může dojít k desynchronizaci celého časového systému s vnějším prostředím i navzájem mezi jednotlivými orgány. Tato desynchronizace může být rizikovým faktorem pro spánková, psychická, metabolická, nádorová i kardiovaskulární onemocnění. V závěru bude pak podán návod jak zdravě žít, který pomůže tento rizikový faktor umenšit.",
             "medailon": "Prof. RNDr. Helena Illnerová, DrSc. je světově uznávaná fyzioložka a biochemička. Po studiu na Přírodovědecké fakultě UK se věnovala výzkumu v oblasti chronobiologie. Jako první na světě objevila závislost funkce biologických hodin v mozku savců na délce dne během ročních období. Prof. Illnerová byla v letech 2001 - 2005 předsedkyní Akademie věd České republiky, kde zavedla program podpory mladých nadějných vědců. Dále předsedala Učené společnosti České republiky a České komisi pro UNESCO. Dodnes se pohybuje v několika vědeckých radách a etických komisích. Za přínos pro vědu a její řízení jí byla udělena řada domácích i zahraničních ocenění.",
-            "jmenoTituly": "Prof. RNDr. Helena Illnerová, Dr.Sc.",
+            "jmenoTituly": "Prof. RNDr. Helena Illnerová, DrSc.",
             "appended": true,
             "ref": "HelenaIllnerova"
           },
@@ -347,7 +347,7 @@ var data = [
             "cas": "17.11. 15-17",
             "nazev": "Chimérismus a mikrochimérismus - krize identity.",
             "anotace": "Nové objevy ukazaly, že naše těla mohou být geneticky mnohem komplikovanější, než jsme si kdy dokázali představit. Jsme spíš společenství buněk různého původu, z nichž jen část (i když samozřejmě podstatná) je potomstvem buňky vzniklé setkáním otcovy spermie a matčina vajíčka – tedy tím, co jsme považovali za své niterné já. Fenomén chimérismu a mikrochimérismu bude diskutován z obecně biologického hlediska, ale i ve vztahu k medicíně.\n",
-            "medailon": "Prof. RNDr. Jan Černý PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v Praze obor molekulární biologie a genetika, dále pak na PřF UK studoval obor imunologie v rámci doktorského studia. V dnešní době se věnuje studiu molekul a jejich spojení s membránami leukocytů (bílých krvinek), ale také studiu biologických aktiviti sekundárních metabolitů bakterií a hub. Získal mnoho ocenění, naposledy v roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o adaptorových proteinech lidských leukocytů.",
+            "medailon": "Prof. RNDr. Jan Černý PhD. vystudoval na Přírodovědecké fakultě Univerzity Karlovy v Praze obor molekulární biologie a genetika, dále pak na PřF UK studoval obor imunologie v rámci doktorského studia. V dnešní době se věnuje studiu molekul a jejich spojení s membránami leukocytů (bílých krvinek), ale také studiu biologických aktivit sekundárních metabolitů bakterií a hub. Získal mnoho ocenění, naposledy v roce 2005, kdy obdržel cenu Akademie věd České republiky právě za soubor publikací o adaptorových proteinech lidských leukocytů.",
             "jmenoTituly": "Prof. RNDr. Jan Černý PhD.",
             "appended": true,
             "ref": "JanCerny"
